@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "completed_utc": "2026-10-21T23:17:55.734410+00:00",
+  "status": "passed",
+  "finalMainSourceComplete": true,
+  "published_source_commit": "648a33434d74c574ef5884430195831f8d50cebb",
+  "published_source_tree": "32c5fb7dff9f543343acd8e8b57b3603500733bc",
+  "production_source_files": 1950,
+  "effective_manifest_files": 2205,
+  "published_bound_inputs": 2025,
+  "production_config_sha256": "9baf3359b86c46e396cfef74db25fba1d002969f9414a60dd25dce96f9019cca",
+  "lean_toolchain": "leanprover/lean4:v4.35.0",
+  "mathlib_revision": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "normal_build": {
+    "module_commands_passed": 1950,
+    "actually_regenerated_modules": 1667,
+    "legitimate_trace_reuse_modules": 283,
+    "unmodified_configuration": true,
+    "no_build_guard": {
+      "utc": "2026-10-21T22:23:14Z",
+      "phase": "final_no_build_guard",
+      "command": [
+        "lake",
+        "--no-cache",
+        "--no-ansi",
+        "--no-build",
+        "--fail-fast",
+        "build",
+        "HitAndRun"
+      ],
+      "exit_code": 0,
+      "seconds": 3.775,
+      "log": ".local/normal-lake-rebuild/final-ordinary-no-build.log",
+      "log_sha256": "f755f2f1ee421fe30ec71c563b4c5e01d3ac1121efd29733df1c489d5eb960cd"
+    },
+    "aggregate": {
+      "utc": "2026-10-21T22:23:18Z",
+      "phase": "final_ordinary_build",
+      "command": [
+        "lake",
+        "--no-cache",
+        "--no-ansi",
+        "--fail-fast",
+        "build",
+        "HitAndRun"
+      ],
+      "exit_code": 0,
+      "seconds": 3.779,
+      "log": ".local/normal-lake-rebuild/final-ordinary-build.log",
+      "log_sha256": "926dec5ef33266ac6f93aaba8fc32bff839570762a986e9b3f16a66be4ccc824"
+    },
+    "lake_reported_jobs": 6049
+  },
+  "consumer_audit": {
+    "ordinary_commands_passed": 73,
+    "published_consumers_passed": 72,
+    "additional_exact_budget_formula_consumer_passed": true,
+    "named_axiom_reports": 601,
+    "primary_source_results_covered": 13,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "unexpected_axioms": [],
+    "sorry_reports": 0,
+    "scope": "Transitive axiom closures of the 601 explicitly named reports, including all 13 primary source-result endpoints and additional mixing declarations. Not a claim about every declaration in all imported libraries."
+  },
+  "integrity": {
+    "terminal_audit_exit_code": 0,
+    "mismatches": 0,
+    "pending": 0,
+    "all_completed_artifact_hashes_match": true,
+    "effective_source_manifest_unchanged": true,
+    "published_source_config_pin_consumer_binding_unchanged": true,
+    "shared_dependency_metadata_entries": 148278,
+    "shared_dependency_metadata_additions": 0,
+    "shared_dependency_metadata_removals": 0,
+    "shared_dependency_metadata_changes": 0,
+    "shared_dependency_scope": "Read-only before/after size and mtime_ns comparison, not complete dependency content hashing."
+  },
+  "resource_controls": {
+    "one_compiler_at_a_time": true,
+    "lock": ".local/compiler.lock",
+    "per_lean_memory_limit_mib": 3072,
+    "lean_threads": 1,
+    "minimum_available_memory_and_disk_bytes_before_commands": 4294967296,
+    "per_command_timeout_seconds": 300,
+    "normal_module_build_configuration": "Published configuration plus documented weakLeanArgs resource limits only; final aggregate uses unchanged published configuration. Final ordinary aggregate guarded against unexpected rebuild fan-out."
+  },
+  "setup_input_compression": {
+    "inputs": 1950,
+    "original_bytes": 5071843834,
+    "gzip_bytes": 153420090,
+    "net_saved_bytes": 4918423744,
+    "all_exact_decompression_hashes_verified": true,
+    "normal_lake_canaries_passed": 8,
+    "restoration_map": ".local/normal-lake-rebuild/setup-input-restoration-map.jsonl"
+  },
+  "environment_recoveries": [
+    "environment-interruption-20261021T2014.json",
+    "environment-interruption-20261021T2035.json",
+    "environment-interruption-20261021T2302.json"
+  ],
+  "limitations": [
+    "This is a successful ordinary pinned Lake build with legitimate dependency caches and 283 trace-reused project modules, not a fresh empty-cache checkout build.",
+    "The source-neutral configuration fix removed exactly two restrictive globs lines; it is included in the bound published commit.",
+    "Previously accepted mathematical source completion remains 13/13; this verification adds build and consumer evidence, not new mathematical results.",
+    "No source/config/pin changes after the authorized two-line fix; no publication/push was performed by this verification task."
+  ],
+  "evidence": {
+    ".local/normal-lake-rebuild/terminal-evidence-audit.json": "07137c30a812f48644e80c8107b4052532c2e6ac6439add8ecc002876bb6a1b7",
+    ".local/normal-lake-rebuild/events.jsonl": "39c41ba0132a5d66b323a7a560aaf8377b6c58248d017f32390a2d0436c97ecd",
+    ".local/normal-lake-rebuild/plan.json": "f8aa5d2685630b3c87f12f82424687c2b7bfbaabcd64fe678659971469e29337",
+    ".local/normal-lake-rebuild/source-manifest-effective.json": "30b561f600d39b675f42435d859564de715b053ba2fcdd633c6b28c9a3dd4cc4",
+    ".local/normal-lake-rebuild/published-source-binding.json": "5720a644cbce72eea3c03cd1d53b0cae2d7c16bdd49f930a46a3286e9663a0a6",
+    ".local/normal-lake-rebuild/successful-command-log-manifest.json": "929a9a5075378a48b2d076c9b6a2433adc84f3a2f6d57cebb77bba0613608261",
+    ".local/normal-lake-rebuild/registration-fix.diff": "72d6313b95021d0207461c0ed9767223533789f4a8cb714a2244887f68c16e61",
+    ".local/normal-lake-rebuild/resource-config.diff": "d0c92be98a1f5e9e02a7954f670162eff871bcc5d1c8628025d3596ed08bbb31",
+    ".local/normal-lake-rebuild/audit-terminal-evidence.py": "a0bfb8d2e06b4193fa2db45ac15eae9de92aab10c5921de68ccb323756f038af",
+    ".local/normal-lake-rebuild/run.py": "8650980e857990ea14376c6fe933fcdaddd9e2527ec2acd186456b5a3d47dcb0",
+    ".local/normal-lake-rebuild/resume-consumer-stage.py": "717e7cc6170e61d91f75e028c6f1aef03db8e9b209378311f4e368770b105901",
+    ".local/normal-lake-rebuild/run-supplemental-consumers.py": "6f82008c523aa0cdef8a869f61ca3a72f6e0dd5396adaf3a557e9bee0c9a5517"
+  },
+  "disk_free_bytes_at_receipt": 6759895040
+}

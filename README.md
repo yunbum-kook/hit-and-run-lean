@@ -8,7 +8,7 @@ Lean 4 formalization
 
 All **13/13 named source results** have source-faithfulness reviews, successful importing consumers, and transitive axiom checks using only `propext`, `Classical.choice`, and `Quot.sound`. This includes the spectral-gap bounds and native-law mixing corollary for both algorithms. Helper lemmas are not counted as paper results.
 
-**Separate build gate:** the final integration was checked through ordinary `lake env lean` imports using hash-verified compiled artifacts. A full normal Lake source rebuild has not yet been certified. The result is therefore source-complete within the stated scope, not an assertion that every release gate has passed. See [verification](verification/README.md).
+**Normal build verified:** the pinned ordinary Lake build and the final consumer sweep passed on 2026-10-21. All 1,950 distinct module commands and 73 importing-consumer commands succeeded; 601 named transitive axiom reports, including all 13 source endpoints, used only the standard axioms above. This used legitimate dependency caches and project traces, not an empty-cache clean-room build. See the [build receipt](verification/normal-lake-build.md).
 
 **Private distribution only:** part of the reverse-Buser proof depends on privately reused code without a public redistribution grant. This repository is not cleared for a public release. See [licenses and provenance](docs/LICENSES.md).
 

@@ -4,8 +4,8 @@
   "source_named_complete": 13,
   "source_named_percent": 100.0,
   "source_map": "docs/SOURCE_MAP.md",
-  "verification_scope": "Source-faithfulness review and successful ordinary importing consumers with standard-only transitive axiom reports. Final integration used hash-verified artifact reuse.",
-  "clean_build_status": "Full normal Lake source rebuild not yet certified; see verification/README.md.",
+  "verification_scope": "Source-faithfulness review, successful ordinary pinned Lake build, and post-build importing consumers with standard-only transitive axiom reports covering all 13 primary endpoints.",
+  "clean_build_status": "PASS: ordinary pinned Lake build and consumer sweep, completed 2026-10-21T23:17:55.734410+00:00. Legitimate dependency caches and 283 project traces reused; not an empty-cache build.",
   "distribution_scope": "Private. No public redistribution grant inferred for private reused or original project code.",
   "results": {
     "S01": {
@@ -121,9 +121,9 @@
   },
   "counting_rule": "Only the 13 named manuscript results count; helper declarations and module counts do not.",
   "publication": {
-    "previous_verified_remote_commit": "1f766ff39bd6a2f36438f2fa6d6adc63ed075536",
-    "current_release_snapshot": "13/13 accepted source results; do not interpret the previous remote commit as publication of this complete cleanup snapshot.",
-    "status_at_preparation": "Pending remote publication and exact readback.",
-    "release_commit": "Not yet recorded in this prepublication snapshot."
-  }
+    "verified_source_commit": "648a33434d74c574ef5884430195831f8d50cebb",
+    "documentation_parent_commit": "3c1f766dc5dfd7600d67d4a392174aea44e58dc9",
+    "status": "All13 source results were published in the verified source commit; this commit adds the successful final build evidence without changing proofs, configuration or pins."
+  },
+  "normal_build_evidence": "verification/normal-lake-build.json"
 }

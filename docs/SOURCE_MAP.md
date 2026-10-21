@@ -6,7 +6,7 @@ This formalization covers all **13 named proof-bearing results** of *Spectral Ga
 
 The original manuscript bytes are unchanged. All line ranges below refer to [source/tex/main.tex](../source/tex/main.tex), SHA256 `fdbcb45400d5abe4d390dff4bf9e9c2fe92c8e69a7ac431649aac1d21b8dae19`. [The source manifest](../source/MANIFEST.json) supplies complete attribution and checksums.
 
-The accepted statements have actual importing-consumer checks and standard-only transitive axiom reports. The final integration used exact compiled-artifact reuse; the separate full normal source rebuild has not yet been certified. See [verification](../verification/README.md).
+The accepted statements have actual importing-consumer checks and standard-only transitive axiom reports. The final ordinary pinned Lake build and post-build consumer sweep passed on 2026-10-21, with legitimate cache/trace reuse. See the [build receipt](../verification/normal-lake-build.md) and [verification](../verification/README.md).
 
 Machine-readable ledger: [verification/source-results.json](../verification/source-results.json). Semantic reviews: [verification/source-reviews/](../verification/source-reviews/README.md).
 
