@@ -1,8 +1,8 @@
 {
   "source": "arxiv:2608.16878v1",
   "source_named_total": 13,
-  "source_named_complete": 9,
-  "source_named_percent": 69.23076923076923,
+  "source_named_complete": 11,
+  "source_named_percent": 84.61538461538461,
   "results": {
     "S01": {
       "status": "open",
@@ -37,12 +37,16 @@
       "review": "planning/coordinate-source-review.md: exact finite-CBA coefficient, actual body kernel realization and genuine section disintegration; three full imported consumers and twelve standard-only transitive axiom reports."
     },
     "S07": {
-      "status": "open",
-      "reason": "Actual source endpoint not yet independently accepted"
+      "status": "verified and published in this commit",
+      "declaration": "HitAndRun.Geometry.reverseBuser_body_infimum_1036",
+      "evidence": "verification/reverse-buser-source.json",
+      "review": "Independent exact body/function-class review, normal configured Lake build and separate full importing consumer passed. No analytic supplier remains; standard-only transitive axioms. Private user-directed source reuse retains original notices without new public license."
     },
     "S08": {
-      "status": "open",
-      "reason": "Actual source endpoint not yet independently accepted"
+      "status": "verified and published in this commit",
+      "declaration": "HitAndRun.Geometry.reverseBuser_body_maximum_IPI_4293184",
+      "evidence": "verification/reverse-buser-source.json",
+      "review": "Independent exact body/function-class review, normal configured Lake build and separate full importing consumer passed. No analytic supplier remains; standard-only transitive axioms. Private user-directed source reuse retains original notices without new public license."
     },
     "S09": {
       "status": "verified and published in this commit",
@@ -80,13 +84,13 @@
     "Exact finite-CBA HAR and CHAR gaps are accepted for actual algorithms.",
     "Actual non-lazy native-law chi-square contraction and finite integer accuracy budgets are verified for both algorithms; S02 still needs geometric covariance/log rates.",
     "Rough B5 and exact CBA\u22641+4CIPI are accepted. Genuine convex W12 density, centered covariance/radius bounds and conditional weighted-L1 transfer support the remaining geometric inequalities.",
-    "S01, S02, S07 and S08 remain open; reverse-Buser reuse and the covariance/log Poincare input are not accepted proofs."
+    "S07/S08 now proved for actual convex bodies; only S01/S02 remain open pending accepted actual covariance/log Poincare input and full source assembly."
   ],
   "counting_rule": "Never convert helper declarations, commits or README claims into whole-paper completion percentage.",
   "accepted_pending_publication": [],
   "accepted_commit": "b7cd1f81abfc3d1845bddf20a2e178a49aa4908d",
   "last_accepted_commit": "b7cd1f81abfc3d1845bddf20a2e178a49aa4908d",
-  "latest_verified_published_commit": "49bf44957c744be88bf890f791e970af5c758ce8",
-  "latest_verified_published_file_count": 384,
-  "publication_note": "Geometry helper checkpoint; named-source acceptance remains 9/13, established at b7cd1f81. Newer proof packets are separately buffered."
+  "latest_verified_published_commit": "6d114bf3abe5bed753aa03a0201a765044017422",
+  "latest_verified_published_file_count": 427,
+  "publication_note": "S07/S08 source acceptance and minimal private reverse-Buser integration are included in this commit. Source count11/13. Previous exact remote metadata is historical until this commit is independently verified."
 }

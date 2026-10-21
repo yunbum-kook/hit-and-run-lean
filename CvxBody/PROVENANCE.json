@@ -1,0 +1,532 @@
+{
+  "source_repository": "chewisinho/cvx_body_lean",
+  "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+  "private_reuse_scope": "User-directed private project reuse. No project-wide license located for 29 authored files; no public redistribution grant is inferred. Existing third-party licenses remain separately scoped.",
+  "modules": [
+    {
+      "module": "CvxBody.Analysis.MilmanPoincare",
+      "destination": "CvxBody/Analysis/MilmanPoincare.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "daf5f5c6e5ee741c66b5164101e2bd4b4584de8d",
+      "original_sha256": "11b0b2717bb449080d500ef104334d7edac47107f32aa02ab63744bf51100df2",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "c0094c2e47d2b9ab6f87e8440775f564919afaf265026bf48417a1b330693a29"
+    },
+    {
+      "module": "CvxBody.Analysis.NeedleLogConcave",
+      "destination": "CvxBody/Analysis/NeedleLogConcave.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "7af8cc06b21015912db0c79010e00c22f6dc94f4",
+      "original_sha256": "31a6eda214a7c2bbe7d12b984cbf3a61e8bf791a4541021dd3371fdf091f3250",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "283b771ba553dd653aafd60d155065d888a921033d794b3d4438a0a5dec1f9a7"
+    },
+    {
+      "module": "CvxBody.Analysis.RayDisintegrationNeedle",
+      "destination": "CvxBody/Analysis/RayDisintegrationNeedle.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "04e3100f60c42220238d8e4f0016cc356defc010",
+      "original_sha256": "8b35678734db144cb145e39dbf4a0a0f7da67099ea7f7e215f9f11da81586216",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "c03b80cf135701855658b5c948104237e1b618c4f8055d91ef313dff88f91948"
+    },
+    {
+      "module": "CvxBody.Analysis.EndsNull",
+      "destination": "CvxBody/Analysis/EndsNull.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "621296a90f6ebe281a33bdbc54d3bc946d4ea3e2",
+      "original_sha256": "e575ac31d2a006fe18251c180462551480de87dc36589734c7eabee793776d89",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "2df0d5c31ae5d073ab95c0ea9bb7969f55a5b5896c698cd4ed01348d6f18c7d8"
+    },
+    {
+      "module": "CvxBody.Analysis.ConcentrationL1",
+      "destination": "CvxBody/Analysis/ConcentrationL1.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "fa8c2cc1b0cc7bf945c838c5fe346b4abfdde4b1",
+      "original_sha256": "34ce03fea4f48cc31a4ad319a1be78e862eec8c11e61aafc969f0a36f9ac8375",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "c483abd2006f8b4f075e87d12603f5b3a4fff9157c72964098a1735021e95232"
+    },
+    {
+      "module": "CvxBody.Analysis.RayDisintegration",
+      "destination": "CvxBody/Analysis/RayDisintegration.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "0cc5f1e3163c13b6aab7aeb9912c6c306ca6eae2",
+      "original_sha256": "a860a05a08a594c3933f282ae781e120f0a63a21ff04ed685ab5f72cf74b9e36",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "53c7ffa1dbf14c061ba54d6387adfa062ba295e401f977e95347b1d10f1007ba"
+    },
+    {
+      "module": "CvxBody.Geometry.RayEnds",
+      "destination": "CvxBody/Geometry/RayEnds.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "eb72b44f376e08b1aa6e83de1fd9339410740509",
+      "original_sha256": "389c0cb40a8f7d7ff7bece7403c2c00c327bfd1128c4600992191b57655f8e14",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "f4f45e52f8125195784c7a4f94f0de962ab0a5a4b58792fb6b39bf8b44f1abed"
+    },
+    {
+      "module": "CvxBody.Analysis.NeedleLogConcaveShift",
+      "destination": "CvxBody/Analysis/NeedleLogConcaveShift.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "c531a9093b96a4057c91efb4fe7b07a1fff834d4",
+      "original_sha256": "f56a470e4818a40be3c7e92a0cb331ff3701efc7a2bcbcc63452262596a75d81",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "35499772173ce4006abf1ef14aaf942021cddf12377f68fed882e634c8773b69"
+    },
+    {
+      "module": "CvxBody.Analysis.NeedleDecomposition",
+      "destination": "CvxBody/Analysis/NeedleDecomposition.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "9cee57a8d0ed451f3aceeba24b2e2762d9120dc1",
+      "original_sha256": "83d45d9f53ac19df1bc2c2684b9889f170020e0779300a9de2bb54677d342210",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "30f50e2092de8274ae963551e94b2b9d413acd925bf8b8f5220e31c993d2375f"
+    },
+    {
+      "module": "CvxBody.Analysis.NeedleLogConcave1D",
+      "destination": "CvxBody/Analysis/NeedleLogConcave1D.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "3f1cc32dc9d976b764bab2eeec435f7e87e61d79",
+      "original_sha256": "f1de26c4f830c14102019a765c3166765ba8f0a166a0f95390ace349e8407e5e",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "bad0714831ffdcfd560d92b761db0c97fd5756980a0b9b7c3b6fd507e4bb7177"
+    },
+    {
+      "module": "CvxBody.Analysis.MassBalance",
+      "destination": "CvxBody/Analysis/MassBalance.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "63c4d39d46d96a1b7d266ad8b7de53780ed6191a",
+      "original_sha256": "e8c6d0f5d6fa69cd16f3a81df144b1e4bbb06b042da0f0536ee2b6b50335cf7b",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "52ff78541c9696aedeec4aba3e0fbcf43190cf726de414a2bb98fb8844ec028e"
+    },
+    {
+      "module": "CvxBody.Geometry.Rays",
+      "destination": "CvxBody/Geometry/Rays.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "8f5015dbfad6fb4fd78061cb4959ec883650469c",
+      "original_sha256": "1b57cb66f890372064c561825a4cdff91d288d0047b12cb039eafebffa5f9af8",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "bdf383fea072e3479bca446bcdf2ef0ca73528a8aa028b03d97dac2553c767c0"
+    },
+    {
+      "module": "CvxBody.Analysis.NeedleLogConcaveRay",
+      "destination": "CvxBody/Analysis/NeedleLogConcaveRay.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "19a16952e6bb6c2078fb7fee6915128d238d5481",
+      "original_sha256": "53b7c844c0886d454dc11a88d7ccb436fc059204b86b7ee3e571a314145b7794",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "24b061a0b0d4b9a41bcf0c0f34601ac6770b769fab0d26f76c205f877e993d11"
+    },
+    {
+      "module": "CvxBody.External.OAI.KLS.Convexity.LogConcavity",
+      "destination": "CvxBody/External/OAI/KLS/Convexity/LogConcavity.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "5521451a2d18fafddb0e34611f823b5d3d89f8be",
+      "original_sha256": "89d26323184fed14584bbf112f07b7c40998813452c46735ffe4910054cd7f56",
+      "source_authorship": "OpenAI; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "4387fcac3260776622c13ae13300855227f432ee4a3bc4f223cd38a4b8770027"
+    },
+    {
+      "module": "CvxBody.Analysis.LipschitzMaximizer",
+      "destination": "CvxBody/Analysis/LipschitzMaximizer.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "69b49830c78491d039122841d326c45cb315127a",
+      "original_sha256": "0818ad00845df377c263f05699d1004bbc6b8ae7a19ac17a178472aa53fc59c3",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "c1d3e1dc5a7139038ba218c88ebe7d053cda1fc5c4d92546783f7f8d5b673cf4"
+    },
+    {
+      "module": "CvxBody.Analysis.Cheeger",
+      "destination": "CvxBody/Analysis/Cheeger.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "6a38d8bf132e1f3006b588dc8c6ca7c018ac3daf",
+      "original_sha256": "feb73a57e92a250851ead0f3a939c5e6208753cf107af4adbe1c0a9f5a28948f",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "3520ad50ceae2a3bf159f0b61285031e02610f7960195cfb8be467d2b1585ae4"
+    },
+    {
+      "module": "CvxBody.Geometry.RayEndsEnvelope",
+      "destination": "CvxBody/Geometry/RayEndsEnvelope.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "c9be38fcff27b2e8bd52619f52c2a0375102715e",
+      "original_sha256": "7474a26aba7968a2f7eb4da1cd5c62edeca8fb6e5476fe7213d510e7bd255d48",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "758e6f9f6202f9ffc68c31a8506a69d88c83b7b6d6d7cadb9954461ac7fcb441"
+    },
+    {
+      "module": "CvxBody.Analysis.LogConcave1D",
+      "destination": "CvxBody/Analysis/LogConcave1D.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "e366edf8f905984e4587a27e24a65ab7cefc427e",
+      "original_sha256": "f2ceae5a510b05a977ea7e07cc7e15603ab61413c741e494fbd2ac355bbfc3ac",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "2797500696cd28a29550bce4b84eae26d4f3f371b275309f25927eb356b4f718"
+    },
+    {
+      "module": "CvxBody.External.OAI.KLS.Model",
+      "destination": "CvxBody/External/OAI/KLS/Model.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "2aadfb8ee4b21316063ab0563a7521b29b4befd8",
+      "original_sha256": "c3490d12291692e72468e4e4e627d6cae2d224b6d712f8d44b3c8cfd95fa880c",
+      "source_authorship": "OpenAI; Apache-2.0",
+      "action": "reuse_verified_435_module",
+      "source_sha256": "8851174d03ae2ae7171fc0b83638cf87c221bc7679aebc0a4590ec5d40bb55cd"
+    },
+    {
+      "module": "CvxBody.Analysis.LSIApproximation",
+      "destination": "CvxBody/Analysis/LSIApproximation.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "5cc5dd67bddf01c91c4ee6649ecb2508b9260fa3",
+      "original_sha256": "20e4904fa8e4a01085386470f7baceeb4ca41672cf6e222a8f7ea5f7845186ae",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "5323f9492aedfff4d49a711e3e4ebd1a393c810af1b94e0574a25e9a2ac071e0"
+    },
+    {
+      "module": "CvxBody.Geometry.PositiveOperatorMatrix",
+      "destination": "CvxBody/Geometry/PositiveOperatorMatrix.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "24a1c0716a79f6b8542c313464c1e8c2ad38cc01",
+      "original_sha256": "530bf9f47894b120a0bbffc737fa378fe47c9665fe6c074b28eaf7f8c99ea8ae",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "84e2c6ab4879150798b35591cc50aaeb6074b11f0cef1a0a79338214f2e2b218"
+    },
+    {
+      "module": "CvxBody.Analysis.FunctionalInequalities",
+      "destination": "CvxBody/Analysis/FunctionalInequalities.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "84576b0ef33e918361016159a62c1338f1f9c387",
+      "original_sha256": "7ef4af01324699a7612272b08d87a9779f9207d0ed899b48a32cb5efb62119e6",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "d04f2a6a2b1a63e5cf2f2cc91edfe6079e61864571f0da34ea36f1217d2300b7"
+    },
+    {
+      "module": "CvxBody.Geometry.RaysTouching",
+      "destination": "CvxBody/Geometry/RaysTouching.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "1411c0b9ca64970326ae19f2132cb71947fb1d4e",
+      "original_sha256": "7682f4e875092850ed1733829464806c5bfc0d1e1af033c15943796d67e0bc19",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "b5bd523cfade831a9f48219f670c13563271365a9d906e28df7af25c43b1878d"
+    },
+    {
+      "module": "CvxBody.Geometry.ConvexHessianAdapter",
+      "destination": "CvxBody/Geometry/ConvexHessianAdapter.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "a30f9d4cfb333dc07d4c5b0604f3819b79089445",
+      "original_sha256": "97b798772494b20eaf90958d6b2010a3a63c8d810df54d0e301d636ffd5229a9",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "cfca5642837db5c60d0da881d640772a677b10cf6cc1b05275a80ff09743a601"
+    },
+    {
+      "module": "CvxBody.Analysis.NeedleLogConcaveDisint",
+      "destination": "CvxBody/Analysis/NeedleLogConcaveDisint.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "ad7621ca60104f49ba2d92be0fe5a54164e76a9c",
+      "original_sha256": "4fcbb1fd62fa58f95bc6c0256f1597ef9910c1cc675d72681aab7a8cd20334b3",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "e7ae48eb3e10a1c1ffd6b43b4137a5866e5ed14afa7a48f5e5e23b096f078799"
+    },
+    {
+      "module": "CvxBody.Geometry.PositiveMatrixLogDet",
+      "destination": "CvxBody/Geometry/PositiveMatrixLogDet.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "97031f171e3ed36dedf8243fa90e337d9ef24766",
+      "original_sha256": "058459ea117517bb6d6119dfe84301942395454ab4399b41517da481f32253aa",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "7a765449143de7ea9ccfd80b623f71c550aa220d66fe30950c1eb8adc0e55d63"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Analysis.Convex.Alexandrov",
+      "destination": "CvxBody/External/TauCeti/Analysis/Convex/Alexandrov.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "01a6f0befe1a11f3930fb2ba20530dc79d811d8e",
+      "original_sha256": "178bca80674e02e04c207bedc78a1a1b55c856839f10c8ba5d104b02562c5f6f",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "139dffc49e19799470b72d6ed844232d21931609cbeb72a0e72ab2baaa7f90ad"
+    },
+    {
+      "module": "CvxBody.Geometry.RayShift",
+      "destination": "CvxBody/Geometry/RayShift.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "1bf1f0f07c9cdd0bdfcfb209d91ccd3e74506edf",
+      "original_sha256": "bb6f546139b1151d00f8c39a5b01c7a96a963c138637a7af9c19e675cfdae1e9",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_and_local_algebra_port",
+      "source_sha256": "9bb678101e5ec544bf45a4e34b2244a803385980d93203836ecbd1cbe4bb21e9"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Analysis.Calculus.Sard.EqualDimension",
+      "destination": "CvxBody/External/TauCeti/Analysis/Calculus/Sard/EqualDimension.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "bf967140bb518f68a1d39c5f401e746aceddf4e8",
+      "original_sha256": "fd1ba4e2581598c9915c5b8ccb7979bddd03afefad0f0ce22c781d4046cd2e98",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "7ac43e8b6bbe4c69aa0c18644f9b1358dabc5ec763227eb4730588ac7e7194ea"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.MeasureTheory.Measure.Haar.Lipschitz",
+      "destination": "CvxBody/External/TauCeti/MeasureTheory/Measure/Haar/Lipschitz.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "87f897f9ddae263ea7e6cc77ebfc0ab4f42b37a9",
+      "original_sha256": "262ebe2a8fc0209d014efea80595ad99f43ebb1a5f5fdcdc1f2215a9cac4d87e",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "dee2a870f036c05466321a29c92de7c971f0b33a724e096e98bb1c52daf0e435"
+    },
+    {
+      "module": "CvxBody.Geometry.RayHessian",
+      "destination": "CvxBody/Geometry/RayHessian.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "a4230d77799c998616a5cebe1eb32c0d32b2edce",
+      "original_sha256": "b194865d5246ad095bdb61c080b82c9a51853c4312d6a1d5d77c00e552fe5a4e",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "e94b3652b53e3caf2d005f92c29caca80b7e98248367bb602b63e7a9112b1fc1"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Analysis.Calculus.SecondOrderExpansion",
+      "destination": "CvxBody/External/TauCeti/Analysis/Calculus/SecondOrderExpansion.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "0e41a7adc4342240e0c533b5910458a51562d306",
+      "original_sha256": "f528d7b8c03690d52bba1dc08c796fe2cd706bb753529970eb168923acdfb846",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "3319fa8f6ae9123d01d48edbc300d9c686c4f843bfc51de7a8e640c3fc3c93ea"
+    },
+    {
+      "module": "CvxBody.Geometry.PositiveMatrixSpectral",
+      "destination": "CvxBody/Geometry/PositiveMatrixSpectral.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "d800ddbf361879e588e0904043e31013cb76e885",
+      "original_sha256": "fa9b0da2f5700d6a8e04f0facb28685be23bb9bcfafe594a56a61ee71a68702d",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "10e7af5b8493e64854eeeed9e192accfcb4904ab25f350e197ade2aa7dab2209"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Analysis.Convex.SubgradientImage",
+      "destination": "CvxBody/External/TauCeti/Analysis/Convex/SubgradientImage.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "63ed26504341a4da1afa8b9afe15d9192d97ef7a",
+      "original_sha256": "6d51ffd1a002cc5b280e89d976cc1ee2e957446b8a16328c8cadb5c83957df84",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "b56095dc908d60f18ea4b91fc4fce645f28e8f9868dc4f28cc628ae9cc38b14f"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Analysis.Convex.Differentiability",
+      "destination": "CvxBody/External/TauCeti/Analysis/Convex/Differentiability.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "7439918da373ccb36d9929f80fe0f7c337a19245",
+      "original_sha256": "447f7d5e803f68551d2474f6ddb16d595376074643d90a95a977ef7ef7e32628",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "497abc9b35f6c9f47bbe90733433776f0343275b61bf9af482370dc1db9152b9"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Analysis.Convex.EffectiveDomain",
+      "destination": "CvxBody/External/TauCeti/Analysis/Convex/EffectiveDomain.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "2e3546cb5d80ed26f3d0c2ff23ec7b4ef3eb805f",
+      "original_sha256": "3345688b5b2296d328007cc902f8240690695dd653d460e8d6fa46b271383018",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "92cf088d3a23f20d4ce69657fe3199e341f949164f3ab2a6f28deca4421fcff8"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Analysis.Calculus.Rademacher",
+      "destination": "CvxBody/External/TauCeti/Analysis/Calculus/Rademacher.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "060697b9d5dd0cc9df1a65d49ee9bf3e4a7f3b2b",
+      "original_sha256": "6b9ba86ad2dee0a30ec67abe1f8b4b5f035b343a982b554161e833502327bb37",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "reuse_verified_435_module",
+      "source_sha256": "4cd64a8b1d4ece095d6be248071fd8a49f762fce0c77bc2de374cc348058b87d"
+    },
+    {
+      "module": "CvxBody.Geometry.PositiveMatrixContinuous",
+      "destination": "CvxBody/Geometry/PositiveMatrixContinuous.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "4f093da2d3f5aa685385fcfb98c69d60b31aff5e",
+      "original_sha256": "86e1ede49fabff03b118d73e9dcbb2e45128e332b0191c987b6d740cf8d39ee6",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "0127a998b3d846736236a4f031ec87be7dd94f1d29a790da86e112feb99554b7"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Topology.UniformSpace.LocallyUniformConvergence",
+      "destination": "CvxBody/External/TauCeti/Topology/UniformSpace/LocallyUniformConvergence.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "43ce076bd422e4b993dd9cf7144f9089387510f4",
+      "original_sha256": "592e1ecbbe5f9fd5a56717488125f0e84b1344d67db0d66362b02dccb294b476",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "44f24426f803270ff75fd15733e605bb96e3788d735e77c996ad9a0e79a3e4f6"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Analysis.Convex.Subdifferential",
+      "destination": "CvxBody/External/TauCeti/Analysis/Convex/Subdifferential.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "a6ff2f7e0f92b2ce3263cbe4e790f1b190960094",
+      "original_sha256": "104a40adc9ab0bdeda0f5e6be7060ab39a85ad7ae40027f2b0319dc2b5b8883d",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "7b8b6414b2d0669f3e80afbb0d102251e10dc8fec487eaab4f99440fce060569"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.MeasureTheory.Measure.Haar.Unique",
+      "destination": "CvxBody/External/TauCeti/MeasureTheory/Measure/Haar/Unique.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "34aee3f9dcb9947da7f9a56ab3a7150fa00c11e9",
+      "original_sha256": "bca3b08ace2103c8fcdc1a438a0587b7bf70b8778e3ee9cc825177ba2eb07747",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "5f975bd773c4b67d56c0c44d50072e0a3b7c007f449ebde1e4b4cbca19ca889a"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Analysis.Convex.Measure",
+      "destination": "CvxBody/External/TauCeti/Analysis/Convex/Measure.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "57edbb27b887c77c2f063e7e30b528413e9610bf",
+      "original_sha256": "3f59ea269e367b3a5eb06bf62ff8f060096ece99205046aecca13158f214e45c",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "reuse_verified_435_module",
+      "source_sha256": "104337569d094bba9a8ebc2e98c1b9258f15f260023ff3fdd1cbf780f36cd6eb"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Analysis.Convex.Conjugate",
+      "destination": "CvxBody/External/TauCeti/Analysis/Convex/Conjugate.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "4af55d32df3ee16420f45fefc0ebe433f21541a9",
+      "original_sha256": "9e6c9a7cc6defc44c5bec2256e654f06aea3046f4bf3083d83f3ad7410149af5",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "a9b074dc9c06ce2da871c418253e27cefefdb0b8f32299944b068f7ff06c1a8a"
+    },
+    {
+      "module": "CvxBody.Geometry.PositiveMatrix",
+      "destination": "CvxBody/Geometry/PositiveMatrix.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "a8ec928690ab84d88919cee4431e07e915d07352",
+      "original_sha256": "f6c8929da51d4aa40b05beec8a66c78ec5abf21366f3410d8a3a47a001516c76",
+      "source_authorship": "Sinho-authored, no project-wide license found; private use only",
+      "action": "module_header_port",
+      "source_sha256": "5f117632ae8847df6193ad36bd096f4a84a615c0b9d7b27d862810a374fbdee6"
+    },
+    {
+      "module": "CvxBody.External.TauCeti.Data.EReal.Operations",
+      "destination": "CvxBody/External/TauCeti/Data/EReal/Operations.lean",
+      "source_repository": "chewisinho/cvx_body_lean",
+      "source_commit": "41678c03373f8d3ac9d95bab31bcc17022d85bec",
+      "original_git_blob_sha1": "b9cdbe5bb417afe9e3337be88b0e15f4ae78fca3",
+      "original_sha256": "0064ef274b0485412f5c376fe0ffb896782a8e855f4d61aaf82bd52e9679b4a5",
+      "source_authorship": "TauCeti contributors; Apache-2.0",
+      "action": "module_header_port",
+      "source_sha256": "4962377cd559e377da5ff171542b1545f49cac67893f7055a7e26ca5054e29a2"
+    }
+  ],
+  "compatibility_repairs": [
+    {
+      "module": "CvxBody.Geometry.RayShift",
+      "declaration": "CvxBody.Geometry.det_id_add_smul_pos",
+      "change": "Replace pointwise ext/simp/abel local continuous-linear-map identity proof by operator-level module normalization; statement unchanged.",
+      "before_sha256": "82465f6f1ce84510aafcf51e0cdc6eba57d88f75abc83a1aae46527ebdd1a3b2",
+      "after_sha256": "9bb678101e5ec544bf45a4e34b2244a803385980d93203836ecbd1cbe4bb21e9",
+      "old": "    ext v\n    simp only [hR, _root_.add_apply, _root_.smul_apply,\n      ContinuousLinearMap.id_apply, sub_smul, one_smul]\n    abel_nf\n",
+      "new": "    dsimp only [R]\n    module\n"
+    }
+  ],
+  "original_config": {
+    "lakefile.toml": {
+      "git_blob_sha1": "acb014d4c5b22b5eb010bb45560c862647cf4321",
+      "sha256": "d7a285720db260a9f431678c935554f76783ce8ab49fe14038abdae0f1598882",
+      "bytes": 11786
+    },
+    "lean-toolchain": {
+      "git_blob_sha1": "ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5",
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "bytes": 25
+    }
+  },
+  "shared_modules": "OAI.Model and TauCeti Rademacher/Convex.Measure use exact canonical source; no full KLS15 endpoint imported.",
+  "notice_files": {
+    "CvxBody/External/OAI/README.md": "6fd3436a8103faae63595c3b05b0b27824e5fcfe",
+    "CvxBody/External/TauCeti/README.md": "b62c04ffe6f6fd6d00276bee6ece08fc2b597b02",
+    "docs/third-party/openai-math-Apache-2.0.txt": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "docs/third-party/TauCeti-LICENSE": "8dada3edaf50dbc082c9a125058f25def75e625a"
+  }
+}

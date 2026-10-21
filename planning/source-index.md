@@ -8,12 +8,9 @@ Main TeX SHA256: `fdbcb45400d5abe4d390dff4bf9e9c2fe92c8e69a7ac431649aac1d21b8dae
 
 There are **13 numbered proof-bearing source results**: 3 theorems, 2 corollaries, 2 propositions, 6 lemmas. All 13 are initially unproved in this project. Definitions, displayed identities, cited background, and helper lemmas are essential dependencies but do not add to this denominator. Each numbered result may receive several implementation tasks; partial tasks do not count as completion of that result. Initial baseline is retained here; the verified checkpoint below supersedes it.
 
-## Verified checkpoint: 2026-10-21 09:44 UTC
+## Verified checkpoint: 2026-10-21 15:53 UTC
 
-**9/13 named source results accepted (69.2%): S03 / Lemma 1.3, S04 / Theorem 1.4,
-S05 / Proposition 2.1, S06 / Proposition 2.2, S09 / Lemma B.1, S10 / Lemma B.2,
-S11 / Lemma B.3, S12 / Lemma B.4, and S13 / Lemma B.5.** This is a named-statement fraction,
-not a difficulty-weighted estimate. S01, S02, S07 and S08 remain open. S04/S13 are published in this commit; the previous verified milestone is `96f9b6c`.
+**11/13 named source results accepted (84.6%): S03–S13.** This is a named-statement fraction, not a difficulty-weighted estimate. Only S01 and S02 remain open. S07 and S08 now have actual unconditional ordinary-L1 input, full body/locally-Lipschitz statements, arbitrary inner-ball center and constructed maximum radius. Explicit universal witnesses 1036 and 4,293,184 instantiate the manuscript's implicit constants. Normal configured Lake build, umbrella build, eight full separately importing consumers and fourteen standard-only transitive reports passed. See `verification/reverse-buser-source.json` and `planning/reverse-buser-integration-review.md`. Private user-directed reuse is not a new public redistribution grant.
 
 S13 proves the actual rough weighted-gradient estimate with factor two (squared factor four) for arbitrary L2 skew data and a genuine distributional relation, then derives the finite optimal IPI consequence through actual W12 cutoff approximation. It does not assume global H1 regularity or convexity. Evidence: `verification/rough-weighted-source.json` (three full imported consumers and three standard-only transitive reports).
 

@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "verified_utc": "2026-10-21T10:30:55Z",
+  "files": {
+    "HitAndRun/Geometry/UniformConvexDensity.lean": "52f96ca106af2fd3506638048a50a5f9cf823fa2ca0fb02a297fd4c1bda29de4",
+    "HitAndRun/Geometry/UniformConvexDensityChecks.lean": "d71d0d00df20a96f8c7c334816ae1575ad2882196a20942a0eca4b368a5ab6ca"
+  },
+  "build_and_audit_log": "/tmp/uniform-convex-density-audit.log",
+  "full_importing_consumers": 2,
+  "transitive_axiom_reports": 7,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_completion_increment": 0,
+  "scope": "Actual normalized indicator density of bounded open convex domain; exact uniform measure equality and all four generic OAI density eligibility fields. Does not import or validate KLS endpoint."
+}

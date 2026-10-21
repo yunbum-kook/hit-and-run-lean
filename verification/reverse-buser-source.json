@@ -1,0 +1,203 @@
+{
+  "status": "verified normal production Lake build and separate importing consumer",
+  "verified_utc": "2026-10-21T15:53:36.435875+00:00",
+  "source_results": [
+    "S07",
+    "S08"
+  ],
+  "lean": "leanprover/lean4:v4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "files": {
+    "CvxBody/Analysis/MilmanPoincare.lean": "c0094c2e47d2b9ab6f87e8440775f564919afaf265026bf48417a1b330693a29",
+    "CvxBody/Analysis/NeedleLogConcave.lean": "283b771ba553dd653aafd60d155065d888a921033d794b3d4438a0a5dec1f9a7",
+    "CvxBody/Analysis/RayDisintegrationNeedle.lean": "c03b80cf135701855658b5c948104237e1b618c4f8055d91ef313dff88f91948",
+    "CvxBody/Analysis/EndsNull.lean": "2df0d5c31ae5d073ab95c0ea9bb7969f55a5b5896c698cd4ed01348d6f18c7d8",
+    "CvxBody/Analysis/ConcentrationL1.lean": "c483abd2006f8b4f075e87d12603f5b3a4fff9157c72964098a1735021e95232",
+    "CvxBody/Analysis/RayDisintegration.lean": "53c7ffa1dbf14c061ba54d6387adfa062ba295e401f977e95347b1d10f1007ba",
+    "CvxBody/Geometry/RayEnds.lean": "f4f45e52f8125195784c7a4f94f0de962ab0a5a4b58792fb6b39bf8b44f1abed",
+    "CvxBody/Analysis/NeedleLogConcaveShift.lean": "35499772173ce4006abf1ef14aaf942021cddf12377f68fed882e634c8773b69",
+    "CvxBody/Analysis/NeedleDecomposition.lean": "30f50e2092de8274ae963551e94b2b9d413acd925bf8b8f5220e31c993d2375f",
+    "CvxBody/Analysis/NeedleLogConcave1D.lean": "bad0714831ffdcfd560d92b761db0c97fd5756980a0b9b7c3b6fd507e4bb7177",
+    "CvxBody/Analysis/MassBalance.lean": "52ff78541c9696aedeec4aba3e0fbcf43190cf726de414a2bb98fb8844ec028e",
+    "CvxBody/Geometry/Rays.lean": "bdf383fea072e3479bca446bcdf2ef0ca73528a8aa028b03d97dac2553c767c0",
+    "CvxBody/Analysis/NeedleLogConcaveRay.lean": "24b061a0b0d4b9a41bcf0c0f34601ac6770b769fab0d26f76c205f877e993d11",
+    "CvxBody/External/OAI/KLS/Convexity/LogConcavity.lean": "4387fcac3260776622c13ae13300855227f432ee4a3bc4f223cd38a4b8770027",
+    "CvxBody/Analysis/LipschitzMaximizer.lean": "c1d3e1dc5a7139038ba218c88ebe7d053cda1fc5c4d92546783f7f8d5b673cf4",
+    "CvxBody/Analysis/Cheeger.lean": "3520ad50ceae2a3bf159f0b61285031e02610f7960195cfb8be467d2b1585ae4",
+    "CvxBody/Geometry/RayEndsEnvelope.lean": "758e6f9f6202f9ffc68c31a8506a69d88c83b7b6d6d7cadb9954461ac7fcb441",
+    "CvxBody/Analysis/LogConcave1D.lean": "2797500696cd28a29550bce4b84eae26d4f3f371b275309f25927eb356b4f718",
+    "CvxBody/External/OAI/KLS/Model.lean": "8851174d03ae2ae7171fc0b83638cf87c221bc7679aebc0a4590ec5d40bb55cd",
+    "CvxBody/Analysis/LSIApproximation.lean": "5323f9492aedfff4d49a711e3e4ebd1a393c810af1b94e0574a25e9a2ac071e0",
+    "CvxBody/Geometry/PositiveOperatorMatrix.lean": "84e2c6ab4879150798b35591cc50aaeb6074b11f0cef1a0a79338214f2e2b218",
+    "CvxBody/Analysis/FunctionalInequalities.lean": "d04f2a6a2b1a63e5cf2f2cc91edfe6079e61864571f0da34ea36f1217d2300b7",
+    "CvxBody/Geometry/RaysTouching.lean": "b5bd523cfade831a9f48219f670c13563271365a9d906e28df7af25c43b1878d",
+    "CvxBody/Geometry/ConvexHessianAdapter.lean": "cfca5642837db5c60d0da881d640772a677b10cf6cc1b05275a80ff09743a601",
+    "CvxBody/Analysis/NeedleLogConcaveDisint.lean": "e7ae48eb3e10a1c1ffd6b43b4137a5866e5ed14afa7a48f5e5e23b096f078799",
+    "CvxBody/Geometry/PositiveMatrixLogDet.lean": "7a765449143de7ea9ccfd80b623f71c550aa220d66fe30950c1eb8adc0e55d63",
+    "CvxBody/External/TauCeti/Analysis/Convex/Alexandrov.lean": "139dffc49e19799470b72d6ed844232d21931609cbeb72a0e72ab2baaa7f90ad",
+    "CvxBody/Geometry/RayShift.lean": "9bb678101e5ec544bf45a4e34b2244a803385980d93203836ecbd1cbe4bb21e9",
+    "CvxBody/External/TauCeti/Analysis/Calculus/Sard/EqualDimension.lean": "7ac43e8b6bbe4c69aa0c18644f9b1358dabc5ec763227eb4730588ac7e7194ea",
+    "CvxBody/External/TauCeti/MeasureTheory/Measure/Haar/Lipschitz.lean": "dee2a870f036c05466321a29c92de7c971f0b33a724e096e98bb1c52daf0e435",
+    "CvxBody/Geometry/RayHessian.lean": "e94b3652b53e3caf2d005f92c29caca80b7e98248367bb602b63e7a9112b1fc1",
+    "CvxBody/External/TauCeti/Analysis/Calculus/SecondOrderExpansion.lean": "3319fa8f6ae9123d01d48edbc300d9c686c4f843bfc51de7a8e640c3fc3c93ea",
+    "CvxBody/Geometry/PositiveMatrixSpectral.lean": "10e7af5b8493e64854eeeed9e192accfcb4904ab25f350e197ade2aa7dab2209",
+    "CvxBody/External/TauCeti/Analysis/Convex/SubgradientImage.lean": "b56095dc908d60f18ea4b91fc4fce645f28e8f9868dc4f28cc628ae9cc38b14f",
+    "CvxBody/External/TauCeti/Analysis/Convex/Differentiability.lean": "497abc9b35f6c9f47bbe90733433776f0343275b61bf9af482370dc1db9152b9",
+    "CvxBody/External/TauCeti/Analysis/Convex/EffectiveDomain.lean": "92cf088d3a23f20d4ce69657fe3199e341f949164f3ab2a6f28deca4421fcff8",
+    "CvxBody/External/TauCeti/Analysis/Calculus/Rademacher.lean": "4cd64a8b1d4ece095d6be248071fd8a49f762fce0c77bc2de374cc348058b87d",
+    "CvxBody/Geometry/PositiveMatrixContinuous.lean": "0127a998b3d846736236a4f031ec87be7dd94f1d29a790da86e112feb99554b7",
+    "CvxBody/External/TauCeti/Topology/UniformSpace/LocallyUniformConvergence.lean": "44f24426f803270ff75fd15733e605bb96e3788d735e77c996ad9a0e79a3e4f6",
+    "CvxBody/External/TauCeti/Analysis/Convex/Subdifferential.lean": "7b8b6414b2d0669f3e80afbb0d102251e10dc8fec487eaab4f99440fce060569",
+    "CvxBody/External/TauCeti/MeasureTheory/Measure/Haar/Unique.lean": "5f975bd773c4b67d56c0c44d50072e0a3b7c007f449ebde1e4b4cbca19ca889a",
+    "CvxBody/External/TauCeti/Analysis/Convex/Measure.lean": "104337569d094bba9a8ebc2e98c1b9258f15f260023ff3fdd1cbf780f36cd6eb",
+    "CvxBody/External/TauCeti/Analysis/Convex/Conjugate.lean": "a9b074dc9c06ce2da871c418253e27cefefdb0b8f32299944b068f7ff06c1a8a",
+    "CvxBody/Geometry/PositiveMatrix.lean": "5f117632ae8847df6193ad36bd096f4a84a615c0b9d7b27d862810a374fbdee6",
+    "CvxBody/External/TauCeti/Data/EReal/Operations.lean": "4962377cd559e377da5ff171542b1545f49cac67893f7055a7e26ca5054e29a2",
+    "HitAndRun/Geometry/ReverseBuserUniformRegularity.lean": "7a2bdcc36fb0fbaf6ca6a58e66dc8469254b7853f66885ef29d0d0d528ca1418",
+    "HitAndRun/Geometry/ReverseBuserCheegerL1.lean": "3eba30093e4fcbf4109cd8e379e204fa808ad69f4acc9b1138a5d72048c1395b",
+    "HitAndRun/Geometry/ReverseBuserSource.lean": "bd47bd2774ba9591b3effc54e9a01517ac49542ef519ddcc04613e179b767b5e",
+    "HitAndRun/Geometry/ReverseBuserBody.lean": "767169dcdda3bcaa1fc4fe45a8c9b838a93306ddef5241355ccd0b40919ff60c",
+    "HitAndRun/Geometry/ReverseBuserChecks.lean": "88d888779cf7dc1ad8990c6336d1cfa9ab02d03c55663f943f231f155e83bc44",
+    "lakefile.toml": "4da46c6df19549668a98b8d0104fabde52a5c68a5413356a64c81a389e3163bf",
+    "HitAndRun.lean": "6db55b4126546015957cd4b58ad20fd94625a24c56bdf8fe06cf69bbf2fb8354",
+    "verification/consumers/ReverseBuser.lean": "88d888779cf7dc1ad8990c6336d1cfa9ab02d03c55663f943f231f155e83bc44"
+  },
+  "full_consumer_examples": 8,
+  "standard_only_axiom_reports": 14,
+  "axiom_reports": [
+    {
+      "declaration": "HitAndRun.Geometry.exists_compactC1_eq_near_bounded",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Geometry.exists_bounded_lipschitz_eq_near_bounded",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.uniform_guide_concentration",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.uniform_c1_l1_of_bounded_lipschitz",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Geometry.cheeger_l1_median_bounded",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.uniformDensity_sinho_logConcave",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.uniform_cheeger_from_actual_poincare",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.ordinaryL1ReverseBuserInput_256",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Geometry.universalOrdinaryL1ReverseBuser_256",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Geometry.reverseBuser_arbitrary_center_1036",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Geometry.reverseBuser_arbitrary_center_IPI_4293184",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Geometry.reverseBuser_body_1036",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Geometry.reverseBuser_body_infimum_1036",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Geometry.reverseBuser_body_maximum_IPI_4293184",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "command": "lake build HitAndRun.Geometry.ReverseBuserChecks",
+      "exit_code": 0,
+      "log_sha256": "d69be9d5a3fd27eb132cc2fcf39e81b815d0ebc59e5de3e11587da3d67939997",
+      "note": "4,018 dependency jobs, including cached dependencies; not 4,018 freshly compiled modules"
+    },
+    {
+      "command": "lake build HitAndRun",
+      "exit_code": 0,
+      "log_sha256": "218cef48c857b1aecdd884c114d8e9783dde38770e361e48e86349b21c9b75bb"
+    },
+    {
+      "command": "lake env lean -DautoImplicit=false verification/consumers/ReverseBuser.lean",
+      "exit_code": 0,
+      "log_sha256": "735917bcd9e06919f8f21eca83de8983d3a7ce27a2b1721b4f8e6390286e0351"
+    }
+  ],
+  "scope": "Actual normalized uniform body; actual optimal CPI/IPI; all ambient locally Lipschitz tests; arbitrary inscribed-ball center; actual maximum-radius attainment; no reverse-Buser or finiteness supplier in final body statements. Explicit universal constants 1036 and 4,293,184 witness source implicit constants.",
+  "independent_review": "planning/reverse-buser-integration-review.md",
+  "publication_scope": "Private user-directed reuse; no new upstream license or public redistribution grant.",
+  "compatibility": "Dedicated CvxBody lean_lib preserves upstream autoImplicit=true; HitAndRun and adapters remain false. One recorded local RayShift proof-term repair, no statement change."
+}

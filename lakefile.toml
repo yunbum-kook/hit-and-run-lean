@@ -12,3 +12,8 @@ rev = "56a005855ea17e0b0958f73ec801ae140b0a1679"
 
 [[lean_lib]]
 name = "HitAndRun"
+
+# Preserve upstream elaboration settings only for privately reused source.
+[[lean_lib]]
+name = "CvxBody"
+leanOptions = { autoImplicit = true }

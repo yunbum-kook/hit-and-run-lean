@@ -60,3 +60,4 @@ public import HitAndRun.Geometry.ConvexBodyInradiusMaximum
 public import HitAndRun.Geometry.WeightedPoincareBodySourceExact
 public import HitAndRun.Geometry.LipschitzGuideDeviation
 public import HitAndRun.Markov.ImprovedPoincareGap
+public import HitAndRun.Geometry.ReverseBuserBody
