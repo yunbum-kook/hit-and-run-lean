@@ -1,0 +1,17 @@
+{
+  "module": "HitAndRun.Analysis.DualCertificate",
+  "declaration": "HitAndRun.norm_sq_le_of_dual_certificate",
+  "source_sha256": "a618e5896d7036dab39639ed5a69046ad84b86a1729fb36fd746844bf70b8ea3",
+  "lean": "4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "module_compile_exit": 0,
+  "import_consumer_exit": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "classification": "generic helper; no paper source-result completion",
+  "review": "independent source review by repository worker, no gap found",
+  "checked_utc": "2026-10-21T07:08:56Z"
+}

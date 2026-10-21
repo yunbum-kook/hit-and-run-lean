@@ -1,0 +1,60 @@
+{
+  "arxiv_id": "2608.16878",
+  "version": "v1",
+  "title": "Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run",
+  "authors": [
+    "Yunbum Kook",
+    "Santosh S. Vempala"
+  ],
+  "submission_utc": "2026-08-17T17:57:11Z",
+  "checked_utc": "2026-10-21T07:04:32.631164+00:00",
+  "latest_version_evidence": "https://arxiv.org/abs/2608.16878 listed only v1 when checked",
+  "source_url": "https://arxiv.org/src/2608.16878v1",
+  "pdf_url": "https://arxiv.org/pdf/2608.16878v1",
+  "source_license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "original_bytes_modified": false,
+  "top_level_tex": "tex/main.tex",
+  "files": [
+    {
+      "path": "arxiv-2608.16878v1.pdf",
+      "bytes": 506245,
+      "sha256": "608734144f87695581a1c02f21d162568ad9052c52428f54cf9749cef98d9c98"
+    },
+    {
+      "path": "arxiv-2608.16878v1.tar.gz",
+      "bytes": 27714,
+      "sha256": "974a06a696370d62fc221b63f8b0da5d07500917da15dea29c5689f5fe6768cb"
+    },
+    {
+      "path": "tex/00README.json",
+      "bytes": 213,
+      "sha256": "d1f6b1a71c9accb812ec5121d1fff7910c025ca7bb201948bacdb40941bc14e5"
+    },
+    {
+      "path": "tex/_macros.tex",
+      "bytes": 12547,
+      "sha256": "f9a1f9848c8c0af18f713889996da2e1b6b0907ce6b6bcf249e444c5fee80e5f"
+    },
+    {
+      "path": "tex/custom.sty",
+      "bytes": 5397,
+      "sha256": "52bb1d870d9127a085ded11405a1764a87abb33698bbaba0f48c8bd157c094f4"
+    },
+    {
+      "path": "tex/main.bib",
+      "bytes": 20567,
+      "sha256": "3c0d71a17808c0db1b603d1117d317c65670502fb5b2d5782204a470d3fa598f"
+    },
+    {
+      "path": "tex/main.tex",
+      "bytes": 50917,
+      "sha256": "fdbcb45400d5abe4d390dff4bf9e9c2fe92c8e69a7ac431649aac1d21b8dae19"
+    },
+    {
+      "path": "tex/math-macros.tex",
+      "bytes": 7383,
+      "sha256": "d304bbc4067cab66de2bfd3049b344df8a09865bd5f83d44c05168a574c21111"
+    }
+  ]
+}

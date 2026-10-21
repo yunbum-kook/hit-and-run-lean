@@ -1,0 +1,21 @@
+{
+  "module": "HitAndRun.Markov.ConditionalProjection",
+  "source_sha256": "fd7514a9f47cb16ffd6d60a6e1429709fb4472c70318a1dc87b90930bc3b8910",
+  "lean": "4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "module_compile_exit": 0,
+  "import_consumer_exit": 0,
+  "declarations": [
+    "conditionalProjection_idempotent",
+    "conditionalProjection_symmetric",
+    "conditionalProjection_positive",
+    "conditionalProjection_residual_energy"
+  ],
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "classification": "actual L2 conditional-expectation helpers; chord kernel identification remains open; no numbered source-result completion",
+  "checked_utc": "2026-10-21T07:12:21Z"
+}

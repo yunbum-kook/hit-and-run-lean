@@ -1,0 +1,43 @@
+{
+  "checked_utc": "2026-10-21T07:11:05.885668+00:00",
+  "lean": "4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "files": [
+    {
+      "path": "HitAndRun/Analysis/AdjointRiesz.lean",
+      "sha256": "bc7fa8b90fc4e93c05cf50e5947bb73ccd85d46cc4d0733558067dd9042644ae"
+    },
+    {
+      "path": "HitAndRun/Analysis/MinimumNormPreimage.lean",
+      "sha256": "c95ba9f9b374b652c88cc97605a71fb09c81a529bbf86f8aa272d407dcb3690e"
+    },
+    {
+      "path": ".local/AuditHilbert.lean",
+      "sha256": "b6e965775d5fbce5a4ac2684ec0eec213eafbf5644e69df8e52902eca129b2f2"
+    },
+    {
+      "path": ".local/hilbert-audit.log",
+      "sha256": "db7687a4e4a6bed4e0bd5ad001f50b80046a3a1f31f8c5e2ca29e4426a9d7604"
+    }
+  ],
+  "module_compile_exit": {
+    "AdjointRiesz": 0,
+    "MinimumNormPreimage": 0
+  },
+  "full_statement_imported_consumer_examples": 4,
+  "consumer_compile_exit": 0,
+  "audited_declarations": [
+    "HitAndRun.Analysis.existsUnique_riesz_field",
+    "HitAndRun.Analysis.adjoint_norm_isLUB",
+    "HitAndRun.Analysis.adjoint_norm_eq_sSup",
+    "HitAndRun.Analysis.exists_minimum_norm_preimage",
+    "HitAndRun.Analysis.exists_minimum_energy_preimage"
+  ],
+  "transitive_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "classification": "generic Hilbert helpers; actual Sobolev divergence carrier not supplied; no numbered source result completed",
+  "source_results_completed": 0
+}

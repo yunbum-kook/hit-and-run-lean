@@ -1,0 +1,12 @@
+.lake/
+.tools/
+*.olean
+*.ilean
+*.ir
+*.trace
+*.log
+__pycache__/
+.DS_Store
+AGENTS.md
+.local/
+scratch/

@@ -26,4 +26,4 @@ Reuse from the Dikin formalization and other repositories is assessed at exact c
 
 `HitAndRun/` contains formalization code; `source/` fixes the manuscript inputs; `planning/` records the dependency and reuse plan. Only compact final validation evidence belongs in the repository. Temporary build outputs, local coordination files, and recovery copies are ignored.
 
-This repository is private. No new license grant for original project code or manuscript is made here. Third-party material, when incorporated, retains its original license and attribution.
+This repository is private. The archived manuscript is distributed under its existing [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license; see `source/MANIFEST.json` for attribution and exact source provenance. No new license grant for original Lean project code is made here. Third-party material, when incorporated, retains its original license and attribution.

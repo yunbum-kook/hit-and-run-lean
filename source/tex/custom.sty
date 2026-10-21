@@ -1,0 +1,179 @@
+\DeclareMathOperator{\Tr}{Tr} % Trace
+\DeclareSymbolFont{rsfs}{U}{rsfs}{m}{n}
+\DeclareSymbolFontAlphabet{\mathscrsfs}{rsfs}
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{custom}
+ 
+%\RequirePackage{amsmath}
+%\RequirePackage{amssymb}
+%\RequirePackage{amsthm}
+\RequirePackage{thmtools}
+
+% fix the bug in aliasctr.sty
+% \makeatletter
+% \patchcmd{\@counteralias}
+%  {\@ifdefinable{c@#1}}
+%  {\expandafter\@ifdefinable\csname c@#1\endcsname}
+%  {}{}
+% \makeatother
+
+\makeatletter
+\newcommand{\opnorm}{\@ifstar\@opnorms\@opnorm}
+\newcommand{\@opnorms}[1]{%
+  \left|\mkern-1.5mu\left|\mkern-1.5mu\left|
+  #1
+  \right|\mkern-1.5mu\right|\mkern-1.5mu\right|
+}
+\newcommand{\@opnorm}[2][]{%
+  \mathopen{#1|\mkern-1.5mu#1|\mkern-1.5mu#1|}
+  #2
+  \mathclose{#1|\mkern-1.5mu#1|\mkern-1.5mu#1|}
+}
+\makeatother
+
+% Common Sets
+
+\newenvironment{redtext}{\color{red}}{\ignorespacesafterend}
+
+% Functions
+
+\DeclareMathOperator\Arg{Arg}
+\DeclareMathOperator\Aut{Aut}
+%\DeclareMathOperator\Ber{\msf{Bernoulli}}
+%\DeclareMathOperator\Beta{Beta}
+%\DeclareMathOperator\Bin{Binomial}
+\DeclareMathOperator\BV{BV}
+\DeclareMathOperator\Cauchy{Cauchy}
+\DeclareMathOperator\Char{char}
+\DeclareMathOperator\DF{DF}
+%\DeclareMathOperator\Dir{Dirichlet}
+\DeclareMathOperator\E{\mathbb{E}}
+\DeclareMathOperator\Ent{Ent}
+\DeclareMathOperator\EPE{EPE}
+\DeclareMathOperator\Exp{Exp}
+%\DeclareMathOperator\Gam{Gamma}
+\DeclareMathOperator\Geom{Geometric}
+\DeclareMathOperator\GF{GF}
+\DeclareMathOperator\GL{GL}
+\DeclareMathOperator\GOE{\mathsf{GOE}}
+%\DeclareMathOperator\Hess{Hess}
+\DeclareMathOperator\Hom{hom}
+\DeclareMathOperator\HypGeom{Hypergeometric}
+\DeclareMathOperator\Jac{Jac}
+\DeclareMathOperator\Lip{Lip}
+\DeclareMathOperator\LSI{LSI}
+\DeclareMathOperator\MAP{MAP}
+\DeclareMathOperator\MLE{MLE}
+\DeclareMathOperator\MSE{MSE}
+%\DeclareMathOperator\Mult{Multinomial}
+\DeclareMathOperator\Normal{Normal}
+\DeclareMathOperator\Ob{Ob}
+\DeclareMathOperator\PD{PD}
+\DeclareMathOperator\PSL{PSL}
+%\DeclareMathOperator\Pois{Poisson}
+\DeclareMathOperator\PowerSet{\msf{PowerSet}}
+\DeclareMathOperator\RIP{RIP}
+\DeclareMathOperator\Ric{Ric}
+\DeclareMathOperator\RSS{RSS}
+\DeclareMathOperator\Rad{\msf{Rademacher}}
+\DeclareMathOperator\SL{SL}
+\DeclareMathOperator\TSS{TSS}
+%\DeclareMathOperator\Unif{Uniform}
+\DeclareMathOperator\VC{VC}
+\DeclareMathOperator\adj{adj}
+\DeclareMathOperator\aff{aff}
+\DeclareMathOperator\arccosh{arccosh}
+\DeclareMathOperator\arccot{arccot}
+\DeclareMathOperator\arctanh{arctanh}
+\DeclareMathOperator\area{area}
+\DeclareMathOperator\bd{bd}
+\DeclareMathOperator\bias{bias}
+%\DeclareMathOperator\card{card}
+\DeclareMathOperator\cl{cl}
+\DeclareMathOperator\codim{codim}
+%\DeclareMathOperator\conv{conv}
+\DeclareMathOperator\core{core}
+\DeclareMathOperator\corr{corr}
+\DeclareMathOperator\cov{cov}
+\DeclareMathOperator\curl{curl}
+%\DeclareMathOperator\diag{diag}
+\DeclareMathOperator\diam{diam}
+\DeclareMathOperator\dil{dil}
+\DeclareMathOperator\dis{dis}
+\DeclareMathOperator\dist{dist}
+\DeclareMathOperator\divergence{div}
+%\DeclareMathOperator\dom{dom}
+\DeclareMathOperator\en{end}
+\DeclareMathOperator\ent{ent}
+\DeclareMathOperator\erf{erf}
+\DeclareMathOperator\epi{epi}
+\DeclareMathOperator\essinf{ess\,inf}
+\DeclareMathOperator\esssup{ess\,sup}
+\DeclareMathOperator\ev{ev}
+\DeclareMathOperator\even{even}
+\DeclareMathOperator\expo{exponential}
+\DeclareMathOperator\ext{ext}
+\DeclareMathOperator\fat{fat}
+%\DeclareMathOperator\grad{grad}
+\DeclareMathOperator\graph{graph}
+\DeclareMathOperator\hard{hard}
+\DeclareMathOperator\id{id}
+\DeclareMathOperator\image{image}
+\DeclareMathOperator\interior{int}
+\DeclareMathOperator\law{law}
+\DeclareMathOperator\lcm{lcm}
+\DeclareMathOperator\len{len}
+\DeclareMathOperator\length{length}
+\DeclareMathOperator\lin{lin}
+\DeclareMathOperator\med{med}
+\DeclareMathOperator\median{median}
+\DeclareMathOperator\mesh{mesh}
+\DeclareMathOperator\normal{\msf{normal}}
+\DeclareMathOperator\nullity{nullity}
+\DeclareMathOperator\nullspace{nullspace}
+\DeclareMathOperator\odd{odd}
+\DeclareMathOperator\one{\mathbbm{1}}
+\DeclareMathOperator\osc{osc}
+\DeclareMathOperator\per{per}
+\DeclareMathOperator\poly{poly}
+%\DeclareMathOperator\polylog{polylog}
+\DeclareMathOperator\range{range}
+%\DeclareMathOperator\rank{rank}
+\DeclareMathOperator\relint{relint}
+\DeclareMathOperator\ri{ri}
+\DeclareMathOperator\sech{sech}
+\DeclareMathOperator\sg{sg}
+\DeclareMathOperator\sgn{sgn}
+\DeclareMathOperator\sinc{sinc}
+\DeclareMathOperator\soft{soft}
+\DeclareMathOperator\spn{span}
+%\DeclareMathOperator\supp{supp}
+%\DeclareMathOperator\tr{tr}
+\DeclareMathOperator\unif{\msf{uniform}}
+\DeclareMathOperator\var{var}
+\DeclareMathOperator\vol{vol}
+\DeclareMathOperator\volume{volume}
+\DeclareMathOperator\width{width}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\colim}{colim}
+\newcommand{\AbGrp}{\mb{AbelianGroup}}
+\newcommand{\CRing}{\mb{CRing}}
+\newcommand{\Grp}{\mb{Group}}
+\newcommand{\Ring}{\mb{Ring}}
+\newcommand{\Set}{\mb{Set}}
+\newcommand{\leg}[2]{\pmb{\Big(} \frac{#1}{#2} \pmb{\Big)} \Big.}
+\renewcommand{\Im}{\operatorname{\mathsf{im}}}
+\renewcommand{\Pr}{\mathbb{P}}
+\renewcommand{\Re}{\operatorname{\mathsf{re}}}
+
+
+% LaTeX
+
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}
+\DeclarePairedDelimiter\jordanp{\rbrack}{\lbrack}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\usepackage{cancel}

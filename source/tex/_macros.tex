@@ -1,0 +1,275 @@
+%--------------------------------------------------------------------------------------------------------------------------------
+% Environment shortcuts
+%--------------------------------------------------------------------------------------------------------------------------------
+\def\balign#1\ealign{\begin{align}#1\end{align}}
+\def\baligns#1\ealigns{\begin{align*}#1\end{align*}}
+\def\balignat#1\ealign{\begin{alignat}#1\end{alignat}}
+\def\balignats#1\ealigns{\begin{alignat*}#1\end{alignat*}}
+\def\bitemize#1\eitemize{\begin{itemize}#1\end{itemize}}
+\def\benumerate#1\eenumerate{\begin{enumerate}#1\end{enumerate}}
+
+% Align environments that use textstyle instead of displaystyle
+\newenvironment{talign*}
+ {\let\displaystyle\textstyle\csname align*\endcsname}
+ {\endalign}
+\newenvironment{talign}
+ {\let\displaystyle\textstyle\csname align\endcsname}
+ {\endalign}
+
+\def\balignst#1\ealignst{\begin{talign*}#1\end{talign*}}
+\def\balignt#1\ealignt{\begin{talign}#1\end{talign}}
+%---------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Redefine left and right to remove initial and trailing space
+%--------------------------------------------------------------------------------------------------------------------------------
+\let\originalleft\left
+\let\originalright\right
+\renewcommand{\left}{\mathopen{}\mathclose\bgroup\originalleft}
+\renewcommand{\right}{\aftergroup\egroup\originalright}
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Words with special symbols
+%--------------------------------------------------------------------------------------------------------------------------------
+\def\Gronwall{Gr\"onwall\xspace}
+\def\Holder{H\"older\xspace}
+\def\Ito{It\^o\xspace}
+\def\Nystrom{Nystr\"om\xspace}
+\def\Schatten{Sch\"atten\xspace}
+\def\Matern{Mat\'ern\xspace}
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Smaller citations
+%--------------------------------------------------------------------------------------------------------------------------------
+\def\tinycitep*#1{{\tiny\citep*{#1}}}
+\def\tinycitealt*#1{{\tiny\citealt*{#1}}}
+\def\tinycite*#1{{\tiny\cite*{#1}}}
+\def\smallcitep*#1{{\scriptsize\citep*{#1}}}
+\def\smallcitealt*#1{{\scriptsize\citealt*{#1}}}
+\def\smallcite*#1{{\scriptsize\cite*{#1}}}
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Colors
+%--------------------------------------------------------------------------------------------------------------------------------
+\def\blue#1{\textcolor{blue}{{#1}}}
+\def\green#1{\textcolor{green}{{#1}}}
+\def\orange#1{\textcolor{orange}{{#1}}}
+\def\purple#1{\textcolor{purple}{{#1}}}
+\def\red#1{\textcolor{red}{{#1}}}
+\def\teal#1{\textcolor{teal}{{#1}}}
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Font styles
+%--------------------------------------------------------------------------------------------------------------------------------
+\def\mbi#1{\boldsymbol{#1}} % Bold and italic (math bold italic)
+\def\mbf#1{\mathbf{#1}}
+%\def\mbb#1{\mathbb{#1}}
+%\def\mc#1{\mathcal{#1}}
+\def\mrm#1{\mathrm{#1}}
+\def\tbf#1{\textbf{#1}}
+\def\tsc#1{\textsc{#1}}
+
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Bold and italic variables
+%--------------------------------------------------------------------------------------------------------------------------------
+\def\mbiA{\mbi{A}}
+\def\mbiB{\mbi{B}}
+\def\mbiC{\mbi{C}}
+\def\mbiDelta{\mbi{\Delta}}
+\def\mbif{\mbi{f}}
+\def\mbiF{\mbi{F}}
+\def\mbih{\mbi{g}}
+\def\mbiG{\mbi{G}}
+\def\mbih{\mbi{h}}
+\def\mbiH{\mbi{H}}
+\def\mbiI{\mbi{I}}
+\def\mbim{\mbi{m}}
+\def\mbiP{\mbi{P}}
+\def\mbiQ{\mbi{Q}}
+\def\mbiR{\mbi{R}}
+\def\mbiv{\mbi{v}}
+\def\mbiV{\mbi{V}}
+\def\mbiW{\mbi{W}}
+\def\mbiX{\mbi{X}}
+\def\mbiY{\mbi{Y}}
+\def\mbiZ{\mbi{Z}}
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Textstyle vs. displaystyle
+%--------------------------------------------------------------------------------------------------------------------------------
+\def\textsum{{\textstyle\sum}} % Sum in textstyle form
+\def\textprod{{\textstyle\prod}} % Prod in textstyle form
+\def\textbigcap{{\textstyle\bigcap}} % Bigcap in textstyle form
+\def\textbigcup{{\textstyle\bigcup}} % Bigcup in textstyle form
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Mathematical sets
+%--------------------------------------------------------------------------------------------------------------------------------
+\def\reals{\mathbb{R}} % Real number symbol
+%\def\R{\mathbb{R}}
+\def\integers{\mathbb{Z}} % Integer symbol
+%\def\Z{\mathbb{Z}}
+\def\rationals{\mathbb{Q}} % Rational numbers
+%\def\Q{\mathbb{Q}}
+\def\naturals{\mathbb{N}} % Natural numbers
+%\def\N{\mathbb{N}}
+\def\complex{\mathbb{C}} % Complex numbers
+
+
+
+
+\def\what#1{\widehat{#1}}
+
+\def\twovec#1#2{\left[\begin{array}{c}{#1} \\ {#2}\end{array}\right]}
+\def\threevec#1#2#3{\left[\begin{array}{c}{#1} \\ {#2} \\ {#3} \end{array}\right]}
+\def\nvec#1#2#3{\left[\begin{array}{c}{#1} \\ {#2} \\ \vdots \\ {#3}\end{array}\right]} % An n-vector with three arguments
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Eigenvalues
+%--------------------------------------------------------------------------------------------------------------------------------
+\def\maxeig#1{\lambda_{\mathrm{max}}\left({#1}\right)}
+\def\mineig#1{\lambda_{\mathrm{min}}\left({#1}\right)}
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Operators
+%--------------------------------------------------------------------------------------------------------------------------------
+\def\Re{\operatorname{Re}} % Real part
+\def\indic#1{\mbb{I}\left[{#1}\right]} % Indicator function
+\def\logarg#1{\log\left({#1}\right)} % log with argument
+\def\polylog{\operatorname{polylog}}
+\def\maxarg#1{\max\left({#1}\right)} % max with argument
+\def\minarg#1{\min\left({#1}\right)} % min with argument
+%\def\E{\mbb{E}} % Expectation symbol
+\def\Earg#1{\E\left[{#1}\right]}
+\def\Esub#1{\E_{#1}}
+\def\Esubarg#1#2{\E_{#1}\left[{#2}\right]}
+\def\bigO#1{\mathcal{O}\left(#1\right)} % big-oh notation
+\def\littleO#1{o(#1)} % big-oh notation
+\def\P{\mbb{P}} % Probability symbol
+\def\Parg#1{\P\left({#1}\right)}
+\def\Psubarg#1#2{\P_{#1}\left[{#2}\right]}
+%\def\T{\top} % transpose
+\def\Trarg#1{\Tr\left[{#1}\right]} % Trace with argument
+\def\trarg#1{\tr\left[{#1}\right]} % trace with argument
+\def\Var{\mrm{Var}} % Variance symbol
+\def\Vararg#1{\Var\left[{#1}\right]}
+\def\Varsubarg#1#2{\Var_{#1}\left[{#2}\right]}
+\def\Cov{\mrm{Cov}} % Covariance symbol
+\def\Covarg#1{\Cov\left[{#1}\right]}
+\def\Covsubarg#1#2{\Cov_{#1}\left[{#2}\right]}
+\def\Corr{\mrm{Corr}} % Covariance symbol
+\def\Corrarg#1{\Corr\left[{#1}\right]}
+\def\Corrsubarg#1#2{\Corr_{#1}\left[{#2}\right]}
+\newcommand{\info}[3][{}]{\mathbb{I}_{#1}\left({#2};{#3}\right)} % Information symbol
+%\renewcommand{\exp}[1]{\operatorname{exp}\left(#1\right)} % Exponential
+\newcommand{\staticexp}[1]{\operatorname{exp}(#1)} % An exponential with parens that do not resize with input
+\newcommand{\loglihood}[0]{\mathcal{L}} % log likelihood
+
+% Copied from mathrsfs.sty
+
+
+
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Optimization macros
+%--------------------------------------------------------------------------------------------------------------------------------
+%\providecommand{\argmax}{\mathop\mathrm{arg max}} % Defining math symbols
+%\providecommand{\argmin}{\mathop\mathrm{arg min}}
+\providecommand{\arccos}{\mathop\mathrm{arccos}}
+\providecommand{\dom}{\mathop\mathrm{dom}}
+\providecommand{\diag}{\mathop\mathrm{diag}}
+\providecommand{\tr}{\mathop\mathrm{tr}}
+%\providecommand{\abs}{\mathop\mathrm{abs}}
+\providecommand{\card}{\mathop\mathrm{card}}
+\providecommand{\sign}{\mathop\mathrm{sign}}
+\providecommand{\conv}{\mathop\mathrm{conv}} % Convex hull
+\def\rank#1{\mathrm{rank}({#1})}
+\def\supp#1{\mathrm{supp}({#1})}
+
+\providecommand{\minimize}{\mathop\mathrm{minimize}}
+\providecommand{\maximize}{\mathop\mathrm{maximize}}
+\providecommand{\subjectto}{\mathop\mathrm{subject\;to}}
+
+%\renewcommand\eqref[1]{Eq.~(\ref{#1})}
+
+\def\openright#1#2{\left[{#1}, {#2}\right)}
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Proof environments
+%--------------------------------------------------------------------------------------------------------------------------------
+\ifdefined\nonewproofenvironments\else
+% The Theorems are numbered consecutively
+% Lemmas are numbered by section, and observations, claims, facts, and 
+% assumptions take their numbering. Propositions and definitions have their
+% own numbering by section.
+\ifdefined\ispres\else
+% These conflict with Beamer definitions in pres mode
+% \newtheorem{theorem}{Theorem}
+% \newtheorem{lemma}[theorem]{Lemma}
+% \newtheorem{corollary}[theorem]{Corollary}
+% \newtheorem{definition}[theorem]{Definition}
+% \newtheorem{fact}[theorem]{Fact}
+% \renewenvironment{proof}{\noindent\textbf{Proof.}\hspace*{.3em}}{\qed \vspace{.1in}}
+% \newenvironment{proof-sketch}{\noindent\textbf{Proof Sketch}
+%   \hspace*{1em}}{\qed\bigskip\\}
+% \newenvironment{proof-idea}{\noindent\textbf{Proof Idea}
+%   \hspace*{1em}}{\qed\bigskip\\}
+% \newenvironment{proof-of-lemma}[1][{}]{\noindent\textbf{Proof of Lemma {#1}}
+%   \hspace*{1em}}{\qed\\}
+%   \newenvironment{proof-of-proposition}[1][{}]{\noindent\textbf{Proof of Proposition {#1}}
+%   \hspace*{1em}}{\qed\\}
+% \newenvironment{proof-of-theorem}[1][{}]{\noindent\textbf{Proof of Theorem {#1}}
+%   \hspace*{1em}}{\qed\\}
+% \newenvironment{proof-attempt}{\noindent\textbf{Proof Attempt}
+%   \hspace*{1em}}{\qed\bigskip\\}
+% \newenvironment{proofof}[1]{\noindent\textbf{Proof of {#1}}
+%   \hspace*{1em}}{\qed\bigskip\\}
+ 
+% \newtheorem*{remark*}{Remark}
+% \newenvironment{remark}{\noindent\textbf{Remark.}
+%   \hspace*{0em}}{\smallskip}%\bigskip}
+% \newenvironment{remarks}{\noindent\textbf{Remarks}
+%   \hspace*{1em}}{\smallskip}
+% \fi
+% \newtheorem{observation}[theorem]{Observation}
+% \newtheorem{proposition}[theorem]{Proposition}
+% \newtheorem{claim}[theorem]{Claim}
+% \newtheorem{assumption}{Assumption}
+% \theoremstyle{definition}
+% \newtheorem{example}[theorem]{Example}
+%\renewcommand{\theassumption}{\Alph{assumption}} % Set counter for assumptions
+                                                 % to be alphabetical
+\fi
+\fi
+% Makes equation numbers have (1.1) style
+% \numberwithin{equation}{section}
+% \numberwithin{equation}{subsection}
+\makeatletter
+\@addtoreset{equation}{section}
+\makeatother
+\def\theequation{\thesection.\arabic{equation}}
+
+\newcommand{\cmark}{\ding{51}}
+
+\newcommand{\xmark}{\ding{55}}
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Equation environments
+%--------------------------------------------------------------------------------------------------------------------------------
+\newcommand{\eq}[1]{\begin{align}#1\end{align}}
+\newcommand{\eqn}[1]{\begin{align*}#1\end{align*}}
+\renewcommand{\Pr}[1]{\mathbb{P}\left( #1 \right)}
+\newcommand{\Ex}[1]{\mathbb{E}\left[#1\right]}
+%\newcommand{\var}[1]{\text{Var}\left(#1\right)}
+%\newcommand{\ind}[1]{{\mathbbm{1}}_{\{ #1 \}} }
+%\newcommand{\abs}[1]{\left|#1\right|}
+
+
+%--------------------------------------------------------------------------------------------------------------------------------
+% Comment environments
+%--------------------------------------------------------------------------------------------------------------------------------
+\newcommand{\matt}[1]{{\textcolor{Maroon}{[Matt: #1]}}}
+\newcommand{\kook}[1]{{\textcolor{blue}{[Kook: #1]}}}
+\definecolor{OliveGreen}{rgb}{0,0.6,0}
+\newcommand{\sv}[1]{{\textcolor{OliveGreen}{[Santosh: #1]}}}

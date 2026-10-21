@@ -1,0 +1,3 @@
+import HitAndRun.Analysis.DualCertificate
+#print axioms HitAndRun.norm_sq_le_of_dual_certificate
+#check HitAndRun.norm_sq_le_of_dual_certificate
