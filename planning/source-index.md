@@ -6,7 +6,26 @@ Target: *Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run*, Yunbum Kook a
 
 Main TeX SHA256: `fdbcb45400d5abe4d390dff4bf9e9c2fe92c8e69a7ac431649aac1d21b8dae19`.
 
-There are **13 numbered proof-bearing source results**: 3 theorems, 2 corollaries, 2 propositions, 6 lemmas. All 13 are initially unproved in this project. Definitions, displayed identities, cited background, and helper lemmas are essential dependencies but do not add to this denominator. Each numbered result may receive several implementation tasks; partial tasks do not count as completion of that result. This index does not assert any Lean compilation or axiom audit.
+There are **13 numbered proof-bearing source results**: 3 theorems, 2 corollaries, 2 propositions, 6 lemmas. All 13 are initially unproved in this project. Definitions, displayed identities, cited background, and helper lemmas are essential dependencies but do not add to this denominator. Each numbered result may receive several implementation tasks; partial tasks do not count as completion of that result. Initial baseline is retained here; the verified checkpoint below supersedes it.
+
+## Verified checkpoint: 2026-10-21 07:34 UTC
+
+**3/13 named source results accepted (23.1%): S03 / Lemma 1.3, S09 / Lemma B.1,
+S10 / Lemma B.2.** This is a named-statement fraction, not a difficulty-weighted
+estimate. The other ten remain open. Implementation is on actual zero-trace
+Sobolev gradient fields and centered L2 for the uniform probability measure,
+not arbitrary operators with source conclusions assumed. Domain hypotheses
+are bounded/open/nonempty and positive dimension; convexity is unnecessary
+for these three Hilbert results. Nontriviality is proved by a smooth interior
+bump, and completeness by actual bounded-domain Poincaré.
+
+Evidence: `verification/uniform-source.json`, imported full-statement consumer
+`verification/consumers/UniformSource.lean` (three examples, exit 0), ten
+transitive axiom reports containing only propext/Classical.choice/Quot.sound.
+`verification/source-duality.json` records the earlier concrete bridges.
+Parent independent semantic review accepted these three results. Publication
+snapshot captured separately; no claim about unpublished drafts is included.
+Generic Hilbert helpers remain helpers and do not add to this denominator.
 
 Line references below are to the unmodified `source/tex/main.tex`.
 
@@ -141,3 +160,7 @@ Next discovery pass should search exact theorem-level APIs in pinned Mathlib, Di
 6. The theorem's covariance-log branch depends on a deep external theorem. If no verified formalization exists, report it as an open dependency; do not introduce an axiom, assumed bound, or omit branch without approval.
 7. Proof universality: constants cannot secretly depend on K,n,r,f,π₀. Dimension/radius appear only in the printed rates.
 8. No assumption-only module, `sorry`, custom axiom or README assertion counts as any of the 13 completions. Require source-faithful actual consumer compilation plus standard-only transitive axiom audit.
+
+## Published checkpoint
+
+The current milestone accepts S03, S09, S10, S11 and S12: 5/13 named results (38.5%). Earlier pending statements above are historical development notes. S11 and S12 source review is recorded in planning/curl-residual-source-review.md; verification/module-modernization.json and verification/residual-identities.json provide the corresponding fresh evidence. S13 and the main spectral-gap/mixing theorems remain open.

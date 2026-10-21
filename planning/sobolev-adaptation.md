@@ -32,3 +32,14 @@ Two imported full-statement consumers (sqrt-dimension bound and actual integral-
 
 Finite restricted measure is explicit in ZeroMean; bounded Haar domains supply it by isFiniteMeasure_restrict and Bornology.IsBounded.measure_lt_top. SourceDuality/UniformMeasure integration belongs to the separate Hilbert worker. No numbered source result is independently counted complete here.
 
+## Curl energy derivation (consumer verification in progress)
+
+The four CurlEnergy modules compile as of 2026-10-21 07:35 UTC. Mixed directional derivatives commute on the actual smooth compact test space. Two integrations by parts give the mixed derivative pairing identity; applying the defining H01 closed-graph density twice extends it to genuine zero-trace weak Sobolev functions. Finite-dimensional Parseval supplies every coordinate's L2 gradient energy. A separate matrix identity sums only i<j and discharges its cross-pairing premise with that proved H01 identity. The source-facing divergence_curl_energy theorem has no cross-identity or PDE premise.
+
+CurlEnergyResidual proves the actual mean-zero residual and its pairing with divergence from the genuine Riesz equation, corresponding to B.4(i)/(iii). B.4(ii), the distributional row-divergence identity for the antisymmetric tensor, is a separate pending implementation, not implied by the algebra file. Root/index_hit_run_paper owns that part. At07:37UTC, the separately imported /tmp/har-curl-audit.lean completed with actual exit0: three full statements and11transitive axiom reports, all only propext/Classical.choice/Quot.sound. The short normalized-uniform/literal-H01 wrapper remains in compilation; source-wide completion remains separate.
+
+At07:42:50UTC CurlUniform and its separately imported full literal-H01/uniform-domain consumer passed, with two further standard-only transitive axiom reports. The source B.3 upper-triangle energy identity is now independently checked. Total this slice: four full consumer examples, thirteen axiom reports. B.4 remains partial pending its distributional identity and source assembly. Root subsequently owns a semantics-preserving module-format modernization; update hashes after that change.
+
+## Published checkpoint
+
+The current milestone accepts S03, S09, S10, S11 and S12: 5/13 named results (38.5%). Earlier pending statements above are historical development notes. S11 and S12 source review is recorded in planning/curl-residual-source-review.md; verification/module-modernization.json and verification/residual-identities.json provide the corresponding fresh evidence. S13 and the main spectral-gap/mixing theorems remain open.

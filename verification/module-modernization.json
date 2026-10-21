@@ -1,0 +1,788 @@
+{
+  "checked_utc": "2026-10-21T07:46:45Z",
+  "changes": "Only module/public import/expose public section headers; exact reverse transform checked. No theorem body/type edits.",
+  "module_changes": [
+    {
+      "path": "HitAndRun/Analysis/AdjointRiesz.lean",
+      "before_sha256": "bc7fa8b90fc4e93c05cf50e5947bb73ccd85d46cc4d0733558067dd9042644ae",
+      "after_sha256": "a0b521afcee43a256c95d1a9ba9af89e12393b2aa9d171c2919a59d4e359fd72",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Analysis/DualCertificate.lean",
+      "before_sha256": "a618e5896d7036dab39639ed5a69046ad84b86a1729fb36fd746844bf70b8ea3",
+      "after_sha256": "02e24d19815c9e835ced45394dd2b49278d4ed4731def975717cc05478a3d31f",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Analysis/Duality.lean",
+      "before_sha256": "900c6eef5f83ed5d65fea2e73c5b4b3db68e91faa69dcb13b19b9caf97621236",
+      "after_sha256": "81ec22f7533bc9431e57425b3bc671113f807b42a785d87b8d19dcf775da29ee",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Analysis/MinimumEnergy.lean",
+      "before_sha256": "d3ff5fb18cde32373b3edf1a99e47b083012a354f42f92a44a1020421cd28c87",
+      "after_sha256": "e9b10406e3d9e78975ad2e7b4147f7c0f2bd7a5e4380e8a9ee3cbeb799f7cae0",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Analysis/MinimumNormPreimage.lean",
+      "before_sha256": "c95ba9f9b374b652c88cc97605a71fb09c81a529bbf86f8aa272d407dcb3690e",
+      "after_sha256": "633761c31343ced71eef249cb1368a7dcc9aabe9307fa82d7c6863f332cda5a3",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Analysis/PositiveContraction.lean",
+      "before_sha256": "b80307dd325e4c9bd707bb4748b7d3ee559a4f36415c903e867e1bdacf567a2e",
+      "after_sha256": "c6e9c0da1ad515146b0272d682c927ea8d71236504187b6d059793e27c4de438",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Geometry/BoundaryDistance.lean",
+      "before_sha256": "cc7657b7600bb5da7145e895caee7f46688c1955ad3ac1d8a73e5eb3b1910831",
+      "after_sha256": "c8770dfbec35c0e93f7675e0ea95011c2ff9ff1d80e51912506a01640e5bce39",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Geometry/InnerBall.lean",
+      "before_sha256": "732260f1fd58b48f295dae5b9de42eb3c7e766db3cee93125c70d9df8cc0acb5",
+      "after_sha256": "59d81db56e1765e2366d20d1e86199fa1462cec4d1a6a9dd87e620567746ac00",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Markov/ChiSquareContraction.lean",
+      "before_sha256": "7a19cbab2663df6e521efef8a2dfb8e55e5fa5cda994f70fe718b96b95d93d1a",
+      "after_sha256": "9d6e01c34d232146661ffbf2f72993a84a49d98a638c09620dd796f773f654f9",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Markov/ConditionalProjection.lean",
+      "before_sha256": "fd7514a9f47cb16ffd6d60a6e1429709fb4472c70318a1dc87b90930bc3b8910",
+      "after_sha256": "6757e23950fc3e7e8c48f44d7bcabfe71b1dce73be47e7ed10f65a265d6ec2cf",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Markov/CoordinateAverage.lean",
+      "before_sha256": "09c24c9cf70af8c6fd29d1c0626403da3dfc7b9edc152d8a423447e5f4d42f32",
+      "after_sha256": "ad477f3dc9d4c4421559ecb3c21729fcaf8dfb8cc51b18b2ef0573f8201e20f8",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Sobolev/CurlUniform.lean",
+      "before_sha256": "24918fa11c280c09df3c44a4120bb989208aa32c8bb897f7fc1efde8deb7f02d",
+      "after_sha256": "295f90bf4da4e19a5d17085b22b54e37e515c4b83633964bf5f918abf6145788",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Sobolev/Nontrivial.lean",
+      "before_sha256": "101105dfed0629f9faecc131216678b9d774666fb1562da4ac009f4e818ab51d",
+      "after_sha256": "d59268cbe3bbba510d30cb75fa81566c986224a539929b29a9197ed1d60bcc83",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Sobolev/SourceDuality.lean",
+      "before_sha256": "a11c7dd702490a2484280cabafdd78cf31cfb5bf080a89ff1c0a44676ddf72ba",
+      "after_sha256": "6efa1ad28e4ee3f391919bfc6918854a061ae2a7ac14743eac3fc915415fa53e",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Sobolev/UniformMeasure.lean",
+      "before_sha256": "7a5af6e0998869d3d4410548598b99895cc65fd306c3bc0af67bec615225cccb",
+      "after_sha256": "5f6af01799b185857ef98f23065ad3b71227da1b56ee00369f049bab942b5b58",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Sobolev/UniformSource.lean",
+      "before_sha256": "6c0bfe2bddc0092ce693fdf3a9572ace16471b135ed1b6ef1e19c776d8d9d2bd",
+      "after_sha256": "d8da93f68c071738bdf1840189014ee70d206ae103dcca75e76165f8ac4ca0a4",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun/Sobolev/VectorGraph.lean",
+      "before_sha256": "81a078591aecebdb7e414ceca146d63127b0ee16649e3edf4edf81ce6547064d",
+      "after_sha256": "f1bbced0d5f1c2b98ef4e522301c4c9f19c9ca5d3d75d91a3af603c0ad8eadd7",
+      "body_and_type_bytes_unchanged": true
+    },
+    {
+      "path": "HitAndRun.lean",
+      "before_sha256": "bfaacf921cb271fe22a04654c35032dbf4e58283d16b89bc4341bd81f1ae02e4",
+      "after_sha256": "e11b25bb6ce65b80e465d93e7b6d4c038ec197b7cbc667fac437ef274e75f469",
+      "body_and_type_bytes_unchanged": true
+    }
+  ],
+  "uncompiled_draft_exception": [
+    "HitAndRun/Geometry/BoundaryDistance.lean"
+  ],
+  "builds": [
+    {
+      "target": "HitAndRun HitAndRun.Sobolev.CurlUniform",
+      "exit_code": 0
+    },
+    {
+      "target": "HitAndRun (modernized umbrella)",
+      "exit_code": 0
+    }
+  ],
+  "consumer": "verification/consumers/AcceptedMilestone.lean",
+  "consumer_sha256": "281c9a722ccfedea65823cab8a800bad0dbb0a036d606fa531f924a6a223f79a",
+  "consumer_exit_code": 0,
+  "actual_statement_examples": 22,
+  "transitive_axiom_reports": 81,
+  "axioms_allowed_and_observed": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "reports": [
+    {
+      "declaration": "HitAndRun.Sobolev.norm_diagonalDerivative_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.norm_divergence_sq_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.norm_divergence_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.meanCLM_eq_integral",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.integral_test_partial_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.h01_partial_mean_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradient_partial_mean_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.divergence_mean_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.centeredDivergence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.norm_sq_le_of_dual_certificate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.existsUnique_riesz_field",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.adjoint_norm_isLUB",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.adjoint_norm_eq_sSup",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.exists_minimum_norm_preimage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.exists_minimum_energy_preimage",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Markov.coordinateAverage_positive",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Markov.coordinateAverage_symmetric",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Markov.coordinateAverage_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.norm_le_one_sub_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.iterate_sq_le_exp",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.iterate_sq_le_exp_on_submodule",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Markov.chiSquare_lawOrbit_le_exp_of_gap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "DikinD2.NativeL2.lawOrbit_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "DikinD2.NativeL2.centered_densityOrbit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "DikinD2.ChiSquareDensity.finite_density_package",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Geometry.ball_subset_at_contraction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Markov.conditionalProjection_idempotent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Markov.conditionalProjection_symmetric",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Markov.conditionalProjection_positive",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Markov.conditionalProjection_residual_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "EllipticPdes.H1Graph.mem_W12_iff_hasWeakFDerivOn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "EllipticPdes.H1Graph.H01_le_W12",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "EllipticPdes.H1Graph.exists_seq_testGraph\u2097_tendsto",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "EllipticPdes.H1Graph.poincare_H01_of_bounded",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.h01_complete",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.h01_weak",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.graph_norm_sq_le_gradient",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradient_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradientSpace_closed",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradientSpace_complete",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradientEquiv",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradientEquiv_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.adjoint_lower_bound_of_right_inverse_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.right_inverse_bound_of_adjoint_lower_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.right_inverse_bound_iff_adjoint_lower_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.right_inverse_bound_iff_dual_sup",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.minimumEnergy_lt_top_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.minimumEnergy_attained",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.surjective_of_energyConstant_lt_top",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.right_inverse_bound_of_energyConstant_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.energyConstant_le_of_right_inverse_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.energyConstant_le_iff_right_inverse_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Analysis.right_inverse_bound_at_energyConstant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.babuskaAzizConstant_eq_source",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.vectorField_norm_sq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.vectorField_graph_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.divergence_solver_at_babuskaAziz",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.existsUnique_divergence_riesz",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.divergence_duality",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.divergence_duality_sup",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.divergence_riesz_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.h01_nontrivial",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradientSpace_nontrivial",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.vectorField_nontrivial",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.normalizedAmbient_restrict",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.domain_volume_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.normalizedAmbient_isAddHaarMeasure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.uniformMeasure_isProbabilityMeasure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.normalizedAmbient_restrict_finite",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.vectorFieldOfGraph_graphOfVectorField",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.graphOfVectorField_vectorFieldOfGraph",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.graphOfVectorField_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.measure_eq_uniform",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.attained_solver",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.attained_graph_solver",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.duality",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.riesz",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.riesz_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.riesz_full",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.curl_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.graph_curl_energy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "timing_observation": "Legacy umbrella build81s; modernized umbrella5.3s. Timing is per observed build, not guaranteed speedup."
+}

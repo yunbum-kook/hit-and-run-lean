@@ -1,5 +1,7 @@
-import Mathlib.MeasureTheory.Function.ConditionalExpectation.CondexpL2
-import Mathlib.Tactic.Linarith
+module
+public import Mathlib.MeasureTheory.Function.ConditionalExpectation.CondexpL2
+public import Mathlib.Tactic.Linarith
+@[expose] public section
 
 /-! Actual L² conditional expectations: source equation (1.1).
 Identifying these projections with uniform chord kernels is a separate obligation. -/

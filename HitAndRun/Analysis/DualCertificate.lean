@@ -1,5 +1,7 @@
-import Mathlib.Analysis.InnerProductSpace.Adjoint
-import Mathlib.Tactic.Linarith
+module
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+public import Mathlib.Tactic.Linarith
+@[expose] public section
 
 /-! Generic Hilbert-space dual certificate from Section 1.2.2 of arXiv:2608.16878v1.
 This helper does not construct the Sobolev certificate or identify either Markov kernel.

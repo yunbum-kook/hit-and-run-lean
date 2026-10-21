@@ -1,4 +1,6 @@
-import Mathlib.Analysis.InnerProductSpace.Adjoint
+module
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+@[expose] public section
 
 /-!
 # Abstract Riesz field for a bounded divergence-like map

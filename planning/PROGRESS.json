@@ -1,8 +1,8 @@
 {
   "source": "arxiv:2608.16878v1",
   "source_named_total": 13,
-  "source_named_complete": 3,
-  "source_named_percent": 23.076923076923077,
+  "source_named_complete": 5,
+  "source_named_percent": 38.46153846153846,
   "results": {
     "S01": {
       "status": "open",
@@ -51,12 +51,16 @@
       "review": "Independent source/carrier/constant audit passed; original uniform probability, actual H01 graph and proved divergence; no extra analytic premise."
     },
     "S11": {
-      "status": "open",
-      "reason": "Actual source endpoint not yet independently accepted"
+      "status": "verified and published in this commit",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.graph_curl_energy",
+      "evidence": "verification/module-modernization.json",
+      "review": "Independent exact upper-triangle curl/Frobenius identity source audit; actual H01 graph, double IBP and density, no cross-term assumption."
     },
     "S12": {
-      "status": "open",
-      "reason": "Actual source endpoint not yet independently accepted"
+      "status": "verified and published in this commit",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.residual_identities",
+      "evidence": "verification/residual-identities.json",
+      "review": "Independent actualRieszfield, meanzero, correctlysigned distributional skewdivergence and uppertriangleenergy audit; 2 full consumers/10 standard-only reports."
     },
     "S13": {
       "status": "open",
@@ -66,9 +70,11 @@
   "meaningful_partial": [
     "Three original Hilbert/divergence statements independently accepted on actual normalized-uniform Sobolev carriers.",
     "Actual conditional projections and generic actual-law chi-square contraction verified; HAR/CHAR chord realization and gap remain open.",
-    "Curl/IBP and residual identities under active implementation; no completion credit."
+    "Actual H01 curl energy and all three residual identities accepted; weighted residual estimate remains open.",
+    "Actual measurable normalized chord kernel and smooth-cutoff/skew foundations verified; no stationarity or weighted-estimate completion credit."
   ],
   "counting_rule": "Never convert helper declarations, commits or README claims into whole-paper completion percentage.",
   "accepted_pending_publication": [],
-  "accepted_commit": "The commit containing this ledger and corresponding verification/uniform-source.json"
+  "accepted_commit": "The commit containing this ledger and corresponding verification/uniform-source.json",
+  "last_accepted_commit": "bb20dfd7775a24f19f70062932f713c9370e572d"
 }

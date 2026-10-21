@@ -1,6 +1,8 @@
-import HitAndRun.Sobolev.VectorGraph
-import HitAndRun.Sobolev.Nontrivial
-import HitAndRun.Sobolev.UniformMeasure
+module
+public import HitAndRun.Sobolev.VectorGraph
+public import HitAndRun.Sobolev.Nontrivial
+public import HitAndRun.Sobolev.UniformMeasure
+@[expose] public section
 
 /-! Source-facing uniform-domain statements. Convexity is not needed for these
 three Hilbert lemmas; boundedness, openness and nonemptiness suffice. -/

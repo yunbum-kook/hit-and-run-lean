@@ -1,6 +1,8 @@
-import HitAndRun.Sobolev.ZeroMean
-import HitAndRun.Analysis.Duality
-import HitAndRun.Analysis.MinimumEnergy
+module
+public import HitAndRun.Sobolev.ZeroMean
+public import HitAndRun.Analysis.Duality
+public import HitAndRun.Analysis.MinimumEnergy
+@[expose] public section
 
 /-! Concrete Sobolev instances of the source's Hilbert duality and energy constant.
 The measure is an arbitrary additive Haar measure, restricted to a bounded domain.

@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-10-21T07:50:34.265810+00:00",
+  "lean": "4.35.0",
+  "mathlib_commit": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "classification": "Concrete uniform-domain source B.4 all three conclusions and exact graph-source CBA definition",
+  "candidate_source_results": [
+    "S12"
+  ],
+  "modules": [
+    {
+      "path": "HitAndRun/Sobolev/GraphEnergyConstant.lean",
+      "compile_exit_code": 0
+    },
+    {
+      "path": "HitAndRun/Sobolev/ResidualDistribution.lean",
+      "compile_exit_code": 0
+    },
+    {
+      "path": "HitAndRun/Sobolev/ResidualIdentities.lean",
+      "compile_exit_code": 0
+    }
+  ],
+  "consumer": {
+    "path": "verification/consumers/ResidualIdentities.lean",
+    "full_statement_examples": 2,
+    "compile_exit_code": 0
+  },
+  "axiom_audit": {
+    "declarations": 10,
+    "allowed_and_observed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exit_code": 0,
+    "log": ".local/residual-identities-audit.log"
+  },
+  "files": [
+    {
+      "path": "HitAndRun/Sobolev/GraphEnergyConstant.lean",
+      "sha256": "ec8026e9887ef26d56e452f31b9780cccab447755c152f61a3ca02c4376333f0",
+      "bytes": 1681
+    },
+    {
+      "path": "HitAndRun/Sobolev/ResidualDistribution.lean",
+      "sha256": "e621416253a940769e9e0e72a117a03d64c53769c1313eacef5deef6c24005a5",
+      "bytes": 5954
+    },
+    {
+      "path": "HitAndRun/Sobolev/ResidualIdentities.lean",
+      "sha256": "10b8528d1a3a68a56abf499564641f59de18c2dd78a5488a088dc2bff13bb638",
+      "bytes": 2107
+    },
+    {
+      "path": "verification/consumers/ResidualIdentities.lean",
+      "sha256": "442e94a49d406260df1cf36d22063d93c530e3910187441d141d420b0dfac858",
+      "bytes": 2267
+    },
+    {
+      "path": ".local/residual-identities-audit.log",
+      "sha256": "fb2f8f315b6b836e806ff6c389c708006c6fa10821f6757beaf4844c654d80ae",
+      "bytes": 1092
+    }
+  ]
+}

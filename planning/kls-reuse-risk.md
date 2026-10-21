@@ -21,4 +21,12 @@ The provenance JSON identifies upstream `HongruZhao/KLS15` commit `fe59199e9c039
 
 ## Decision
 
-Quarantine the full KLS15 endpoint. Keep the paper-faithful plan and 0/13 source-result count unchanged. Smaller moment/whitening components are potential future reuse, subject to their own source/closure/license checks. Finding no obvious issue in selected files does not establish correctness of the whole theorem; its unusually strong conclusion alone does not establish an error either.
+Quarantine the full KLS15 endpoint. Keep the paper-faithful plan and award no source-result completion credit for this candidate. Smaller moment/whitening components are potential future reuse, subject to their own source/closure/license checks. Finding no obvious issue in selected files does not establish correctness of the whole theorem; its unusually strong conclusion alone does not establish an error either.
+
+## Additional bounded source inspection
+
+The pinned vendor import closure has now been independently reconstructed from fetched source imports: 1,654 reachable modules, 12,629,469 bytes, plus three CvxBody bridge modules. All 1,655 fetched vendor source files matched the pinned Git blob hashes. This verifies source identity, not proof validity.
+
+PolynomialCoefficientBundle defines normalization by the actual squared L2 polynomial integral. Its Gram positivity comes from polynomial nondegeneracy, and its compactness proof derives a uniform positive Gram lower bound using compactness of admissible laws and the coefficient unit sphere. ActualWeightedAppellMaximizer then uses a genuine compact maximum, rather than assuming one. ActualAppellEnergy is the finite sum of actual coefficient squares; ActualWeightedAppellEnergy retains the inverse K^d(d!)² weights. These selected checks found no conclusion-shaped premise or artificial zero-energy definition. The remaining analytic chain, backports, compilation, and licensing gates are still open.
+
+A nested-comment/string-aware textual scan of all 1,658 fetched Lean files found no executable tokens sorry, sorryAx, admit, or axiom. This is not a kernel transitive axiom audit and does not validate imported libraries or tactics.

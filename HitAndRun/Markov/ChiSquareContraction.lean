@@ -1,5 +1,7 @@
-import HitAndRun.External.Dikin.Markov.NativeLawOrbit
-import HitAndRun.Analysis.PositiveContraction
+module
+public import HitAndRun.External.Dikin.Markov.NativeLawOrbit
+public import HitAndRun.Analysis.PositiveContraction
+@[expose] public section
 
 /-! Reuse of the Dikin actual-law transport, without artificial lazification.
 Positivity and the gap remain genuine obligations for each concrete chord kernel. -/

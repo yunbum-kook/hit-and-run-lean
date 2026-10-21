@@ -1,5 +1,7 @@
-import HitAndRun.Sobolev.Divergence
-import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
+module
+public import HitAndRun.Sobolev.Divergence
+public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
+@[expose] public section
 
 /-! Nontriviality of the genuine test carrier follows from domain geometry. -/
 noncomputable section

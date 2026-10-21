@@ -1,4 +1,6 @@
-import HitAndRun.Sobolev.SourceDuality
+module
+public import HitAndRun.Sobolev.SourceDuality
+@[expose] public section
 
 /-! Explicit two-way correspondence between gradient-norm fields and H01 vector graphs. -/
 noncomputable section

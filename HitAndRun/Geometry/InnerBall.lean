@@ -1,6 +1,8 @@
-import Mathlib.Analysis.Convex.Basic
-import Mathlib.Analysis.Normed.Module.Basic
-import Mathlib.Tactic
+module
+public import Mathlib.Analysis.Convex.Basic
+public import Mathlib.Analysis.Normed.Module.Basic
+public import Mathlib.Tactic
+@[expose] public section
 
 /-! The elementary convex-body contraction geometry used in Theorem 3.1.
 This does not establish its weighted Poincare inequality. -/

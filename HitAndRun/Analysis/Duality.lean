@@ -1,6 +1,8 @@
-import HitAndRun.Analysis.AdjointRiesz
-import Mathlib.Analysis.InnerProductSpace.LaxMilgram
-import Mathlib.Tactic.Linarith
+module
+public import HitAndRun.Analysis.AdjointRiesz
+public import Mathlib.Analysis.InnerProductSpace.LaxMilgram
+public import Mathlib.Tactic.Linarith
+@[expose] public section
 
 /-! Exact quantitative Hilbert duality underlying Lemma B.1.
 No Sobolev realization or paper endpoint is claimed. -/

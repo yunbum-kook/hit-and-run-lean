@@ -1,5 +1,7 @@
-import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
-import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
+module
+public import Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace
+public import Mathlib.MeasureTheory.Measure.Typeclasses.Probability
+@[expose] public section
 
 /-! Uniform probability as restriction of a genuinely normalized ambient Haar measure. -/
 noncomputable section

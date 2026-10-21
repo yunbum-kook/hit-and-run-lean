@@ -1,5 +1,7 @@
-import HitAndRun.Markov.ConditionalProjection
-import Mathlib.Tactic.FieldSimp
+module
+public import HitAndRun.Markov.ConditionalProjection
+public import Mathlib.Tactic.FieldSimp
+@[expose] public section
 
 /-! Finite uniform averaging of actual conditional projections.
 The coordinate sigma-algebras and chord-kernel realization remain separate obligations. -/

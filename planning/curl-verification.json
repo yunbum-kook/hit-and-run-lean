@@ -1,0 +1,29 @@
+{
+  "status": "core and actual uniform-domain H01 consumer independently checked; formatting modernization pending",
+  "date_utc": "2026-10-21T07:42:50Z",
+  "source_target": "S11 Lemma B.3; S12 only parts(i)/(iii)",
+  "files": {
+    "HitAndRun/Sobolev/CurlEnergyIBP.lean": "0174e3e39baa21a55235611924d1c9be55945a69e4a1911153cb26d1af04980f",
+    "HitAndRun/Sobolev/CurlEnergyAlgebra.lean": "dc998391c8bf6d643ab0a905bc7be4a8534590ba1f5e32ce431f58fc4366ef2f",
+    "HitAndRun/Sobolev/CurlEnergy.lean": "b77edc127c7114629c9c4f6740ee103f56c1b17cdcafa13e681616994f03d0ce",
+    "HitAndRun/Sobolev/CurlEnergyResidual.lean": "f465f546eb5fbe2b2910da54e189297f666803dc86912e8e1dbf40c8a00ef53e",
+    "HitAndRun/Sobolev/CurlUniform.lean": "24918fa11c280c09df3c44a4120bb989208aa32c8bb897f7fc1efde8deb7f02d"
+  },
+  "build_log": "/tmp/har-curl-build.log",
+  "consumer": "/tmp/har-curl-audit.lean",
+  "consumer_log": "/tmp/har-curl-audit.log",
+  "consumer_exit_code": 0,
+  "full_examples": 3,
+  "axiom_reports": 11,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "semantic_note": "Actual H01 density and twice integration by parts discharge cross terms. Curl energy uses i<j only. B4(ii) remains separate.",
+  "uniform_consumer": "/tmp/har-curl-uniform-audit.lean",
+  "uniform_consumer_log": "/tmp/har-curl-uniform-audit.log",
+  "uniform_consumer_exit_code": 0,
+  "uniform_full_examples": 1,
+  "uniform_axiom_reports": 2
+}

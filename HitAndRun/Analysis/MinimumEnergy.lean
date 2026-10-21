@@ -1,6 +1,8 @@
-import HitAndRun.Analysis.MinimumNormPreimage
-import Mathlib.Basic.ENNReal.Real
-import Mathlib.Basic.ENNReal.Inv
+module
+public import HitAndRun.Analysis.MinimumNormPreimage
+public import Mathlib.Basic.ENNReal.Real
+public import Mathlib.Basic.ENNReal.Inv
+@[expose] public section
 
 /-! Extended-valued fiber energy: empty fibers have energy infinity. -/
 namespace HitAndRun.Analysis

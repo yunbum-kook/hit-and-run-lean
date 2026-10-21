@@ -1,5 +1,7 @@
-import Mathlib.Analysis.InnerProductSpace.Projection.Minimal
-import Mathlib.Analysis.Normed.Operator.Basic
+module
+public import Mathlib.Analysis.InnerProductSpace.Projection.Minimal
+public import Mathlib.Analysis.Normed.Operator.Basic
+@[expose] public section
 
 /-!
 # Minimum-norm preimages

@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-21T07:52:28Z",
+  "classification": "B5 helper slice only; no new source completion",
+  "files": {
+    "HitAndRun/Analysis/SkewEnergy.lean": "2be70d31d2de735a6f1e0ffa81a6e7a65fa737df94a0f6b3419d46ba0dde0b30",
+    "HitAndRun/Sobolev/CutoffSkew.lean": "7060a9eba8d6396da8436a3223b401e21f731207765dea8ddb4150cb66fcbfc4"
+  },
+  "build_exit_code": 0,
+  "build_log": "/tmp/har-skew-build.log",
+  "consumer_exit_code": 0,
+  "consumer": "/tmp/har-skew-audit.lean",
+  "consumer_log": "/tmp/har-skew-audit.log",
+  "full_examples": 2,
+  "axiom_reports": 9,
+  "all_reported_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "remaining": "Sum/cancel cutoff Hessian terms; integral Cauchy-Schwarz; actual distance and rough-data approximation."
+}

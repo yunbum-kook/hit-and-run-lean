@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-10-21T07:56:56Z",
+  "modules": {
+    "HitAndRun/Geometry/BoundaryDistance.lean": "c8770dfbec35c0e93f7675e0ea95011c2ff9ff1d80e51912506a01640e5bce39",
+    "HitAndRun/Geometry/ChordMeasure.lean": "a8499765129cf332472f9233fdb5a265239d514f7648d89c9752e84c6033c86a",
+    "HitAndRun/Markov/ChordKernel.lean": "cc7316dcbf23d67e05dc0261dd6cdfeb536d8a947134f68b6a29c8265360e11a",
+    "HitAndRun/Analysis/BabuskaAzizAlgebra.lean": "57d38b368a41f54707283a99249441c6fdedaa07f80373e1651bca6dfda3492e"
+  },
+  "build_exit_code": 0,
+  "consumer": "verification/consumers/ChordKernel.lean",
+  "full_statement_examples": 2,
+  "consumer_exit_code": 0,
+  "axiom_reports": 8,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "Actual normalized chord probability and jointly measurable unit-direction kernel, body mass1, contraction boundary distance; stationarity/conditional expectation and HAR/CHAR averaging not yet established. BA scalar helper is not source theorem completion."
+}

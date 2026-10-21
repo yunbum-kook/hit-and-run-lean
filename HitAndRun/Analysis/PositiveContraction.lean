@@ -1,7 +1,9 @@
-import Mathlib.Analysis.InnerProductSpace.Rayleigh
-import Mathlib.Analysis.InnerProductSpace.Positive
-import Mathlib.Analysis.SpecialFunctions.Exp
-import Mathlib.Tactic
+module
+public import Mathlib.Analysis.InnerProductSpace.Rayleigh
+public import Mathlib.Analysis.InnerProductSpace.Positive
+public import Mathlib.Analysis.SpecialFunctions.Exp
+public import Mathlib.Tactic
+@[expose] public section
 
 /-! Selected Dikin generic positive-operator contraction results.
 Reused with the owner's explicit authorization from dikin-d2 commit
