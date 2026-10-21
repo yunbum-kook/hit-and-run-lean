@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-21T09:39:47Z",
+  "files": {
+    "HitAndRun/Sobolev/RoughWeightedSource.lean": "02d41b9813f2f71e9c15ed6115988ec09b6aa5aed82c08d7dbcf94f8b6de5c26",
+    "verification/consumers/RoughWeightedSource.lean": "3aac31c0854d6ff3eb30f1fbdcffca428ad2a9672e83830135b4a9bac059c84f"
+  },
+  "build_exit_code": 0,
+  "consumer_exit_code": 0,
+  "full_statement_examples": 3,
+  "axiom_reports": 3,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "logs": {
+    ".local/rough-source-build.log": "52f8a69b31b61a1fe75d31690c16e6e179d6a86e6761d82488068b052bb15d19",
+    ".local/rough-source-audit.log": "4136bb560750a6918e8c467499e2b6cc875b7a5f7e5b8acf8dc50d7ac6106954"
+  },
+  "scope": "S13 LemmaB5 on actual bounded open domain: arbitrary L2 matrix data, a.e. skewness corrected only on null set, distributional relation, genuine rough weighted gradient with factor2 (and squared4), finite actual IPI consequence. No convexity, smoothness or globalH1 h assumptions."
+}

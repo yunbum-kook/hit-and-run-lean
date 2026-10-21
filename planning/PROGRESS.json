@@ -1,8 +1,8 @@
 {
   "source": "arxiv:2608.16878v1",
   "source_named_total": 13,
-  "source_named_complete": 7,
-  "source_named_percent": 53.84615384615385,
+  "source_named_complete": 9,
+  "source_named_percent": 69.23076923076923,
   "results": {
     "S01": {
       "status": "open",
@@ -19,8 +19,10 @@
       "review": "Independent source/carrier/constant audit passed; original uniform probability, actual H01 graph and proved divergence; no extra analytic premise."
     },
     "S04": {
-      "status": "open",
-      "reason": "Actual source endpoint not yet independently accepted"
+      "status": "verified and published in this commit",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.babuskaAziz_le_one_add_four_improvedPoincare",
+      "evidence": "verification/babuska-aziz-source.json",
+      "review": "Independent exact-source review passed: actual rough residual estimate, curl identities and duality yield literal extended CBA\u22641+4CIPI; no analytic premise remains. Two full consumers and two standard-only transitive reports."
     },
     "S05": {
       "status": "verified and published in this commit",
@@ -67,17 +69,21 @@
       "review": "Independent actualRieszfield, meanzero, correctlysigned distributional skewdivergence and uppertriangleenergy audit; 2 full consumers/10 standard-only reports."
     },
     "S13": {
-      "status": "open",
-      "reason": "Actual source endpoint not yet independently accepted"
+      "status": "verified and published in this commit",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.rough_weighted_poincare",
+      "gradient_declaration": "HitAndRun.Sobolev.BoundedOpenDomain.rough_weighted_gradient_norm",
+      "evidence": "verification/rough-weighted-source.json",
+      "review": "Independent exact-source review passed: arbitrary L2 skew matrix, AE correction, actual distributional weighted gradient with factor2, and finite optimal IPI consequence. No smoothness, convexity or globalH1 assumption. Three full consumers and three standard-only reports."
     }
   },
   "meaningful_partial": [
-    "Exact finite-CBA HAR and CHAR spectral-gap propositions accepted for actual algorithms.",
-    "Actual CHAR native-law chi-square contraction and reversibility verified; paper mixing corollary still needs geometric constants and both final rates.",
-    "Actual H01 curl/residual identities and smooth weighted cutoff estimates verified; rough B5, geometric PI/IPI bounds and external covariance/log theorem remain open."
+    "Exact finite-CBA HAR and CHAR gaps are accepted for actual algorithms.",
+    "Actual non-lazy native-law chi-square contraction and finite integer accuracy budgets are verified for both algorithms; S02 still needs geometric covariance/log rates.",
+    "Rough B5 and exact CBA\u22641+4CIPI are accepted. Genuine convex W12 density, centered covariance/radius bounds and conditional weighted-L1 transfer support the remaining geometric inequalities.",
+    "S01, S02, S07 and S08 remain open; reverse-Buser reuse and the covariance/log Poincare input are not accepted proofs."
   ],
   "counting_rule": "Never convert helper declarations, commits or README claims into whole-paper completion percentage.",
   "accepted_pending_publication": [],
-  "accepted_commit": "The commit containing this ledger and verification/hit-and-run-gap.json",
-  "last_accepted_commit": "541c41004f5b331ed6a48e71ff8200d1866e579a"
+  "accepted_commit": "Current commit containing verification/babuska-aziz-source.json and verification/rough-weighted-source.json",
+  "last_accepted_commit": "96f9b6cb13d9e19c07ee84f2d77b95f1dc3c5a02"
 }

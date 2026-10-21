@@ -1,0 +1,51 @@
+{
+  "scope": "Actual smooth restriction density in the W12 graph norm on bounded open convex bodies with an inner ball; no new numbered source result.",
+  "producer_execution": "Four full imported consumers and all eight modules successfully compiled; independent source, frozen hashes and Lake trace review, not an independent rerun.",
+  "files": {
+    "HitAndRun/Geometry/WeightedPoincareMedianMollifier.lean": "41fbd7841768f58ab87bfa38e58a4aa074958590d6a1f61708e85df101d07f1d",
+    "HitAndRun/Geometry/WeightedPoincareMedianMollifierChecks.lean": "16773df6b4328252dbc5adc985681318b1a03b481b0f3cdae0b884b9ae80c580",
+    "HitAndRun/Geometry/WeightedPoincareMedianSmooth.lean": "2e2980296c85bb8467b59f0fa50e2ce21331e23161e21ee1fbe91cfa95432b13",
+    "HitAndRun/Geometry/WeightedPoincareMedianSmoothChecks.lean": "fea8cc0835507d04f132f3c4e9d6625b3a560586af35514521b0bfd78a9d3faf",
+    "HitAndRun/Geometry/WeightedPoincareMedianH1Density.lean": "a863622aeaa963e2ed5ecb421f9fa7d6ee5623f3cdf60bc2d6d54438ced65936",
+    "HitAndRun/Geometry/WeightedPoincareMedianH1DensityChecks.lean": "5c41bce1bafba3d70277229e208840c3ff6900a10c9cac59d1c439f03ec34ce7",
+    "HitAndRun/Geometry/WeightedPoincareMedianGraphDensity.lean": "48dc18c213f00ebce8bf525890953fc9315dfad092fbc44877ff4a570c3f6cf6",
+    "HitAndRun/Geometry/WeightedPoincareMedianGraphDensityChecks.lean": "e632f2433a25fc152f2f90f8bea627af8d4406a99bdd2a4457921efeee1cd249"
+  },
+  "full_imported_examples": 4,
+  "transitive_axiom_reports": 17,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "trace_paths": [
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareMedianMollifier.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareMedianMollifierChecks.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareMedianSmooth.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareMedianSmoothChecks.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareMedianH1Density.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareMedianH1DensityChecks.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareMedianGraphDensity.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareMedianGraphDensityChecks.trace"
+  ],
+  "axiom_report_messages": [
+    "HitAndRun/Geometry/WeightedPoincareMedianMollifierChecks.lean:19:0: 'HitAndRun.Geometry.integral_norm_sq_eq_eLpNorm_toReal_sq' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianMollifierChecks.lean:20:0: 'HitAndRun.Geometry.memLp_mollification_two' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianMollifierChecks.lean:21:0: 'HitAndRun.Geometry.integral_sq_mollification_sub_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianMollifierChecks.lean:22:0: 'HitAndRun.Geometry.integral_sq_mollification_dilation_sub_tendsto' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianMollifierChecks.lean:23:0: 'HitAndRun.Geometry.integral_sq_smul_approx_sub_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianMollifierChecks.lean:24:0: 'HitAndRun.Geometry.integral_sq_zeroExtension_mollification_dilation_sub_tendsto' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianSmoothChecks.lean:17:0: 'HitAndRun.Geometry.inner_mollification' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianSmoothChecks.lean:18:0: 'HitAndRun.Geometry.gradient_mollified_of_weak_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianSmoothChecks.lean:19:0: 'HitAndRun.Geometry.closedBall_subset_at_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianSmoothChecks.lean:20:0: 'HitAndRun.Geometry.weak_graph_zero_extension_identity' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianSmoothChecks.lean:21:0: 'HitAndRun.Geometry.gradient_comp_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianSmoothChecks.lean:22:0: 'HitAndRun.Geometry.gradient_inward_mollified_W12' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianH1DensityChecks.lean:15:0: 'HitAndRun.Geometry.exists_smooth_W12_component_approximation' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianH1DensityChecks.lean:16:0: 'HitAndRun.Geometry.exists_smooth_W12_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianGraphDensityChecks.lean:14:0: 'HitAndRun.Geometry.norm_sq_Lp_sub_eq_integral' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianGraphDensityChecks.lean:15:0: 'HitAndRun.Geometry.norm_sq_smoothGraph_sub' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianGraphDensityChecks.lean:16:0: 'HitAndRun.Geometry.exists_smoothGraph_tendsto_W12' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "semantic_review": "Zero extension used only for interior test identities. Inward convolution support fits strictly within convex contraction margin. Actual gradient includes scalar dilation factor. Both genuine W12 components converge in L2, giving actual H1Graph convergence. No C1 boundary, assumed density or H01 substitution."
+}

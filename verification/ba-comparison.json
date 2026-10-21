@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-21T09:15:27Z",
+  "files": {
+    "HitAndRun/Sobolev/BabuskaAzizComparison.lean": "34ae8032ef54aef78dc919e40cc517ac6da86bada8eacd467e9deaa9c7f0a241",
+    "verification/consumers/BabuskaAzizComparison.lean": "82ce03694b2c8b00769e020eab449827af4b9807387ec4e1df799a4de3217237"
+  },
+  "build_exit_code": 0,
+  "consumer_exit_code": 0,
+  "full_statement_examples": 1,
+  "axiom_reports": 1,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "logs": {
+    ".local/ba-comparison-build.log": "84d3715b2b4bde3ffc14e2a9453ea56a5313c352792c54e8ad78e522d9ee17d6",
+    ".local/ba-comparison-audit.log": "a1a3c6a6f9c53cf28c2427fb76a96cc098649a7c6bca7bc3c8b9b014a77d0d5a"
+  },
+  "scope": "Exact CBA \u22641+4C assembly conditional on actual Riesz residual bound. No source S04 completion until analytic B5 supplies premise."
+}

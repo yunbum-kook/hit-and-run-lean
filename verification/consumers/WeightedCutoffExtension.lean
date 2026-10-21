@@ -1,0 +1,11 @@
+module
+import HitAndRun.Sobolev.WeightedCutoffExtension
+open HitAndRun.Sobolev
+#check weightedCutoffGradient_memLp
+#check weightedCutoff_hasWeakFDerivOn_top
+#check exists_weightedCutoff_W12
+#check exists_weightedCutoff_globalW12
+#print axioms weightedCutoffGradient_memLp
+#print axioms weightedCutoff_hasWeakFDerivOn_top
+#print axioms exists_weightedCutoff_W12
+#print axioms exists_weightedCutoff_globalW12

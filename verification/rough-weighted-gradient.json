@@ -1,0 +1,26 @@
+{
+  "status": "actual focused builds and imported full consumer succeeded",
+  "build_exit": 0,
+  "consumer_exit": 0,
+  "axiom_reports": 15,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "files": {
+    "HitAndRun/Analysis/VectorQuotientLimit.lean": "3e45a0a151e5c09d193f8c384a74f7cf67d8d169fb4456666cf0cfe49dc1e62d",
+    "HitAndRun/Sobolev/WeightedTestIntegral.lean": "b8042e2f00886eadf2a6c0d0773981860da5975eae42892669518e3cf9e08261",
+    "HitAndRun/Sobolev/VectorBoundaryLimit.lean": "75262db2ed39f65e677b81d29bc0b222bfda8f8a37982c22a63bfbfa1aba8c1f",
+    "HitAndRun/Sobolev/SmoothVectorEnergy.lean": "b8ac3559a0761e46ce3261b2a6e3b89df06af81437c66b7819d6bbceb0fa5fac",
+    "HitAndRun/Sobolev/MollifiedInnerEnergy.lean": "c3734f1ef2990084190aae5ff132004a9fcffce85c13b87ef4055f8013450ded",
+    "HitAndRun/Sobolev/InnerTestFamily.lean": "ef069b4184adfa649ab8f26de14307ed8f383cb99f22d6dfbd40353ecbbdcaa3",
+    "HitAndRun/Sobolev/RoughVectorEnergy.lean": "006943690f69a0c51dcad8feb168acab5d9ebe24f01873941f8743af1f581f35",
+    "HitAndRun/Sobolev/RoughWeightedGradient.lean": "fee16729f7fc80ba5563f6d3929c17d52213af9260347a4c130571314471b226",
+    "verification/consumers/RoughWeightedGradient.lean": "413076db5a0caaa5ed8a0fe40c560a6946d53d46f90f308005a16b841cbaa450"
+  },
+  "consumer": "verification/consumers/RoughWeightedGradient.lean",
+  "audit_log": "/tmp/har-rough-gradient-audit.log",
+  "build_log": "/tmp/har-rough-gradient-build.log",
+  "scope": "Generic bounded-open domain; actual rough global L2 h,G and distribution equation only inside domain; no convexity or assumed gradient; exact upper-triangle constant 4. Root owns zero-extension wrapper and improved-Poincare consequence."
+}

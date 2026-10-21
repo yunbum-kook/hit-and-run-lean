@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-21T09:31:46Z",
+  "files": {
+    "HitAndRun/Sobolev/MollifiedTestPairing.lean": "58c19e48ae3174ee9aa3f12f7b45f07f786e2450284fb2c64c2674eeb64dcad8",
+    "verification/consumers/MollifiedTestPairing.lean": "69235a547416da2a9059263934456dff1577c934d964de04ce326f0b7ce3c2e2"
+  },
+  "build_exit_code": 0,
+  "consumer_exit_code": 0,
+  "full_statement_examples": 1,
+  "axiom_reports": 3,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "logs": {
+    ".local/mollified-test-build.log": "ce9a8a2edc2045c1105f6b2bda8689b9a7e6f77abbf09a4e951a530d10f4a293",
+    ".local/mollified-test-audit.log": "7a767b215ba76b06d68868303a1dec46e785bb716ca058af88a35e496a0d1c18"
+  },
+  "scope": "Actual scalar and finite-vector compact-test mollified integral pairing limits, from strong L2 convergence. Helper, not source completion."
+}

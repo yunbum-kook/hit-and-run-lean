@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-10-21T09:18:14.203292+00:00",
+  "scope": "Finite initial chi-square integer/log accuracy budgets for both actual chains, explicit zero-step and infinite-error cases. Full source S02 geometric rates still pending.",
+  "module_compile_exit_codes": {
+    "HitAndRun/Markov/MixingBudget.lean": 0,
+    "HitAndRun/Markov/MixingAccuracy.lean": 0
+  },
+  "consumer": "verification/consumers/MixingBudget.lean",
+  "full_imported_examples": 4,
+  "consumer_exit_code": 0,
+  "transitive_axiom_reports": 7,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log": ".local/mixing-budget-audit.log",
+  "sha256": {
+    "HitAndRun/Markov/MixingBudget.lean": "c12132a4a373e4643ad7ec9ee2830c68e0b1004fdb6efd709d7e7cbf4ac736eb",
+    "HitAndRun/Markov/MixingAccuracy.lean": "c902bf7f5f143f95e0a8b5e6328eae09ddd61f112d4e512dea7eba018da3a9cf",
+    "verification/consumers/MixingBudget.lean": "ba6d8eaedb1b01ca0a4f6fb57e2883120d2026a1b19d6bac005e64f5250b38cc"
+  },
+  "source_edge_convention": "Zero steps when M\u2264epsilon including M=0; otherwise natural ceiling of log(M/epsilon)/(2rate). Infinite initial chi-square provides no finite accuracy guarantee."
+}

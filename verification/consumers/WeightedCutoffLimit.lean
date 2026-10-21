@@ -1,0 +1,6 @@
+module
+import HitAndRun.Sobolev.WeightedCutoffApproximation
+open HitAndRun.Sobolev
+#print axioms plateau_function_toLp_tendsto
+#print axioms plateauWeightedField_toLp_tendsto
+#print axioms exists_weightedCutoff_approximants

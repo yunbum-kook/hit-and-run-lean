@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-21T09:14:37.476326+00:00",
+  "scope": "Actual HAR native positivity, joint reversibility and exact BA-rate chi-square lawOrbit contraction; no new named source count.",
+  "module_compile_exit_codes": {
+    "HitAndRun/Markov/HitAndRunOperatorReversible.lean": 0,
+    "HitAndRun/Markov/HitAndRunOperatorMixing.lean": 0
+  },
+  "consumer": "verification/consumers/HitAndRunNative.lean",
+  "full_imported_examples": 3,
+  "consumer_exit_code": 0,
+  "transitive_axiom_reports": 6,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log": ".local/har-native-audit.log",
+  "sha256": {
+    "HitAndRun/Markov/HitAndRunOperatorReversible.lean": "203f239ea246af0f01413e804c05dcde8e30419e7e9beeb06f8c499f1ee1c76e",
+    "HitAndRun/Markov/HitAndRunOperatorMixing.lean": "9ed70ee5f3f4a90c7d2b862d185ed6e4577d9fe216434bca0935549dda0b9275",
+    "verification/consumers/HitAndRunNative.lean": "fb26f2ea90be881ff91053ddf22af391753b6b4d9de227b1fb5c57564f9984d7"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "HitAndRun/Sobolev/WeightedGradientEnergyIdentity.lean": "7acdb69b02d79582506a1e23a2330203ccfa373632b059186b05cae1911ccd4f",
+    "verification/consumers/WeightedGradientEnergyIdentity.lean": "269e39767b72514793bba8c3ea5c3459a4bf8c309588e53967ff2da762a0da49"
+  },
+  "evidence": "Producer successful builds and imported consumers; independent frozen hash and printed axiom review, no reexecution.",
+  "audit_logs": [
+    ".local/weighted-gradient-energy-consumer.log"
+  ],
+  "transitive_axiom_reports": 2,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

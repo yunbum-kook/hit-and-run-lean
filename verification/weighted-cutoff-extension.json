@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "scope": "Weighted compact-cutoff helper and generic rough weighted-gradient IPI extension; not root PDE source assembly or its estimate.",
+  "frozen_at_utc": "2026-10-21T09:44:07.566360+00:00",
+  "recompiled_for_receipt": false,
+  "sources": [
+    {
+      "path": "HitAndRun/Sobolev/WeightedCutoffExtension.lean",
+      "sha256": "9dd569fb8962babbfdba7bd2f9ca9eaa7a1106fe01cba86bf0b2fc8a78933115",
+      "bytes": 7428,
+      "mtime_ns": 1792574178003104170,
+      "build_artifact": {
+        "path": ".lake/build/lib/lean/HitAndRun/Sobolev/WeightedCutoffExtension.olean",
+        "mtime_ns": 1792574267429545924,
+        "trace_sha256": "78fecbdc80996212d6100d817fb0eb83b310d5629d3365d9cb8fb1dd5c99bc9b",
+        "dep_hash": "34d5b34e1c0f6cfc",
+        "source_input": [
+          "/workspace/scratch/5895702c050d/hit-and-run/HitAndRun/Sobolev/WeightedCutoffExtension.lean",
+          "a3cdd4f670fba299"
+        ]
+      }
+    },
+    {
+      "path": "HitAndRun/Sobolev/WeightedCutoffLimit.lean",
+      "sha256": "1daa2ed113d2f9e570faffcedc385fd0aa83c8c463785e321bef81835aff50a5",
+      "bytes": 9871,
+      "mtime_ns": 1792574575865681390,
+      "build_artifact": {
+        "path": ".lake/build/lib/lean/HitAndRun/Sobolev/WeightedCutoffLimit.olean",
+        "mtime_ns": 1792574582131551760,
+        "trace_sha256": "693de0a1499ae494b34be8bc37f2f59e682f8473a895346430f277d62f8c7f34",
+        "dep_hash": "9f3aa5d040e37594",
+        "source_input": [
+          "/workspace/scratch/5895702c050d/hit-and-run/HitAndRun/Sobolev/WeightedCutoffLimit.lean",
+          "12469338303c1738"
+        ]
+      }
+    },
+    {
+      "path": "HitAndRun/Sobolev/WeightedCutoffApproximation.lean",
+      "sha256": "692f72dc1680927e1f80268e524297cf957bc2d1d356941388da23fa28419ca1",
+      "bytes": 2162,
+      "mtime_ns": 1792574602435726736,
+      "build_artifact": {
+        "path": ".lake/build/lib/lean/HitAndRun/Sobolev/WeightedCutoffApproximation.olean",
+        "mtime_ns": 1792574640521149565,
+        "trace_sha256": "c44035af224d5f020c71bea980e6ff67dbe1496082911b65b27460aadad38c84",
+        "dep_hash": "06a911155b11f363",
+        "source_input": [
+          "/workspace/scratch/5895702c050d/hit-and-run/HitAndRun/Sobolev/WeightedCutoffApproximation.lean",
+          "6eb473cb1480a412"
+        ]
+      }
+    },
+    {
+      "path": "HitAndRun/Sobolev/WeightedImprovedPoincare.lean",
+      "sha256": "dbc73f87cfef644c1d11d2677f0fb07b6bc2f9416597ba59402c7661d97a7c2c",
+      "bytes": 3049,
+      "mtime_ns": 1792574671643371925,
+      "build_artifact": {
+        "path": ".lake/build/lib/lean/HitAndRun/Sobolev/WeightedImprovedPoincare.olean",
+        "mtime_ns": 1792574813911338183,
+        "trace_sha256": "72fcbf46e1ec80ce6c83ca877deb0324c35c7dd90b3ef7d8a55510f71183d03d",
+        "dep_hash": "5a6e45141871f1ac",
+        "source_input": [
+          "/workspace/scratch/5895702c050d/hit-and-run/HitAndRun/Sobolev/WeightedImprovedPoincare.lean",
+          "585c708f776b1e87"
+        ]
+      }
+    }
+  ],
+  "consumers": [
+    {
+      "path": "verification/consumers/WeightedCutoffExtension.lean",
+      "sha256": "1d0c28b02291f1ec5beb06f1ff64598c18782dbe860e403f28a438395f058dd2",
+      "bytes": 407,
+      "mtime_ns": 1792574246404721541,
+      "check_count": 4,
+      "axiom_query_count": 4,
+      "example_count": 0
+    },
+    {
+      "path": "verification/consumers/WeightedCutoffLimit.lean",
+      "sha256": "1479fff5ddaa5a89e72e938b2dbc31f51e8d4342eea4a3d7fff73267ec0f9155",
+      "bytes": 224,
+      "mtime_ns": 1792574602437147838,
+      "check_count": 0,
+      "axiom_query_count": 3,
+      "example_count": 0
+    },
+    {
+      "path": "verification/consumers/WeightedImprovedPoincare.lean",
+      "sha256": "41cde02c9eacf63a153859ce493e2cb689d0466072f26d478f254532f780c363",
+      "bytes": 413,
+      "mtime_ns": 1792574692955493797,
+      "check_count": 3,
+      "axiom_query_count": 3,
+      "example_count": 0
+    }
+  ],
+  "logs": [
+    {
+      "path": ".local/weighted-cutoff-consumer.log",
+      "sha256": "b481eb91a02e9594203b8078a3ccff3f6aa4bd9b1359b3adc8b2e673d519c98f",
+      "bytes": 3442,
+      "mtime_ns": 1792574288626018372,
+      "axiom_audits": [
+        {
+          "declaration": "HitAndRun.Sobolev.weightedCutoffGradient_memLp",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "HitAndRun.Sobolev.weightedCutoff_hasWeakFDerivOn_top",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "HitAndRun.Sobolev.exists_weightedCutoff_W12",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "HitAndRun.Sobolev.exists_weightedCutoff_globalW12",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "error_count": 0,
+      "build_success_markers": []
+    },
+    {
+      "path": ".local/weighted-cutoff-limit-build.log",
+      "sha256": "fdce6ade67cfdedfca079dbc165412ad112a4fad1995dc0158df905e26846e68",
+      "bytes": 10154,
+      "mtime_ns": 1792574582467549622,
+      "axiom_audits": [],
+      "error_count": 0,
+      "build_success_markers": [
+        "Build completed successfully (3726 jobs)."
+      ]
+    },
+    {
+      "path": ".local/weighted-cutoff-limit-audit.log",
+      "sha256": "743c94f0da8bce4d2cdcfd59d1788495df0b56143f043d9436f4b683111a0800",
+      "bytes": 10561,
+      "mtime_ns": 1792574643399544261,
+      "axiom_audits": [
+        {
+          "declaration": "HitAndRun.Sobolev.plateau_function_toLp_tendsto",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "HitAndRun.Sobolev.plateauWeightedField_toLp_tendsto",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "HitAndRun.Sobolev.exists_weightedCutoff_approximants",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "error_count": 0,
+      "build_success_markers": [
+        "Build completed successfully (3727 jobs)."
+      ]
+    },
+    {
+      "path": ".local/weighted-ipi-build-audit.log",
+      "sha256": "1ae795a0966b497fcaafbd2ef4fdf19f1b6aaa841dfc95854312a8aba1fb3fd5",
+      "bytes": 24454,
+      "mtime_ns": 1792574820758171546,
+      "axiom_audits": [
+        {
+          "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.exists_weightedH1_approximants",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.improvedPoincare_of_weighted_weak_gradient",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.improvedPoincare_centered_of_weighted_weak_gradient",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "error_count": 0,
+      "build_success_markers": [
+        "Build completed successfully (3784 jobs)."
+      ]
+    }
+  ],
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "counts": {
+    "implementation_files": 4,
+    "consumer_files": 3,
+    "check_commands": 7,
+    "axiom_queries": 10,
+    "axiom_results": 10,
+    "examples": 0
+  },
+  "execution_evidence": [
+    {
+      "session_id": 37395,
+      "action": "lake build HitAndRun.Sobolev.WeightedCutoffExtension",
+      "observed_tool_exit_code": 0,
+      "evidence": "Parent-visible tool completion at 2026-10-21 09:17:47 UTC; direct build exit, successful 3721 jobs."
+    },
+    {
+      "session_id": 99370,
+      "action": "lake env lean HitAndRun/Sobolev/WeightedCutoffApproximation.lean",
+      "observed_tool_exit_code": 0,
+      "evidence": "Direct Lean exit 0, empty output, observed 2026-10-21 09:23:39 UTC."
+    },
+    {
+      "session_id": 27222,
+      "action": "lake build HitAndRun.Sobolev.WeightedCutoffApproximation && lake env lean verification/consumers/WeightedCutoffLimit.lean",
+      "observed_wrapper_exit_code": 0,
+      "log": ".local/weighted-cutoff-limit-audit.log"
+    },
+    {
+      "session_id": 93127,
+      "action": "lake build HitAndRun.Sobolev.WeightedImprovedPoincare && lake env lean verification/consumers/WeightedImprovedPoincare.lean",
+      "observed_wrapper_exit_code": 0,
+      "log": ".local/weighted-ipi-build-audit.log"
+    },
+    {
+      "session_id": 2851,
+      "action": "lake env lean verification/consumers/WeightedCutoffExtension.lean",
+      "observed_wrapper_exit_code": 0,
+      "log": ".local/weighted-cutoff-consumer.log"
+    }
+  ],
+  "evidence_qualification": "Final logged commands used a trailing tail command, so tool exit 0 is the wrapper status, not independently captured child status. Their logs contain successful build markers where applicable, all expected axiom results, and no Lean error; successful direct build/Lean exits are separately identified. No new compilation was run. Current source mtimes precede their built artifacts and production source was not changed after its reported successful compile.",
+  "frozen_allowlist": [
+    "HitAndRun/Sobolev/WeightedCutoffExtension.lean",
+    "HitAndRun/Sobolev/WeightedCutoffLimit.lean",
+    "HitAndRun/Sobolev/WeightedCutoffApproximation.lean",
+    "HitAndRun/Sobolev/WeightedImprovedPoincare.lean",
+    "verification/consumers/WeightedCutoffExtension.lean",
+    "verification/consumers/WeightedCutoffLimit.lean",
+    "verification/consumers/WeightedImprovedPoincare.lean",
+    ".local/weighted-cutoff-consumer.log",
+    ".local/weighted-cutoff-limit-build.log",
+    ".local/weighted-cutoff-limit-audit.log",
+    ".local/weighted-ipi-build-audit.log",
+    "verification/weighted-cutoff-extension.json"
+  ]
+}

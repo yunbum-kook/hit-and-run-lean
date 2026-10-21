@@ -1,0 +1,24 @@
+{
+  "files": {
+    "HitAndRun/Geometry/PlateauDistanceCutoff.lean": "270d549dea1059f5ae47725ebab0dba6eb5a5079858813286215a6e63dae3ad2",
+    "HitAndRun/Geometry/PlateauDistanceCutoffSequence.lean": "cc4a1fdcb50b7266c731b583ad24243d5d3e70cf934cb6ca2e781f35549baf45",
+    "HitAndRun/Geometry/PlateauDistanceCutoffSmooth.lean": "96e48d51894c6e0688837c726fee7117beefa9df345f0f3c585e40e0ace5d733",
+    "HitAndRun/Sobolev/WeightedGradientLocal.lean": "1145ea689e4b7a0a3c4dce2f1d57ad944a8b7d4b9970b34f3b928887c17bd5d2",
+    "HitAndRun/Sobolev/WeightedGradientRiesz.lean": "51415fc2b357f9fae8a51916bdce1665da94833c4b71485ae1e58463fc194bba",
+    "verification/consumers/PlateauDistanceCutoff.lean": "8e490a0127a4c256e94d98599de395818c6d009e14bfdb3f58c33b300dc29eaa",
+    "verification/consumers/WeightedGradientLocal.lean": "19e74f3972eb24869b28e91acca51472e6036d1144141d2c6ff35a6f7d2eb48d",
+    "verification/consumers/WeightedGradientRiesz.lean": "8af1b78111dcae6ac10c5cc1feb2bded30fdbb31462626df97f6c4bd2eeb79e5"
+  },
+  "evidence": "Producer successful builds and imported consumers; independent frozen hash and printed axiom review, no reexecution.",
+  "audit_logs": [
+    ".local/plateau-consumer.log",
+    ".local/weighted-gradient-local-consumer.log",
+    ".local/weighted-gradient-riesz-consumer.log"
+  ],
+  "transitive_axiom_reports": 20,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "actual build and imported consumer succeeded",
+  "build_exit": 0,
+  "consumer_exit": 0,
+  "source_complete": false,
+  "remaining": "actual rough finite-vector analytic bound and weighted cutoff passage",
+  "files": {
+    "HitAndRun/Sobolev/WeightedTestFunctional.lean": "31fb88194489a30310662d5e0a1a5bb46c10dde1c5e90296055082a4f174f405",
+    "HitAndRun/Sobolev/SmoothWeightedGradient.lean": "0fd07910bf82ce18b234081f6f72d688500643ddbaaebbec8cc105a18fc925ee",
+    "HitAndRun/Analysis/CompactQuotientLimit.lean": "3c28e8d92a4004a66516a68ac01f7c6dadf44036a22c438e6eb12e97fdd02699",
+    "HitAndRun/Sobolev/BoundaryTestLimit.lean": "e333db3cc521573d0523e37f241e771663c7d3562a4ceda0b0f7c0ace43b7523",
+    "HitAndRun/Sobolev/SmoothWeightedTest.lean": "dc48b7a2fee7d5a430533ece006b36a1f59a80bb1c8f6f82b33fd9eca98fb756",
+    "HitAndRun/Sobolev/MollifiedSkewEnergy.lean": "a9cac92c417d7ea4ca28e9f181c5f7f5a4796d67f3cc2eeb4cda6dc2117b1da9",
+    "verification/consumers/WeightedFunctional.lean": "d84a69716bb13205bf17ed18c97732cb5e13a5f2bb13ea90e6ce801eb8cc1e25"
+  },
+  "consumer": "verification/consumers/WeightedFunctional.lean",
+  "audit_log": "/tmp/har-weighted-functional-audit.log",
+  "build_log": "/tmp/har-weighted-functional-build5.log",
+  "axiom_reports": 13,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

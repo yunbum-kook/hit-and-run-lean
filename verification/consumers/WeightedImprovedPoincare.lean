@@ -1,0 +1,9 @@
+module
+import HitAndRun.Sobolev.WeightedImprovedPoincare
+open HitAndRun.Sobolev.BoundedOpenDomain
+#check exists_weightedH1_approximants
+#check improvedPoincare_of_weighted_weak_gradient
+#check improvedPoincare_centered_of_weighted_weak_gradient
+#print axioms exists_weightedH1_approximants
+#print axioms improvedPoincare_of_weighted_weak_gradient
+#print axioms improvedPoincare_centered_of_weighted_weak_gradient

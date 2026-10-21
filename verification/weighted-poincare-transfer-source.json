@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-10-21T09:29:15.581777+00:00",
+  "scope": "Source-compatible conditional C1 weighted L1 to actual W12 least IPI\u22644A\u00b2. Actual S07 inequality remains explicit premise; no S08 completion yet.",
+  "module_compile_exit_codes": {
+    "HitAndRun/Sobolev/WeightedPoincareTransferC1.lean": 0,
+    "HitAndRun/Sobolev/WeightedPoincareTransferSource.lean": 0
+  },
+  "consumer": "verification/consumers/WeightedPoincareTransferSource.lean",
+  "full_imported_examples": 3,
+  "consumer_exit_code": 0,
+  "transitive_axiom_reports": 5,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log": ".local/weighted-transfer-source-audit.log",
+  "dependency_receipt": "verification/weighted-poincare-transfer.json",
+  "sha256": {
+    "HitAndRun/Sobolev/WeightedPoincareTransferC1.lean": "dd7bcbb6cc67dc74b2dc5e85c00cb86e0b48c4c8354142bc67614808cf9c942f",
+    "HitAndRun/Sobolev/WeightedPoincareTransferSource.lean": "f548005e9e1444c884c2e229fb4e7141d62a750dd6eaac70e0c4139204ccbf0a",
+    "verification/consumers/WeightedPoincareTransferSource.lean": "ea8a9254e7e3952deaed8f51c4eb3241e20ffd3a67c8587eb00fd16b3ca4cfc7"
+  }
+}

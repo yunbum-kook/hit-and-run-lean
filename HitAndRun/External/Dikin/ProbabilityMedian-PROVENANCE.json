@@ -1,0 +1,13 @@
+{
+  "repository": "yunbum-kook/dikin-d2",
+  "source_path": "DikinD2/Probability/ProbabilityMedian.lean",
+  "local_source": "dikin-integration/DikinD2/Probability/ProbabilityMedian.lean",
+  "git_blob": "d1ff596ab061b8f3ab0f101ac55fd988da81772f",
+  "sha256": "d9d67fa1a2dda9072545c6abfbe8a0c0d2d2931c894873bfec4df664f4378964",
+  "adapted_path": "HitAndRun/External/Dikin/Probability/ProbabilityMedian.lean",
+  "changes": "None; byte-identical targeted reuse.",
+  "authorization": "Owner explicitly authorized reusing Dikin results in the private new formalization project.",
+  "license": "No new public license grant inferred for original Dikin code; retain existing notices.",
+  "upstream_commit": "c5f8471b62573fc0417bfafeb16c2b5be2637ff1",
+  "remote_tree_verified": true
+}

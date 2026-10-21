@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-21T09:27:23.433479+00:00",
+  "scope": "Conditional weighted L1 to actual W12 IPI; this generic version assumes all differentiable functions. C1-only source specialization follows separately. No source completion.",
+  "module_compile_exit_codes": {
+    "HitAndRun/Sobolev/WeightedPoincareTransferEnergy.lean": 0,
+    "HitAndRun/Sobolev/WeightedPoincareTransfer.lean": 0,
+    "HitAndRun/External/Dikin/Probability/ProbabilityMedian.lean": 0
+  },
+  "consumer": "verification/consumers/WeightedPoincareTransfer.lean",
+  "full_imported_examples": 3,
+  "consumer_exit_code": 0,
+  "transitive_axiom_reports": 8,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log": ".local/weighted-transfer-audit.log",
+  "sha256": {
+    "HitAndRun/Sobolev/WeightedPoincareTransferEnergy.lean": "25ae379a4e15e9b049431c972b7a2321d498cb48e50be5eec7c572d785b3a957",
+    "HitAndRun/Sobolev/WeightedPoincareTransfer.lean": "c1cd28d6f926220f40733512504621dedb2040d6c24ed4d79f5ad1221194bda7",
+    "HitAndRun/External/Dikin/Probability/ProbabilityMedian.lean": "d9d67fa1a2dda9072545c6abfbe8a0c0d2d2931c894873bfec4df664f4378964",
+    "verification/consumers/WeightedPoincareTransfer.lean": "7fd7faeb36f5a70121efea3f80111092da8cdbe51927e570a8965d8761b9a445"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-21T09:42:28Z",
+  "files": {
+    "HitAndRun/Sobolev/BabuskaAzizSource.lean": "19d6cd61bb342b45c91ca94bdb4e1a0bc2805258c5bb2223b503d210e981550e",
+    "verification/consumers/BabuskaAzizSource.lean": "50d3371ccc86d7eceb9087cada2cc881d8dc9411f9011850b1a1b6c3872e82ba"
+  },
+  "build_exit_code": 0,
+  "consumer_exit_code": 0,
+  "full_statement_examples": 2,
+  "axiom_reports": 2,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "logs": {
+    ".local/ba-source-build.log": "ad483401746f41600fd9c16ee8514a9b199371a166171b45220035318211b60d",
+    ".local/ba-source-audit.log": "d3b7234a2975977d75318d5d34ecfdf062ed416bbdbab1b11b6d917d00ed89ad"
+  },
+  "scope": "S04 Theorem1.4 exact CBA\u22641+4CIPI for literal extended optimal constants. Actual rough B5 supplies residual bound, actual H01 residual/curl identities and Lax\u2013Milgram close duality; infinite IPI handled honestly."
+}

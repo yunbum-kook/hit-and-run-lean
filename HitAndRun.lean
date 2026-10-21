@@ -43,3 +43,6 @@ public import HitAndRun.Analysis.BoundedTestFunctional
 public import HitAndRun.Sobolev.BoundaryTest
 public import HitAndRun.Geometry.WeightedPoincareMedianApproximation
 public import HitAndRun.Sobolev.ImprovedPoincareLimit
+public import HitAndRun.Sobolev.BabuskaAzizSource
+public import HitAndRun.Markov.MixingAccuracy
+public import HitAndRun.Sobolev.WeightedPoincareTransferSource

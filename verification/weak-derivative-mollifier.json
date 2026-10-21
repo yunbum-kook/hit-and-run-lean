@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-21T09:12:09Z",
+  "files": {
+    "HitAndRun/Sobolev/WeakDerivativeMollifier.lean": "9ebd935219aba64254fc43a37c34625d92c28743450a5e66e8014d0111f09160",
+    "verification/consumers/WeakDerivativeMollifier.lean": "5f3c173024c144418aea5df505959a6ee625694d0c4a05b8dd5e55f2d2df875e"
+  },
+  "build_log": "/tmp/har-weak-derivative-mollifier-build.log",
+  "consumer": "verification/consumers/WeakDerivativeMollifier.lean",
+  "audit_log": "/tmp/har-weak-derivative-mollifier-audit.log",
+  "consumer_examples": 1,
+  "axiom_reports": 1,
+  "exit_code": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_completion": false
+}
