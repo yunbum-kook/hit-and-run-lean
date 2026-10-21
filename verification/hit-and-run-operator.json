@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-21T09:10:35.784783+00:00",
+  "scope": "Actual HAR family measurability, stationarity, native L2 conjugation and exact averaged Dirichlet energy. Final S05 Rayleigh assembly is separate.",
+  "module_compile_exit_codes": {
+    "HitAndRun/Markov/HitAndRunOperatorMeasurable.lean": 0,
+    "HitAndRun/Markov/HitAndRunOperatorFamily.lean": 0,
+    "HitAndRun/Markov/HitAndRunOperatorStationary.lean": 0,
+    "HitAndRun/Markov/HitAndRunOperatorFubini.lean": 0,
+    "HitAndRun/Markov/HitAndRunOperatorNative.lean": 0,
+    "HitAndRun/Markov/HitAndRunOperatorEnergy.lean": 0
+  },
+  "consumer": "verification/consumers/HitAndRunOperator.lean",
+  "full_imported_examples": 4,
+  "consumer_exit_code": 0,
+  "transitive_axiom_reports": 16,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log": ".local/har-operator-audit.log",
+  "sha256": {
+    "HitAndRun/Markov/HitAndRunOperatorMeasurable.lean": "5dd1aff7d6133c6d9b4b6c39c6cee482056798a613cc035eeaedb2fca9de238a",
+    "HitAndRun/Markov/HitAndRunOperatorFamily.lean": "134268a82aa1a9c713fe77ece88a40780a7f82168a52682ee452659a878eb8f3",
+    "HitAndRun/Markov/HitAndRunOperatorStationary.lean": "03b7d6f0fb1a8b804ba84d408b50eb14920e8c4e99f4d7aae5b1c6fc3f78cfba",
+    "HitAndRun/Markov/HitAndRunOperatorFubini.lean": "8211a9ea49cf8cbb1887efb67d9bed3b162029f58780e1e9080e8f7d78a55245",
+    "HitAndRun/Markov/HitAndRunOperatorNative.lean": "79b15f11c7ec7b7e2526b6f292b37d7f4ae8ccc5af8e862d867d452649c59b63",
+    "HitAndRun/Markov/HitAndRunOperatorEnergy.lean": "04d0814767b6b5f7221d83ead4f42749d2bee143896320778a4cb8929c3c407f",
+    "verification/consumers/HitAndRunOperator.lean": "778a67e76c1d81fa711dfc27c81cd68b6410b7db191bd8babef852863526d7ee"
+  },
+  "excluded_draft": "HitAndRunOperatorReversible.lean",
+  "remaining_source_gate": "Root exact source S05 Rayleigh assembly and independent review."
+}

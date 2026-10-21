@@ -1,0 +1,16 @@
+{
+  "reviewed_utc": "2026-10-21T08:57:10Z",
+  "files": {
+    "HitAndRun/Markov/DirectionalAnnihilationCertificate.lean": "e1116c39e5a5374f7414180412563169c898a878ab82d506ad29182c0b9ca2b3",
+    "HitAndRun/Markov/DirectionalAnnihilationChart.lean": "a7eaba56b4b1d9c69cafe437f2a7a83c6da8504bc0a1da6c07080cb5ceb4affc",
+    "HitAndRun/Markov/DirectionalAnnihilationSobolev.lean": "2f7a42da7cf0b738c616bbf1fe4c766016195ed342f007cedda92bbd2fb866ce",
+    "HitAndRun/Markov/DirectionalAnnihilationTest.lean": "85f5c6c972bd3a1adb651f19006ed325ebc42f59b7a8f5e19d807765a8edf270",
+    "verification/consumers/DirectionalAnnihilation.lean": "ea4f8383a8b7787dceed2f60881c020c1295819636db1cc581c9288cff50b55e"
+  },
+  "producer_observed_build_and_consumer_exit": 0,
+  "full_statement_examples": 2,
+  "transitive_axiom_reports": 5,
+  "axiom_output": "'HitAndRun.Markov.directionQuotient_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.integral_directional_cylinder_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.h01_directional_projection' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.gradient_directional_projection' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.sphereCertificate_directional_projection' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "scope": "Actual orthogonal quotient and rotated smooth compact tests, cylinder cancellation transported by volume-preserving isometry; actual H01 closure and weak partial sum prove sphere-certificate annihilation. No assumed Sobolev rotation or directional chord identification.",
+  "named_source_completions_added": 0
+}

@@ -8,16 +8,18 @@ Main TeX SHA256: `fdbcb45400d5abe4d390dff4bf9e9c2fe92c8e69a7ac431649aac1d21b8dae
 
 There are **13 numbered proof-bearing source results**: 3 theorems, 2 corollaries, 2 propositions, 6 lemmas. All 13 are initially unproved in this project. Definitions, displayed identities, cited background, and helper lemmas are essential dependencies but do not add to this denominator. Each numbered result may receive several implementation tasks; partial tasks do not count as completion of that result. Initial baseline is retained here; the verified checkpoint below supersedes it.
 
-## Verified checkpoint: 2026-10-21 08:43 UTC
+## Verified checkpoint: 2026-10-21 09:12 UTC
 
-**6/13 named source results accepted (46.2%): S03 / Lemma 1.3, S06 / Proposition 2.2,
-S09 / Lemma B.1, S10 / Lemma B.2, S11 / Lemma B.3, S12 / Lemma B.4.** This is a named-statement fraction, not a difficulty-weighted estimate. The other seven remain open.
+**7/13 named source results accepted (53.8%): S03 / Lemma 1.3, S05 / Proposition 2.1, S06 / Proposition 2.2,
+S09 / Lemma B.1, S10 / Lemma B.2, S11 / Lemma B.3, S12 / Lemma B.4.** This is a named-statement fraction, not a difficulty-weighted estimate. The other six remain open.
+
+S05 proves the exact (n+2)/(n*(2+CBA)) bound for the actual uniform-sphere/chord native operator. Directional-family measurability, actual chord identification, fourth moments and H01 certificate cancellation are proved. Evidence: `verification/hit-and-run-gap.json`; independent review: `planning/hit-and-run-source-review.md`. The imported consumer passed with four standard-only transitive reports.
 
 S06 proves the exact finite-CBA bound 1/(n*CBA) for the actual coordinate Hit-and-Run kernel. The body-valued normalized-chord finite mixture is identified almost everywhere with the conditional-projection operator through a proved surjective L2 isometry. Product-section disintegration, chord integrability, representative independence and integral-form stationarity are proved, not assumed. The gap is the literal nonempty Rayleigh infimum. Evidence: `verification/coordinate-kernel-complete.json` (three full imported examples, twelve standard-only transitive reports); independent source review: `planning/coordinate-source-review.md`.
 
 The other five accepted results use actual zero-trace Sobolev gradient fields and centered L2 for uniform probability, with original source constants. Their evidence remains in `verification/uniform-source.json`, `verification/residual-identities.json`; actual curl validation is also retained in `planning/curl-verification.json`. S11/S12 first landed at `48c6b1abf4233b35b6cf198fefb7996f51a1dd02`. The algorithm and sphere foundation milestone landed at `64047f674756c0473ae85d47da339334848435e4`.
 
-Domain hypotheses are bounded/open/nonempty and positive dimension; omitting convexity proves stronger intermediate results. Source n>=2 cases are covered. No helper or draft adds to this denominator. HAR comparison, the rough weighted residual estimate, main gap bounds and mixing corollary remain open.
+Domain hypotheses are bounded/open/nonempty and positive dimension; omitting convexity proves stronger intermediate results. Source n>=2 cases are covered. No helper or draft adds to this denominator. The rough weighted residual estimate, geometric PI/IPI bounds, main gap bounds and complete mixing corollary remain open.
 
 Line references below are to the unmodified `source/tex/main.tex`.
 

@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-21T08:59:25Z",
+  "status": "compiled_and_imported_consumer_audited",
+  "source_completion": false,
+  "source_scope": "B.5 helper foundations only; actual finite vector-test bound and rough weighted-gradient limit remain",
+  "files": {
+    "HitAndRun/Sobolev/SmoothGraph.lean": "44954f64d40b4f129a097f511f1047a3a5cbd4d5d6c15b12f5de9cda49ba70ae",
+    "HitAndRun/Sobolev/SmoothDistribution.lean": "e56fb1e94641b1f96a19ee72d599d3b040a4363f368b408c229ce0cd4aebdb3a",
+    "HitAndRun/Geometry/InnerDomain.lean": "b8bc9526cc7d3465fde6b4826542161cde9a970d4f4e8abb3449316dc726d3b8",
+    "HitAndRun/Analysis/BoundedTestFunctional.lean": "138121618fa8d8e02c34af13f5f6e556aeed576560cbe65f6875d77c7fe01e0c",
+    "HitAndRun/Sobolev/BoundaryTest.lean": "63174c1caf65ed171feb806de89eec05bb0eec267d4e372313e243a13ed5c379",
+    "verification/consumers/SmoothWeightedTest.lean": "236eaa711edc73c5ab8db4c3ffe383c07570546f682fafa3d9a38141818040d7"
+  },
+  "build_logs": [
+    "/tmp/har-smooth-weighted-build.log",
+    "/tmp/har-smooth-weighted-build4.log",
+    "/tmp/har-smooth-graph-build5.log"
+  ],
+  "consumer": "verification/consumers/SmoothWeightedTest.lean",
+  "audit_log": "/tmp/har-smooth-weighted-audit.log",
+  "consumer_examples": 2,
+  "axiom_reports": 8,
+  "exit_code": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "warnings": "Unused section variables, haveI style, one unused change tactic; no sorry or added axiom.",
+  "axiom_output": "'HitAndRun.Sobolev.smoothGraph_mem_W12' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.norm_sq_smoothGraph' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.smooth_distribution_of_pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.mollified_distribution_on_inner' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Geometry.innerDomain_distance_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Analysis.exists_riesz_of_test_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.boundaryTest_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.boundaryTest_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "independent_review": "Actual smooth weak graph and norm identity; localized distribution relation; inner parallel distance lower bound; compact-support coefficient phi/delta is genuine L2 without differentiating delta; generic bounded-test Riesz extension proves kernel consistency. No finite vector test bound or rough B5 conclusion claimed."
+}

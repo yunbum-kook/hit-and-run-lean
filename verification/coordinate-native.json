@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-21T08:56:27.560122+00:00",
+  "scope": "Actual CHAR stationarity, native L2 conjugacy, joint reversibility and exact BA-rate chi-square contraction. No new named source completion.",
+  "module_compile_exit_codes": {
+    "HitAndRun/Markov/CoordinateKernelIdentificationStationary.lean": 0,
+    "HitAndRun/Markov/CoordinateKernelIdentificationNative.lean": 0,
+    "HitAndRun/Markov/CoordinateKernelIdentificationReversible.lean": 0,
+    "HitAndRun/Markov/CoordinateKernelIdentificationMixing.lean": 0
+  },
+  "consumer": "verification/consumers/CoordinateNative.lean",
+  "full_imported_examples": 4,
+  "consumer_exit_code": 0,
+  "transitive_axiom_reports": 12,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log": ".local/coordinate-native-audit.log",
+  "sha256": {
+    "HitAndRun/Markov/CoordinateKernelIdentificationStationary.lean": "cc58fd2f92fbc46e4ac4b239a4c0db33ac97412a1c2c8f15651ec26a661dc182",
+    "HitAndRun/Markov/CoordinateKernelIdentificationNative.lean": "7e131fcbaba08433b2ea3a5745ad11bd561e045bae5fc94914bd0a5f2c6800d2",
+    "HitAndRun/Markov/CoordinateKernelIdentificationReversible.lean": "8be63a28f35f9ee7ef6fa15a17daef60338808396e4e682757a093c230f90f5c",
+    "HitAndRun/Markov/CoordinateKernelIdentificationMixing.lean": "3c078b77234a6dd8cd46d0cb3373fe9fe75ae13ce2dbd9059114a2e874a39636",
+    "verification/consumers/CoordinateNative.lean": "ebe0e76798d9c7cae15e264285a2fd9342abf120ec91c10fc855f98c422fd6e9"
+  },
+  "remaining_source_gates": [
+    "Corollary1.2 requires geometric CBA bound, covariance/logarithm substitution, and HAR branch."
+  ]
+}

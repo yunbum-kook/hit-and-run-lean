@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-10-21T08:45:03Z",
+  "status": "helpers_only_not_source_B5_completion",
+  "build_logs": [
+    "/tmp/har-local-bridge-build2.log",
+    "/tmp/har-dist-mollifier-build3.log"
+  ],
+  "final_consumer": "verification/consumers/LocalRoughBridge.lean",
+  "final_audit_log": "/tmp/har-local-bridge-audit.log",
+  "consumer_examples": 2,
+  "axiom_reports": 8,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "final_exit": 0,
+  "files": {
+    "HitAndRun/Sobolev/DistributionMollifier.lean": "0c944b8285de1282b416d7ce8f2a5fa294ecf27344ae2aaf6404445764f5010e",
+    "HitAndRun/Sobolev/WeakGraphLimit.lean": "f1deb17f79fa8f43bb0984ea91f27a7d519da42cef7523b18ac116d25c2e394b",
+    "HitAndRun/Analysis/MollifiedL2.lean": "94876a389ca3f573289d27929a86c76a64c2b47ee67d101bf3be17391c2d2771",
+    "verification/consumers/LocalRoughBridge.lean": "13663bd21dd5de96d7f6bc3b22e883dd7c32cc9148f36fbb0016653ff0ea9c71"
+  },
+  "axiom_output": "'HitAndRun.Sobolev.translatedNormedTest' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.mollified_distribution_pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.closedBall_subset_of_lt_interiorDistance' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.exists_weak_graph_of_bounded_l2_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.weak_graph_fn_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.weak_graph_norm_le_of_bounded_l2_limit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Analysis.memLp_normed_convolution_two' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Analysis.tendsto_mollifiedL2' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "independent_review": "Interior supported translated mollifier test gives exact distributional derivative convolution equality; actual L2 mollification converges strongly; bounded H1 graph subsequence-free limit uses Hahn\u2013Banach/Riesz and genuine weak-gradient uniqueness. No boundary regularity, global rough weighted energy or B5 endpoint claimed."
+}

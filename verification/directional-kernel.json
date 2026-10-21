@@ -1,0 +1,17 @@
+{
+  "reviewed_utc": "2026-10-21T09:11:02Z",
+  "files": {
+    "HitAndRun/Markov/DirectionalKernelIdentification.lean": "ed78b0c599d01c49d452329e6e53d234b7fcf19de5a07fc2762edc5f4a7488e1",
+    "HitAndRun/Markov/DirectionalKernelIdentificationChart.lean": "c73fcdcf0b6827f39164d184dcac327c93ca4293905760516536e36baa1be468",
+    "HitAndRun/Markov/DirectionalKernelIdentificationIntegrability.lean": "fde890d3c23b0075d92bd71e1f6a90c0100df9ff88157ed757574c7c01fef2b4",
+    "HitAndRun/Markov/DirectionalKernelIdentificationL2.lean": "f77057c2cc794ff6aa241d2d0a295f009c9fa39450c8b33d8294f9596ae0b8b9",
+    "HitAndRun/Markov/DirectionalKernelIdentificationTransport.lean": "df263f1527f1f339b75ab47871d21727769290f43b0d3706309b52cad86793c1",
+    "verification/consumers/DirectionalKernel.lean": "153b8b9fa6b75a3ca453422d6b1f09fa6a6e2ceb11b4be6c5404ae3a1d1572c5"
+  },
+  "producer_observed_build_and_consumer_exit": 0,
+  "full_statement_examples": 2,
+  "transitive_axiom_reports": 8,
+  "axiom_output": "'HitAndRun.Markov.directionalChart_sigma' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.chordLaw_directionRotation' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.condExp_eq_directionalChord' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.integrable_directionalChord_ae' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.directionalProjection_chord_ae' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.directionalProjection_bodyKernel_ae' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.directionalChord_integral_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.sphereCertificate_chord_ae' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "scope": "Actual orthogonal quotient sigma equals rotated coordinate sigma; genuine normalized product-section disintegration yields actual directional chord expectation, integrability and body-L2 transport. No global-in-direction rotation measurability premise is used.",
+  "named_source_completions_added": 0
+}

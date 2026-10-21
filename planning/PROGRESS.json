@@ -1,8 +1,8 @@
 {
   "source": "arxiv:2608.16878v1",
   "source_named_total": 13,
-  "source_named_complete": 6,
-  "source_named_percent": 46.15384615384615,
+  "source_named_complete": 7,
+  "source_named_percent": 53.84615384615385,
   "results": {
     "S01": {
       "status": "open",
@@ -23,8 +23,10 @@
       "reason": "Actual source endpoint not yet independently accepted"
     },
     "S05": {
-      "status": "open",
-      "reason": "Actual source endpoint not yet independently accepted"
+      "status": "verified and published in this commit",
+      "declaration": "HitAndRun.Markov.hitAndRun_source_gap",
+      "evidence": "verification/hit-and-run-gap.json",
+      "review": "planning/hit-and-run-source-review.md: exact coefficient and finite-CBA hypothesis, actual uniform-sphere/chord native operator, literal centered Rayleigh infimum; all measurability and certificate obligations discharged."
     },
     "S06": {
       "status": "verified and published in this commit",
@@ -70,12 +72,12 @@
     }
   },
   "meaningful_partial": [
-    "Actual HAR/CHAR normalized chord algorithms and complete uniform-sphere moments are verified.",
-    "CHAR exact finite-CBA spectral gap is accepted through actual kernel/conditional operator identification; HAR gap and native-law mixing remain open.",
-    "Actual H01 curl energy and residual identities accepted; smooth weighted distance estimate is proved, but rough-data B5 remains open."
+    "Exact finite-CBA HAR and CHAR spectral-gap propositions accepted for actual algorithms.",
+    "Actual CHAR native-law chi-square contraction and reversibility verified; paper mixing corollary still needs geometric constants and both final rates.",
+    "Actual H01 curl/residual identities and smooth weighted cutoff estimates verified; rough B5, geometric PI/IPI bounds and external covariance/log theorem remain open."
   ],
   "counting_rule": "Never convert helper declarations, commits or README claims into whole-paper completion percentage.",
   "accepted_pending_publication": [],
-  "accepted_commit": "The commit containing this ledger and verification/coordinate-kernel-complete.json",
-  "last_accepted_commit": "64047f674756c0473ae85d47da339334848435e4"
+  "accepted_commit": "The commit containing this ledger and verification/hit-and-run-gap.json",
+  "last_accepted_commit": "541c41004f5b331ed6a48e71ff8200d1866e579a"
 }

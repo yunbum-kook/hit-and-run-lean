@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-21T08:51:31Z",
+  "files": {
+    "HitAndRun/Analysis/IntegralCertificate.lean": "0e3fbfcc9eec0f104ca3e87632f289e5d86399d0620a9bafa881a2ccfec6ba3a",
+    "verification/consumers/IntegralCertificate.lean": "ee925adf5a9ad84f8935e48bce6e7998e49525663b5a822ab6ec72051ce5bafd"
+  },
+  "build_exit_code": 0,
+  "consumer_exit_code": 0,
+  "full_statement_examples": 1,
+  "axiom_reports": 1,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "logs": {
+    ".local/integral-certificate-build.log": "254be874100e092c961327336f32d3091206d8ef35e92146f14f27be1f7af98f",
+    ".local/integral-certificate-audit.log": "d17f7674a83a85cf19eb0f8b91366dca2fbeaf1a1ca4e6fd4ead402d7ac1ff33"
+  },
+  "scope": "Generic integral L2 dual certificate, requires explicit genuine MemLp, nonnegative F and C, pairing and certificate bound. No source completion."
+}

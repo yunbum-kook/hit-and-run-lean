@@ -1,0 +1,24 @@
+{
+  "reviewed_utc": "2026-10-21T09:07:52Z",
+  "files": {
+    "HitAndRun/Geometry/WeightedPoincareMedianDensity.lean": "5a4dbf5292b1f0bd0294527acd05e0a08565cd4a985a7d7ff9f7156799b1efc0",
+    "HitAndRun/Geometry/WeightedPoincareMedianDensityChecks.lean": "aa727cfffc98c433d2e5c52618d85674d67b06c216f101bdcf591591d52528cb",
+    "HitAndRun/Geometry/WeightedPoincareMedianApproximation.lean": "c4e2def0b3517f7360b217466013aab57d3fbf082b18a45a69c90620f6fc42d9",
+    "HitAndRun/Geometry/WeightedPoincareMedianApproximationChecks.lean": "a8b749fdfbdfeff99bd9e6bf3383ad8e4f927070f647df2d335a8bafed9ff68f"
+  },
+  "producer_observed_build_and_consumer_exit": 0,
+  "full_statement_examples": 3,
+  "transitive_axiom_reports": 8,
+  "axiom_output": [
+    "HitAndRun/Geometry/WeightedPoincareMedianDensityChecks.lean:15:0: 'HitAndRun.Geometry.integral_sq_dilation_sub_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianDensityChecks.lean:16:0: 'HitAndRun.Geometry.integral_sq_dilation_sub_tendsto_of_bounded' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianDensityChecks.lean:17:0: 'HitAndRun.Geometry.memLp_comp_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianDensityChecks.lean:18:0: 'HitAndRun.Geometry.integral_sq_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianDensityChecks.lean:19:0: 'HitAndRun.Geometry.dilation_error_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianDensityChecks.lean:34:0: 'HitAndRun.Geometry.integral_sq_dilation_sub_tendsto_restrict' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianDensityChecks.lean:35:0: 'HitAndRun.Geometry.integral_sq_inward_dilation_sub_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianApproximationChecks.lean:17:0: 'HitAndRun.Geometry.integral_sq_approx_dilation_sub_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "scope": "Strong L2 dilation continuity from actual compact continuous density and exact Haar scaling; restricted inward convex-domain version uses zero extension and maps-to, no boundary smoothness. Approximate-then-contract diagonal estimate proved. Does not yet assert weak derivative pullback or H1 smooth density.",
+  "named_source_completions_added": 0
+}

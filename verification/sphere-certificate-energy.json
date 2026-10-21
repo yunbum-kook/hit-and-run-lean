@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-21T09:03:03Z",
+  "files": {
+    "HitAndRun/Markov/SphereCertificateEnergy.lean": "be72f5cfa0b9718f63f5107bae6013430da2671dc7deb6f81b8b21318672685e",
+    "verification/consumers/SphereCertificateEnergy.lean": "c41a9ea23ab8c6c2bfc5d52a80e2aefc185dde1726acff552c890b1e99f82f7b"
+  },
+  "build_exit_code": 0,
+  "consumer_exit_code": 0,
+  "full_statement_examples": 1,
+  "axiom_reports": 2,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "logs": {
+    ".local/sphere-energy-build.log": "8a77d5b5878395d6b6ebe9c9ba8b9363508af7f48f2fe3efe29b05e3108c3d07",
+    ".local/sphere-energy-audit.log": "96b32b61b862a70ac6aaad2b888963d675dd4d4fef399523e1db4126ad0f553e"
+  },
+  "scope": "Actual directional conditional-projection energy comparison with source coefficient n/(n+2)*(2+CBA), using genuine H01 certificate and actual sphere moments. Explicit residual MemLp premise remains to discharge from kernel measurability; not S05 completion."
+}

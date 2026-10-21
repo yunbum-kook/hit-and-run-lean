@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-21T09:11:39Z",
+  "files": {
+    "HitAndRun/Markov/HitAndRunGap.lean": "81a97f393c8f969541bc8f66ef015539bd5c9e79c8bccde12439a39174d2b6e5",
+    "verification/consumers/HitAndRunGap.lean": "86ccdc658b4de455ebcd5c12c90f555873f5e76fd273beb683fbed436b450fb4"
+  },
+  "build_exit_code": 0,
+  "consumer_exit_code": 0,
+  "full_statement_examples": 1,
+  "axiom_reports": 4,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "logs": {
+    ".local/root-gap-limit-build.log": "2412c1915f3e86e65cbb109c1bf984231ba692eab6705b92c07dd1b179ec5445",
+    ".local/har-gap-audit.log": "fda1de5ce5d4e0731540a95ce12df62ed4110113471fac8f7a9ebb41ee61a01f"
+  },
+  "scope": "S05 Proposition2.1 exact (n+2)/(n*(2+CBA)) lower bound for literal centered Rayleigh infimum of actual uniform-sphere/chord native operator. Residual measurability, conditional identification and exact moments all proved; finite CBA only."
+}

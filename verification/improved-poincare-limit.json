@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-21T09:11:39Z",
+  "files": {
+    "HitAndRun/Sobolev/ImprovedPoincareLimit.lean": "351606a60f6a81d775404935bf1e1d40049c6a88e8b926bf76da62e5a2cb0b36",
+    "verification/consumers/ImprovedPoincareLimit.lean": "335fd50746eba2e0bdba57e0e69493901e57b1f37d9fefb07348db2dca8f32dc"
+  },
+  "build_exit_code": 0,
+  "consumer_exit_code": 0,
+  "full_statement_examples": 1,
+  "axiom_reports": 3,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "logs": {
+    ".local/root-gap-limit-build.log": "2412c1915f3e86e65cbb109c1bf984231ba692eab6705b92c07dd1b179ec5445",
+    ".local/ipi-limit-audit.log": "17175b39d89b9bddd67bca744f8dc42ce05c3fc78118dd72dd487b20afe59733"
+  },
+  "scope": "Actual H1 IPI passes to L2 limit with convergent genuine weighted energies; no global H1 of limit assumed. Conditional helper, not S13 completion."
+}

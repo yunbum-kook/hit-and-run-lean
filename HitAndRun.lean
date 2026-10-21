@@ -31,3 +31,15 @@ public import HitAndRun.Markov.CoordinateKernelIdentificationL2
 public import HitAndRun.Markov.SphereCertificateMoments
 public import HitAndRun.Geometry.WeightedPoincareMedian
 public import HitAndRun.Sobolev.PoincareConstants
+public import HitAndRun.Markov.HitAndRunGap
+public import HitAndRun.Markov.CoordinateKernelIdentificationMixing
+public import HitAndRun.Sobolev.DistributionMollifier
+public import HitAndRun.Sobolev.WeakGraphLimit
+public import HitAndRun.Analysis.MollifiedL2
+public import HitAndRun.Sobolev.SmoothGraph
+public import HitAndRun.Sobolev.SmoothDistribution
+public import HitAndRun.Geometry.InnerDomain
+public import HitAndRun.Analysis.BoundedTestFunctional
+public import HitAndRun.Sobolev.BoundaryTest
+public import HitAndRun.Geometry.WeightedPoincareMedianApproximation
+public import HitAndRun.Sobolev.ImprovedPoincareLimit
