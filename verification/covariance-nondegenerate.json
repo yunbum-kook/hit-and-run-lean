@@ -1,0 +1,35 @@
+{
+  "scope": "Strict positivity and invertibility of actual centered covariance on a bounded nonempty open Euclidean domain. No convexity, zero barycenter or finite Poincare constant assumed. This is a normalization prerequisite, not a KLS proof.",
+  "producer_execution": "Full targeted Lake build and separate importing consumer both exited 0.",
+  "files": {
+    "HitAndRun/Geometry/CovarianceNondegenerate.lean": "37689e0aa222e3b3f81cb2efb6dbfcbdfff94d4b01b8947482fc6e02e1aa8783",
+    "verification/consumers/CovarianceNondegenerate.lean": "3280d2dbdb158f1fc77cc850c289a95df9af7357e4798e528de45e3a85659548"
+  },
+  "full_imported_examples": 3,
+  "transitive_axiom_reports": 6,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "commands": [
+    "lake build HitAndRun.Geometry.CovarianceNondegenerate",
+    "lake env lean verification/consumers/CovarianceNondegenerate.lean"
+  ],
+  "logs": [
+    ".local/covariance-nondegenerate-build.log",
+    ".local/covariance-nondegenerate-consumer.log"
+  ],
+  "trace_paths": [
+    ".lake/build/lib/lean/HitAndRun/Geometry/CovarianceNondegenerate.trace"
+  ],
+  "axiom_report_messages": [
+    "'HitAndRun.Sobolev.BoundedOpenDomain.inner_eq_mean_of_centeredCovarianceOperator_eq_zero' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.centeredCovarianceOperator_inner_pos' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.centeredCovarianceOperator_ker' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.centeredCovarianceOperator_bijective' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.centeredCovarianceEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.centeredCovarianceEquiv_apply' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+  ],
+  "semantic_review": "Uses covarianceBilin_self of the actual centered covariance to obtain zero linear variance. Finite-measure L2 zero variance implies almost-everywhere constancy. Removing positive finite volume normalization and Haar positivity upgrades this to pointwise constancy on open K. Local equality forces derivative of the projection to vanish, hence the direction is zero. Positive semidefiniteness then gives strict positivity, trivial kernel, and finite-dimensional bijectivity."
+}

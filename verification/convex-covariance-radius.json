@@ -1,0 +1,36 @@
+{
+  "scope": "Actual convex homothety and centered covariance radius bound; origin radius at most 6 n sqrt(CPI) when origin belongs to K.",
+  "status": "Verified helper only; no named source completion increment.",
+  "producer_execution": "Targeted final-byte Lake build and separate full importing consumer each exited 0 on 2026-10-21 at 10:10 UTC.",
+  "files": {
+    "HitAndRun/Geometry/ConvexCovarianceRadius.lean": "9a9e4acb472f68367d0d06446fe33212b3160da769d2ba78e4e1302a80849a54",
+    "verification/consumers/ConvexCovarianceRadius.lean": "488b9b4d13e96588e42b3610aa62bae96a821dee8ae8c9e80bd43d6322d12b61"
+  },
+  "full_imported_examples": 2,
+  "transitive_axiom_reports": 10,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "commands": [
+    "lake build HitAndRun.Geometry.ConvexCovarianceRadius",
+    "lake env lean verification/consumers/ConvexCovarianceRadius.lean"
+  ],
+  "logs": [
+    ".local/covariance-geometry-final-build.log",
+    ".local/ConvexCovarianceRadius-final-consumer.log"
+  ],
+  "axiom_report_messages": [
+    "'HitAndRun.Geometry.convex_affine_homothety_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.centeredProjection_memLp' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.integral_centeredProjection' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.integral_centeredProjection_sq' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.integral_centeredProjection_affine_sq' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.centeredProjection_sq_le' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.norm_sub_barycenter_sq_le' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.norm_sub_barycenter_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.norm_le_covariance_radius' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.norm_le_poincare_radius' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ]
+}

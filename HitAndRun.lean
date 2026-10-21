@@ -46,3 +46,11 @@ public import HitAndRun.Sobolev.ImprovedPoincareLimit
 public import HitAndRun.Sobolev.BabuskaAzizSource
 public import HitAndRun.Markov.MixingAccuracy
 public import HitAndRun.Sobolev.WeightedPoincareTransferSource
+public import HitAndRun.Sobolev.TranslationConstants
+public import HitAndRun.Geometry.ConvexBodyInteriorRadii
+public import HitAndRun.Geometry.CovarianceNondegenerate
+public import HitAndRun.Geometry.InnerBallCovariance
+public import HitAndRun.Geometry.WeightedPoincareAssembly
+public import HitAndRun.Geometry.WeightedPoincareCoefficient
+public import HitAndRun.Geometry.WeightedPoincareLipschitzExtension
+public import HitAndRun.Geometry.MedianWeightedBridge

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "HitAndRun/Geometry/WeightedPoincareGeometry.lean": "464fb024b4910627a990f1b21013fa8cb6ce621790e074e295bf098bb8323723",
+    "HitAndRun/Geometry/WeightedPoincareChecks.lean": "a1b0a01098bbe558db60c95498e3b2a06ef98f9d6653515fa28d729846f2b9fb"
+  },
+  "full_imported_examples": 4,
+  "transitive_axiom_reports": 4,
+  "trace_path": ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareChecks.trace",
+  "axiom_report_messages": [
+    "HitAndRun/Geometry/WeightedPoincareChecks.lean:20:0: 'HitAndRun.Geometry.gauge_boundary_distance' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareChecks.lean:21:0: 'HitAndRun.Geometry.mem_dilation_iff_gauge_lt' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareChecks.lean:22:0: 'HitAndRun.Geometry.contraction_power_lower' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareChecks.lean:23:0: 'HitAndRun.Geometry.contraction_inverse_power_upper' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "scope": "Basic convex homothety geometry only; no source completion."
+}

@@ -1,0 +1,50 @@
+{
+  "scope": "C1 radial boundary-distance error and conditional ordinary-L1 assembly; not source S07 or S08.",
+  "files": {
+    "HitAndRun/Geometry/WeightedPoincareRadial.lean": "d44ecfc3c9e13b113d345d593b52b5b9598814bc39e05fb7382b9ba9cca503c7",
+    "HitAndRun/Geometry/WeightedPoincareResidence.lean": "8f029a9410a72fae3e2e21c67c0a8cff22415d475729cc68640715537a2c9c3a",
+    "HitAndRun/Geometry/WeightedPoincareRadialTransport.lean": "27df352a34a185d46204df4b2f83d180c9d833421cf7f62c3da78ed23d862f7b",
+    "HitAndRun/Geometry/WeightedPoincareRadialChecks.lean": "ad29b743bf2943baa99a63a40ac5233232379de56bc928abd0e9ac06a8baf9f6",
+    "HitAndRun/Geometry/WeightedPoincareRadialBound.lean": "907464e8775e9f5744923279eaf19c2d8d60a8eddbcffaa5a93c10df4d3dc6c0",
+    "HitAndRun/Geometry/WeightedPoincareRadialBoundChecks.lean": "54ab95dfaac0ab3d4cac3307fac6d5ca1ad223f16cf484a37570a6b365c3ab1a",
+    "HitAndRun/Geometry/WeightedPoincareInterior.lean": "65bb40721e28dc9edbc5a5d3703948ad07c573daebb9995e350ce250d8e80ba6",
+    "HitAndRun/Geometry/WeightedPoincareAssembly.lean": "b9c208ca0eabad88300e17474d4b108c7370e742423d699daee7dd4df71cdac8",
+    "HitAndRun/Geometry/WeightedPoincareAssemblyChecks.lean": "6b53f2901845b9fa0f81d6995aab7f6642b0b19d41edc55b2f994c944c6a4c45",
+    "HitAndRun/Geometry/WeightedPoincareCoefficient.lean": "d7e9ce0f2e8ad5e39647ba230fcf12b7b87b4c4727034bb644450e8f3d1bdb59",
+    "HitAndRun/Geometry/WeightedPoincareCoefficientChecks.lean": "ceb79ccf33285b2e5cea7e5c3105e15dbebcd655d20e1c48de5c4972ce7b5f55"
+  },
+  "full_imported_examples": 5,
+  "transitive_axiom_reports": 15,
+  "producer_execution": "Actual successful builds and importing consumers; independent exact hash and Lake trace inspection, no rerun.",
+  "trace_paths": [
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareRadial.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareResidence.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareRadialTransport.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareRadialChecks.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareRadialBound.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareRadialBoundChecks.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareInterior.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareAssembly.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareAssemblyChecks.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareCoefficient.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareCoefficientChecks.trace"
+  ],
+  "axiom_reports": [
+    "HitAndRun/Geometry/WeightedPoincareRadialChecks.lean:18:0: 'HitAndRun.Geometry.radial_norm_sub_le_integral' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareRadialChecks.lean:19:0: 'HitAndRun.Geometry.integral_radial_residence_length' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareRadialChecks.lean:20:0: 'HitAndRun.Geometry.integral_radial_residence' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareRadialChecks.lean:21:0: 'HitAndRun.Geometry.integral_dilated_body_residence' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareRadialChecks.lean:23:0: 'HitAndRun.Geometry.radial_homothety_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareRadialChecks.lean:24:0: 'HitAndRun.Geometry.radial_residence_weight_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareRadialChecks.lean:25:0: 'HitAndRun.Geometry.integral_radial_residence_le_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareRadialBoundChecks.lean:18:0: 'HitAndRun.Geometry.continuous_integrableOn_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareRadialBoundChecks.lean:19:0: 'HitAndRun.Geometry.integral_radial_difference_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareRadialBoundChecks.lean:20:0: 'HitAndRun.Geometry.integrable_radial_slices' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareRadialBoundChecks.lean:21:0: 'HitAndRun.Geometry.integrable_dilated_body_slices' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareRadialBoundChecks.lean:22:0: 'HitAndRun.Geometry.integral_radial_difference_le_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareAssemblyChecks.lean:21:0: 'HitAndRun.Geometry.integral_contraction_le_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareAssemblyChecks.lean:22:0: 'HitAndRun.Geometry.exists_weighted_center_of_ordinaryL1' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareCoefficientChecks.lean:10:0: 'HitAndRun.Geometry.radial_assembly_coefficient_le' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "remaining": "Ordinary L1 reverse-Buser input remains explicit. Full source locally-Lipschitz class not asserted from C1 proof."
+}

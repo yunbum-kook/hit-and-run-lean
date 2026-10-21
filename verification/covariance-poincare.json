@@ -1,0 +1,35 @@
+{
+  "scope": "Actual centered covariance from covarianceBilin, genuine linear W12 tests, and operator norm bounded by finite actual CPI.",
+  "status": "Verified helper only; no named source completion increment.",
+  "producer_execution": "Targeted final-byte Lake build and separate full importing consumer each exited 0 on 2026-10-21 at 10:10 UTC.",
+  "files": {
+    "HitAndRun/Geometry/CovariancePoincare.lean": "57c615d45ce930f13a433a780159b64d62b683effd1cf58439a855d4848cda4e",
+    "verification/consumers/CovariancePoincare.lean": "ff26c9d32fc29ab284c72311ebb7ffcde02f2f5abcce6d71a5917abcd47ce9e1"
+  },
+  "full_imported_examples": 2,
+  "transitive_axiom_reports": 9,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "commands": [
+    "lake build HitAndRun.Geometry.CovariancePoincare",
+    "lake env lean verification/consumers/CovariancePoincare.lean"
+  ],
+  "logs": [
+    ".local/covariance-geometry-final-build.log",
+    ".local/CovariancePoincare-final-consumer.log"
+  ],
+  "axiom_report_messages": [
+    "'HitAndRun.Sobolev.BoundedOpenDomain.uniform_memLp_id' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.linearH1' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.linearH1_fn' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.linearH1_grad' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.linearH1_gradientEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.centeredCovarianceOperator_positive' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.linearH1_varianceEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.centeredCovarianceOperator_quadratic_le' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.norm_centeredCovarianceOperator_le' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+  ]
+}

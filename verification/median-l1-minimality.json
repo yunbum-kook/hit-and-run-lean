@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-21T09:57:55.211922+00:00",
+  "scope": "Actual probability median minimizes absolute deviation for integrable real functions, allowing atoms and AE-only measurability; exact existence-center to C1 weighted-L1 interface. Helper only.",
+  "module_compile_exit_codes": {
+    "HitAndRun/Geometry/MedianL1Minimality.lean": 0,
+    "HitAndRun/Geometry/MedianWeightedBridge.lean": 0
+  },
+  "consumer": "verification/consumers/MedianL1Minimality.lean",
+  "full_imported_examples": 2,
+  "consumer_exit_code": 0,
+  "transitive_axiom_reports": 3,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log": ".local/median-minimality-audit.log",
+  "sha256": {
+    "HitAndRun/Geometry/MedianL1Minimality.lean": "d44c38a0ddc3f5fb7f58f7a209e5a54cf606938f51527475ec8bc3afd43b7bca",
+    "HitAndRun/Geometry/MedianWeightedBridge.lean": "4cf2887db6b858d1cc00767272e81a8d4492e423956bba010e7c8cae6b15224b",
+    "verification/consumers/MedianL1Minimality.lean": "f4ea10bd03ea336d5cd683fd23c70052f1da769ce9a0e3f5ab641fd2f1f81346"
+  }
+}

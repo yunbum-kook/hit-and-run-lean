@@ -1,0 +1,27 @@
+{
+  "scope": "Actual convex body/interior measure and frontier equality and arbitrary-center inscribed-radius transport; no source result increment.",
+  "files": {
+    "HitAndRun/Geometry/ConvexBodyInterior.lean": "89f793288349e6aefa702de6c4bddc6be11b320d138872ef7c0bfad0bf015332",
+    "HitAndRun/Geometry/ConvexBodyInteriorDomain.lean": "1d0987cc9e9ddb91c92858ca5be4785a3722e78d1c2201da2963bbd57b9cfdea",
+    "HitAndRun/Geometry/ConvexBodyInteriorRadii.lean": "dc858dc9d423ba3b04fbb77244c6af4e640c4837d9510ec2a9ab4e2152e09821",
+    "HitAndRun/Geometry/ConvexBodyInteriorChecks.lean": "36c98ac65ee658c7c853ab362e123b6ec5f6e627fafb0bd6ceaa5749c1fc92d9"
+  },
+  "full_imported_examples": 3,
+  "transitive_axiom_reports": 7,
+  "producer_execution": "Actual successful builds and importing consumers; independent exact hash and Lake trace inspection, no rerun.",
+  "trace_paths": [
+    ".lake/build/lib/lean/HitAndRun/Geometry/ConvexBodyInterior.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/ConvexBodyInteriorDomain.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/ConvexBodyInteriorRadii.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/ConvexBodyInteriorChecks.trace"
+  ],
+  "axiom_report_messages": [
+    "HitAndRun/Geometry/ConvexBodyInteriorChecks.lean:18:0: 'HitAndRun.Geometry.convex_ae_eq_interior' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/ConvexBodyInteriorChecks.lean:19:0: 'HitAndRun.Geometry.convex_uniformMeasure_interior' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/ConvexBodyInteriorChecks.lean:20:0: 'HitAndRun.Geometry.convex_frontier_interior' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/ConvexBodyInteriorChecks.lean:21:0: 'HitAndRun.Geometry.bodyInteriorDomain_boundaryDistance' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/ConvexBodyInteriorChecks.lean:22:0: 'HitAndRun.Geometry.convex_boundary_weighted_integral_interior' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "HitAndRun/Geometry/ConvexBodyInteriorChecks.lean:23:0: 'HitAndRun.Geometry.closed_body_inscribed_radii' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/ConvexBodyInteriorChecks.lean:24:0: 'HitAndRun.Geometry.interior_inscribed_radius_sup' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ]
+}

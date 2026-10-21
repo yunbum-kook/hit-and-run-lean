@@ -1,0 +1,36 @@
+{
+  "scope": "Actual ambient locally-Lipschitz W12 graph and same-constant smooth-to-locally-Lipschitz weighted-L1 center transfer, conditional on smooth bound.",
+  "files": {
+    "HitAndRun/Geometry/WeightedPoincareLocallyLipschitz.lean": "cc9eee073d42bac1a4cf9259827ed5028dd65b88f330b1c7e0fd986199ea8c1c",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzWeak.lean": "402d1b701b627debaab0f6c313d02961e9c8b19a5152b77f9b6acbcc37e87f5f",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzGraph.lean": "903d46cbff94e7ab4b0d6f706bbc4c0df2dffe3d1e0b845911b5a34034369390",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzChecks.lean": "68d74129db0f828aaa4d8683df0e5d897e5d603f0684d18a31394b88353d0516",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzLimit.lean": "7653ff142f256feae45d25521b841f56e2d4f712a9d4bba2cb73cc9864300e57",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzExtension.lean": "6fb0b7fdbfc8e6563f4fefd83e7c3080060305653e08ceb14861c9180059bb75",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzExtensionChecks.lean": "aebf23e3b018e90e12b1709bdb34e2a8715c2ab6b8573f290710b526070d05a7"
+  },
+  "full_imported_examples": 3,
+  "transitive_axiom_reports": 10,
+  "producer_execution": "Actual successful builds and importing consumers; independent exact hash and Lake trace inspection, no rerun.",
+  "trace_paths": [
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareLocallyLipschitz.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareLipschitzWeak.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareLipschitzGraph.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareLipschitzChecks.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareLipschitzLimit.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareLipschitzExtension.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareLipschitzExtensionChecks.trace"
+  ],
+  "axiom_report_messages": [
+    "HitAndRun/Geometry/WeightedPoincareLipschitzChecks.lean:17:0: 'HitAndRun.Geometry.locallyLipschitz_fderiv_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzChecks.lean:18:0: 'HitAndRun.Geometry.locallyLipschitz_ae_differentiableOn' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzChecks.lean:19:0: 'HitAndRun.Geometry.locallyLipschitz_fderiv_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzChecks.lean:20:0: 'HitAndRun.Geometry.locallyLipschitz_integral_fderiv_test' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzChecks.lean:21:0: 'HitAndRun.Geometry.locallyLipschitz_hasWeakFDerivOn' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzChecks.lean:22:0: 'HitAndRun.Geometry.locallyLipschitzGraph_mem_W12' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzExtensionChecks.lean:18:0: 'HitAndRun.Geometry.locallyLipschitz_exists_center_bound_of_smooth' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzExtensionChecks.lean:19:0: 'HitAndRun.Geometry.locallyLipschitz_center_bound_of_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzExtensionChecks.lean:20:0: 'HitAndRun.Geometry.minimizing_center_bound_of_L1_limit' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareLipschitzExtensionChecks.lean:21:0: 'HitAndRun.Geometry.tendsto_integral_weighted_norm_of_sq' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ]
+}

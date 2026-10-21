@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-21T10:08:31.049672+00:00",
+  "scope": "Actual translation invariance of uniform PI/IPI via genuine H1 weak-test transport; exact volume normalization, frontier distance and arbitrary inner-ball recentering. Helpers only; no source inequality assumed or completed.",
+  "module_compile_exit_codes": {
+    "HitAndRun/Geometry/TranslatedDomain.lean": 0,
+    "HitAndRun/Sobolev/TranslationIntegrals.lean": 0,
+    "HitAndRun/Sobolev/TranslationH1.lean": 0,
+    "HitAndRun/Sobolev/TranslationConstants.lean": 0
+  },
+  "consumer": "verification/consumers/Translation.lean",
+  "full_imported_examples": 6,
+  "consumer_exit_code": 0,
+  "transitive_axiom_reports": 13,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log": ".local/translation-audit.log",
+  "sha256": {
+    "HitAndRun/Geometry/TranslatedDomain.lean": "bd5ffda95a2d0046e6d0c2a4525429a0f99d7cb593d3d547bebb97958343d5bd",
+    "HitAndRun/Sobolev/TranslationIntegrals.lean": "3afbb96c505fce367be6af7789524057cf1f6d2f4856535c5f6d7fcf3e958ecf",
+    "HitAndRun/Sobolev/TranslationH1.lean": "04f38b22d704e68b22139f51c3361ae6897377ebd03f09f940b0c982a25f4a11",
+    "HitAndRun/Sobolev/TranslationConstants.lean": "b785453a16bb95bf84b59de92d52b296f2564c9fcdcebdf327ca7377e16c4bd8",
+    "verification/consumers/Translation.lean": "8e970942427c6ec657944d5f9504f00c2de1f1a83c05a26424b761f304556213"
+  }
+}
