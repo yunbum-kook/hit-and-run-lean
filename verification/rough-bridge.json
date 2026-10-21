@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-10-21T08:30:11Z",
+  "status": "helpers_only_not_source_B5_completion",
+  "build_logs": [
+    "/tmp/har-rough-bridge-build.log",
+    "/tmp/har-distance-limit-build.log"
+  ],
+  "final_consumer": "verification/consumers/RoughBridge.lean",
+  "final_audit_log": "/tmp/har-rough-bridge-audit.log",
+  "consumer_examples": 2,
+  "axiom_reports": 5,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "final_exit": 0,
+  "files": {
+    "HitAndRun/Sobolev/DistanceCutoffLimit.lean": "7c6a8ff529b02315cd58982b3f68275c24950e52c4c851b8b59f3d34524bf8c2",
+    "HitAndRun/Analysis/BoundedPreimageLimit.lean": "796ca754e07ccf47768ac14ce4411dc25b3f7a62ae30fe9d8e71e6fce39824da",
+    "HitAndRun/External/EllipticPDE/Embedding/Convolution.lean": "af58bfbe7b08ee9b0d40892b637ccc6f461510c7bbc45f8b69040a4be926b898",
+    "verification/consumers/RoughBridge.lean": "8929e00afd756d35fa5d6cc3e90baa85ab75f8ae0a3c9eacc2c23868fa3a5fd7"
+  },
+  "axiom_output": "'HitAndRun.Sobolev.smooth_distance_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Analysis.exists_bounded_preimage_of_adjoint_pairing' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'HitAndRun.Analysis.exists_bounded_preimage_of_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]\n'EllipticPdes.Embedding.eLpNorm_convolution_le_of_integral_eq_one' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'EllipticPdes.Embedding.tendsto_eLpNorm_normed_convolution_sub' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n"
+}

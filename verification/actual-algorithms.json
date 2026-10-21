@@ -1,0 +1,23 @@
+{
+  "recorded_utc": "2026-10-21T08:30:00Z",
+  "modules": {
+    "HitAndRun/Geometry/UniformSphere.lean": "0fef0f4bcc5808f34e849606fe57a211f1603f9fd3a140baefb51d850a548ca1",
+    "HitAndRun/Markov/BodyChordKernel.lean": "80f9a0eafc76d0e013c2062f83ddf23a70daf81f02725db3458f97ee5507d3eb",
+    "HitAndRun/Markov/CoordinateKernel.lean": "6054684dea91ee2a150d5b018f9dc4ff3163d9d2b22f90afa05785dae60fbe28",
+    "HitAndRun/Markov/HitAndRunKernel.lean": "a8bfdbc6d4b22ad40a669fe9dd0619b78449e1f676c3b33c91042087827b6408",
+    "verification/consumers/ActualAlgorithms.lean": "fba2a14d13cd354c7cf33bb0269f57bc79b663a8cd4f26bb0f170f6d24809780"
+  },
+  "compilation": "Producer-observed successful Lake builds; consumer run by sphere worker exited 0. Reviewer inspected evidence without rerunning.",
+  "consumer": "verification/consumers/ActualAlgorithms.lean",
+  "full_statement_examples": 3,
+  "axiom_reports": 7,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log_sha256": "d8fea28da953eb6907a21f0dce386c4af3249f6637e24a5e021d226d955d96f4",
+  "semantic_review": "verification/sphere-chord-review.md",
+  "scope": "Actual normalized sphere probability and body-valued HAR/CHAR Markov kernels. Supersedes the earlier chord-foundation scope note about averaging being unestablished. Stationarity, conditional-expectation identification, and spectral-gap source propositions remain open.",
+  "named_source_completions_added": 0
+}

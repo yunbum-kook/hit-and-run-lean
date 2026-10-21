@@ -3,7 +3,8 @@
   "classification": "B5 helper slice only; no new source completion",
   "files": {
     "HitAndRun/Analysis/SkewEnergy.lean": "2be70d31d2de735a6f1e0ffa81a6e7a65fa737df94a0f6b3419d46ba0dde0b30",
-    "HitAndRun/Sobolev/CutoffSkew.lean": "7060a9eba8d6396da8436a3223b401e21f731207765dea8ddb4150cb66fcbfc4"
+    "HitAndRun/Sobolev/CutoffSkew.lean": "7060a9eba8d6396da8436a3223b401e21f731207765dea8ddb4150cb66fcbfc4",
+    "HitAndRun/Sobolev/CutoffEnergy.lean": "2fb4115ba8b7ebfd93a773b8c69cee396421694c6f69924f936150b622acdfeb"
   },
   "build_exit_code": 0,
   "build_log": "/tmp/har-skew-build.log",
@@ -17,5 +18,10 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "remaining": "Sum/cancel cutoff Hessian terms; integral Cauchy-Schwarz; actual distance and rough-data approximation."
+  "remaining": "Integral Cauchy-Schwarz; actual distance and rough-data approximation.",
+  "energy_consumer": "/tmp/har-cutoff-audit.lean",
+  "energy_consumer_log": "/tmp/har-cutoff-audit.log",
+  "energy_consumer_exit_code": 0,
+  "energy_full_examples": 1,
+  "energy_and_mollifier_axiom_reports": 6
 }

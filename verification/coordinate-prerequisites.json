@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-21T08:01:36Z",
+  "scope": "coordinate cancellation prerequisites, not source completion",
+  "compiled_modules": [
+    "HitAndRun/Markov/CoordinateAnnihilation.lean",
+    "HitAndRun/Markov/CoordinateAnnihilationChart.lean"
+  ],
+  "imported_full_examples": 2,
+  "standard_only_axiom_reports": 6,
+  "exit_code": 0,
+  "remaining": [
+    "actual Euclidean compact-test cylinder integrals",
+    "H01 closure extension",
+    "CHAR gap certificate",
+    "actual chord-kernel identification"
+  ],
+  "files": {
+    "HitAndRun/Markov/CoordinateAnnihilation.lean": {
+      "sha256": "2b83d21d8a000310a1db27607357aefbab83305c2f80d8c9dc0958eb70bb28f2",
+      "bytes": 2543
+    },
+    "HitAndRun/Markov/CoordinateAnnihilationChart.lean": {
+      "sha256": "a1f19644b95b483eaa96f63fb754b66433fca5796facdf36b4fed0766030d122",
+      "bytes": 3995
+    },
+    "verification/consumers/CoordinateAnnihilation.lean": {
+      "sha256": "42556c09853b1bd4c344b28e01694f79245ff84cfd727efb133652bbc98977e2",
+      "bytes": 672
+    }
+  },
+  "logs": [
+    ".local/coordinate-annihilation.log",
+    ".local/coordinate-chart.log",
+    ".local/coordinate-annihilation-audit.log"
+  ]
+}

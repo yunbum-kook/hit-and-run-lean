@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/alejandro-soto-franco/EllipticPDE",
+  "commit": "ec784093f30308ef770ff855ce624725adf6f870",
+  "upstream_path": "lean/EllipticPdes/Analysis/Mollifier.lean",
+  "upstream_git_blob": "3197dd5b78a39a06c06da053eb1b65943a4b6a8d",
+  "author": "Alejandro Soto Franco",
+  "license": "Apache-2.0",
+  "local_path": "HitAndRun/External/EllipticPDE/Analysis/Mollifier.lean",
+  "sha256": "65daa5ee9eb12c34410ac21852fe509c5b4f835b5a270006d389d6daf6dea7a1",
+  "changes": [
+    "One extra trailing newline; no proof, declaration, or import modifications."
+  ],
+  "status": "compiled on pinned final Lean4.35; three principal endpoints audited standard-only",
+  "dependencies": "Three Mathlib imports only; no added package or environment.",
+  "audit_log": "/tmp/har-cutoff-audit.log",
+  "audit_exit_code": 0
+}

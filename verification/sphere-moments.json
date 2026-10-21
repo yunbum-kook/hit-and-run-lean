@@ -1,0 +1,28 @@
+{
+  "recorded_utc": "2026-10-21T08:31:00Z",
+  "files": {
+    "HitAndRun/Geometry/UniformSphere.lean": "0fef0f4bcc5808f34e849606fe57a211f1603f9fd3a140baefb51d850a548ca1",
+    "HitAndRun/Geometry/SphereMoments.lean": "e3eec66e19d6a3b9c0cbd58167cff4d485b016a6f5170f91b29e182742692ec1",
+    "HitAndRun/Geometry/SphereMomentsSecond.lean": "dd809fd160ef8adfa6210ea3b7ef613e3ed42a7e748723f5285848aa13c66100",
+    "HitAndRun/Geometry/SphereMomentsFourth.lean": "b8962a601529bb965a654ce8e76ff4d17fd697f36b3729436770e0415e9d3bfe",
+    "HitAndRun/Geometry/SphereMomentsTensor.lean": "4bf843d939dbb89f56a4596a08bd78e3784f54214b20e548f96bd3933492f599",
+    "HitAndRun/Geometry/SphereMomentsMatrix.lean": "d397cb8bef5b60d2a716ddf64369e11ca6be6274467b1555a99488fc22f7c1b1",
+    "HitAndRun/Geometry/SphereMomentsHilbert.lean": "3f1296c3f60b941ec049019a2ade2cb6fdf2b63462dd444ea3445b4561003042",
+    "HitAndRun/Geometry/SphereMomentsAudit.lean": "1e1221922c3e17424b09d63cca1293af821ddb1c78c99f63b0910a321004ce5d",
+    "HitAndRun/Geometry/SphereMomentsTensorAudit.lean": "dcf56361ae985239748bc34b03e94cf3a89f57f554f811697d2f11a41ce5ac97"
+  },
+  "evidence": "Producer observed all six implementation builds and both consumers exit 0; latest tensor audit exit 0 at 08:26:29 UTC. Root inspected final Tensor/Matrix/Hilbert source and both audit logs, without a separate compilation rerun.",
+  "full_statement_examples": 7,
+  "axiom_reports": 11,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_logs": {
+    ".local/sphere-moments-audit.log": "0b73744a55b0d5c870dc3ee8ae10eb81f82829bd374d837451cd6bd97caad64b",
+    ".local/sphere-tensor-audit.log": "ba27c266e19e639ff789d82e333b49c19cbd77960a05349348868879fb4f0b57"
+  },
+  "semantic_review": "The full fourth tensor is derived from actual orthogonal invariance and proved even moments, with odd cases canceled by coordinate flips. Scalar contraction retains the symmetric part for nonsymmetric matrices. Hilbert norm-squared identity integrates real continuous polynomial integrands; first Bochner moment additionally requires CompleteSpace H. Compactness and continuity establish integrability. Dimensions require NeZero n. No moment hypotheses substitute for proofs.",
+  "named_source_completions_added": 0
+}

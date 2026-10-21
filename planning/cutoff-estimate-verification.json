@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-21T08:05:43Z",
+  "classification": "B5 helper only; smooth compact cutoff estimate, actual distance truncation, and mollifier Lipschitz preservation",
+  "files": {
+    "HitAndRun/Analysis/SkewEnergy.lean": "9b58fb059099a873e603d2ad5e8257699d1b2876e493bc8227caa349f2ada687",
+    "HitAndRun/Analysis/MollifierLipschitz.lean": "31b63248ff8db4111e8195b091895adbd7c035579d7540f3c7be2189fe6cccdf",
+    "HitAndRun/Geometry/DistanceCutoff.lean": "6a8b0fe45754aa3087718e88f15e3a2ad6f4961bbf63b81c0aebbbe82a2f2795",
+    "HitAndRun/Sobolev/CutoffEstimate.lean": "da408d5857bca1e982e5d26a32e3c57404d56a263e8005bb75836069f85d394c"
+  },
+  "consumer": "/tmp/har-cutoff-estimate-audit.lean",
+  "consumer_log": "/tmp/har-cutoff-estimate-audit.log",
+  "consumer_exit_code": 0,
+  "full_examples": 3,
+  "axiom_reports": 8,
+  "all_reported_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "remaining": "Assemble smooth compact distance cutoff with convergence; pass rough L2 distributional data to weighted limit. No source B5 completion."
+}

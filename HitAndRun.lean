@@ -19,3 +19,11 @@ public import HitAndRun.Sobolev.CurlUniform
 public import HitAndRun.Sobolev.ResidualIdentities
 public import HitAndRun.Sobolev.GraphEnergyConstant
 public import HitAndRun.Sobolev.CutoffSkew
+public import HitAndRun.Markov.HitAndRunKernel
+public import HitAndRun.Markov.CoordinateKernel
+public import HitAndRun.Geometry.SphereMomentsMatrix
+public import HitAndRun.Geometry.SphereMomentsHilbert
+public import HitAndRun.Markov.CoordinateAnnihilationGap
+public import HitAndRun.Markov.CoordinateKernelIdentification
+public import HitAndRun.Sobolev.DistanceCutoffLimit
+public import HitAndRun.Analysis.BoundedPreimageLimit

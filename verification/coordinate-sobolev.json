@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-21T08:20:47Z",
+  "scope": "Actual CHAR conditional-projection analytical theorem; S06 still pending chord-kernel identification",
+  "lean": "4.35.0",
+  "mathlib_commit": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "source_tex_sha256": "fdbcb45400d5abe4d390dff4bf9e9c2fe92c8e69a7ac431649aac1d21b8dae19",
+  "compiled_modules": [
+    "HitAndRun/Markov/CoordinateAnnihilationTest.lean",
+    "HitAndRun/Markov/CoordinateAnnihilationSobolev.lean",
+    "HitAndRun/Markov/CoordinateAnnihilationCertificate.lean",
+    "HitAndRun/Markov/SpectralGap.lean",
+    "HitAndRun/Markov/CoordinateAnnihilationGap.lean"
+  ],
+  "imported_consumer": "verification/consumers/CoordinateSobolev.lean",
+  "full_statement_examples": 2,
+  "transitive_axiom_reports": 17,
+  "all_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "exit_code": 0,
+  "source_completion": false,
+  "remaining_source_gate": "Identify coordinateHeatBath with the actual normalized coordinate-chord kernel",
+  "mathematics": [
+    "Compact smooth coordinate derivative integral vanishes by fundamental theorem of calculus and Fubini",
+    "Measure-preserving Euclidean coordinate split and exact uniform normalization",
+    "Actual H01 closure implies conditionalProjection(partial_i u)=0",
+    "Nontrivial centered L2 derived from nonzero actual gradient",
+    "Literal nonempty Rayleigh infimum with explicit bounded-below API",
+    "Exact finite-CBA lower bound 1/(n*CBA) for the conditional-projection operator"
+  ],
+  "files": {
+    "HitAndRun/Markov/CoordinateAnnihilationTest.lean": {
+      "sha256": "acc942c26fec4d2ddad43181397644b6aaf18ed1b20c917000b0e56c8a7105f9",
+      "bytes": 5123
+    },
+    "HitAndRun/Markov/CoordinateAnnihilationSobolev.lean": {
+      "sha256": "1de78cbd58b8434e62b38c9e8c720ffb4a6631efcea7168007b1caede637d977",
+      "bytes": 4089
+    },
+    "HitAndRun/Markov/CoordinateAnnihilationCertificate.lean": {
+      "sha256": "e35a14a097644a159126fc43af4db2db4510dd433c890c06709f3b0ac9f12726",
+      "bytes": 2022
+    },
+    "HitAndRun/Markov/SpectralGap.lean": {
+      "sha256": "d6c5b12e09dc4a6c2c04712526b9cc4da840b604d43802f950a644d5dafb6c09",
+      "bytes": 3768
+    },
+    "HitAndRun/Markov/CoordinateAnnihilationGap.lean": {
+      "sha256": "ddda5ba990261869d7f7521de4f21074cafe60b3e00d3d44147fe11c6520476e",
+      "bytes": 3756
+    },
+    "verification/consumers/CoordinateSobolev.lean": {
+      "sha256": "fac05c8b7eb7e2960e32f62685e63be50479ffebf1aef00ead2327043bb974f3",
+      "bytes": 1426
+    }
+  },
+  "audit_log": ".local/coordinate-sobolev-audit.log"
+}

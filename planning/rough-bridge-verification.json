@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-10-21T08:30:11Z",
+  "status": "helpers_only_not_source_B5_completion",
+  "build_logs": [
+    "/tmp/har-rough-bridge-build.log",
+    "/tmp/har-distance-limit-build.log"
+  ],
+  "final_consumer": "/tmp/har-rough-bridge-audit.lean",
+  "final_audit_log": "/tmp/har-rough-bridge-audit.log",
+  "consumer_examples": 2,
+  "axiom_reports": 5,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "final_exit": 0,
+  "files": {
+    "HitAndRun/Sobolev/DistanceCutoffLimit.lean": "7c6a8ff529b02315cd58982b3f68275c24950e52c4c851b8b59f3d34524bf8c2",
+    "HitAndRun/Analysis/BoundedPreimageLimit.lean": "796ca754e07ccf47768ac14ce4411dc25b3f7a62ae30fe9d8e71e6fce39824da",
+    "HitAndRun/External/EllipticPDE/Embedding/Convolution.lean": "af58bfbe7b08ee9b0d40892b637ccc6f461510c7bbc45f8b69040a4be926b898"
+  }
+}

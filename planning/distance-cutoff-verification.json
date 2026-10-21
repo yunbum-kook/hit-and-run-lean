@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-10-21T08:23:38Z",
+  "status": "helpers_only_not_source_B5_completion",
+  "build_logs": [
+    "/tmp/har-distance-build.log",
+    "/tmp/har-distance-build2.log"
+  ],
+  "final_consumer": "/tmp/har-distance-audit.lean",
+  "final_audit_log": "/tmp/har-distance-audit.log",
+  "consumer_examples": 1,
+  "axiom_reports": 7,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "final_exit": 0,
+  "files": {
+    "HitAndRun/Analysis/MollifierLipschitz.lean": "5359231838a476a9957bbc6bca79ec972295c1df0bc2884d82025186b32426a9",
+    "HitAndRun/Geometry/SmoothDistanceCutoff.lean": "d56ba7c640fe477682d5aca3477644a6ccd3b4f172ddb536a12451d1ca9ac044",
+    "HitAndRun/Sobolev/DistanceCutoffEstimate.lean": "6e192125e3c8d494e1d4fc4dc6834b92c02a7210bc80084ac193da4ec6b4369b",
+    "HitAndRun/Analysis/FatouBound.lean": "4137d14412e17e6fb6d7f583c7e3b0c1ce8e816c71cf6fdd757e755ef312b249"
+  },
+  "note": "Initial build warning from a local notation capturing a dimension parameter was fixed by explicit Euclidean types. Final rebuild and transitive audit contain no sorryAx. Rough-data convolution and weighted weak-gradient identification remain."
+}

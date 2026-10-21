@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-21T08:29:03Z",
+  "status": "helper only; actual conditional-kernel identification remains pending",
+  "compilation_exit": 0,
+  "imported_full_examples": 1,
+  "transitive_axiom_reports": 3,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "files": [
+    {
+      "path": "HitAndRun/Markov/CoordinateKernelIdentification.lean",
+      "sha256": "c4b3952082ea8fbac83a6df2aa5c05679483b1021a62008148e46f72f4ebf88c",
+      "bytes": 3781
+    },
+    {
+      "path": "verification/consumers/CoordinateKernelSlice.lean",
+      "sha256": "ffb1257efa48980db2df72ca40e22101984b5f362de2af833123e1f68316c54a",
+      "bytes": 554
+    }
+  ],
+  "log": ".local/coordinate-kernel-audit.log"
+}
