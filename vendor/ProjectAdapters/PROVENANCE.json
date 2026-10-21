@@ -1,0 +1,80 @@
+{
+  "origin": "Project-authored adapters; underlying external source separately attributed.",
+  "rows": [
+    {
+      "module": "UniformBridge",
+      "path": "vendor/ProjectAdapters/UniformBridge.lean",
+      "sha256": "bf495be0739ee74854e07b7c21576c2c230ede7b8bac922c1b9ec391a58c437e",
+      "imports": [
+        "CvxBody.External.OAI.KLS.Model",
+        "HitAndRun.Geometry.UniformConvexDensity",
+        "HitAndRun.Geometry.CovarianceAffineTransportIsotropy",
+        "HitAndRun.Geometry.CompactSmoothPoincareTransferConvex",
+        "HitAndRun.Sobolev.LinearImagePoincareWhitening"
+      ]
+    },
+    {
+      "module": "KLS15UniformConsumer",
+      "path": "vendor/ProjectAdapters/KLS15UniformConsumer.lean",
+      "sha256": "eebb9a3765d63283964486c9808cda47eff358e67086d6fdb20bac5bd4b400e1",
+      "imports": [
+        "KLS15",
+        "UniformBridge"
+      ]
+    },
+    {
+      "module": "MainSourceGap",
+      "path": "vendor/ProjectAdapters/MainSourceGap.lean",
+      "sha256": "856310cecf036195bf699f54a34451927f5609ba2932ddce67a4751f05f45cca",
+      "imports": [
+        "HitAndRun.Markov.ImprovedPoincareGap",
+        "HitAndRun.Geometry.WeightedPoincareBodySource",
+        "HitAndRun.Geometry.InnerBallCovariance",
+        "HitAndRun.Geometry.ConvexPoincareFinite",
+        "HitAndRun.Geometry.CovarianceAffineTransport"
+      ]
+    },
+    {
+      "module": "MainSourceLog",
+      "path": "vendor/ProjectAdapters/MainSourceLog.lean",
+      "sha256": "be4a40b1fb77b72121f58dfae4fea1a45d658c13fde63a56c11e130f2c87481c",
+      "imports": [
+        "MainSourceGap"
+      ]
+    },
+    {
+      "module": "MixingSource",
+      "path": "vendor/ProjectAdapters/MixingSource.lean",
+      "sha256": "ea1502bc7d0f1782ba585384a9d61629c370a1bacc4959cd182269df5a0fe783",
+      "imports": [
+        "MainSourceLog"
+      ]
+    },
+    {
+      "module": "MainSourceUniversal",
+      "path": "vendor/ProjectAdapters/MainSourceUniversal.lean",
+      "sha256": "0d7d67be18822742a407b74a622abaa83538d38bc2aade99c0610be363aa946f",
+      "imports": [
+        "MixingSource"
+      ]
+    },
+    {
+      "module": "MixingSourceBudget",
+      "path": "vendor/ProjectAdapters/MixingSourceBudget.lean",
+      "sha256": "c7332120684262c1dabb6d24343b5802f5b0daf3e03f3c8fba897ff953ac8251",
+      "imports": [
+        "MixingSource"
+      ]
+    },
+    {
+      "module": "MainSourceComplete",
+      "path": "vendor/ProjectAdapters/MainSourceComplete.lean",
+      "sha256": "8a9b21bdaca4472d6d4272da506e0c5b0f8618b619981cfdaa240b256d03f023",
+      "imports": [
+        "MainSourceUniversal",
+        "HitAndRun.Geometry.ReverseBuserSource",
+        "KLS15UniformConsumer"
+      ]
+    }
+  ]
+}

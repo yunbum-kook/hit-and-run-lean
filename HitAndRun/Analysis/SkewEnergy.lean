@@ -92,4 +92,25 @@ theorem skew_contraction_sq_le (a b : Fin n → ℝ) (G : Fin n → Fin n → �
   exact hcs.trans (mul_le_mul_of_nonneg_right
     (upper_wedge_energy_le_of_energy_le_one a b ha)
     (Finset.sum_nonneg (fun i _ => Finset.sum_nonneg (fun j _ => by positivity))))
+
+/-- Pointwise Cauchy–Schwarz followed by Young, in a form convenient to integrate. -/
+theorem weighted_skew_young (t : ℝ) (a b : Fin n → ℝ) (G : Fin n → Fin n → ℝ)
+    (hG : ∀ i j, G i j = -G j i) (ha : (∑ i, a i ^ 2) ≤ 1) :
+    -2 * t * (∑ i, ∑ j, a j * b i * G i j) ≤
+      t ^ 2 * (∑ i, b i ^ 2) / 2 +
+        2 * (∑ i, ∑ j, if i < j then G i j ^ 2 else 0) := by
+  let B := ∑ i, b i ^ 2
+  let C := ∑ i, ∑ j, a j * b i * G i j
+  let D := ∑ i, ∑ j, if i < j then G i j ^ 2 else 0
+  have hB : 0 ≤ B := Finset.sum_nonneg (fun i _ => sq_nonneg (b i))
+  have hD : 0 ≤ D := Finset.sum_nonneg (fun i _ => Finset.sum_nonneg (fun j _ => by positivity))
+  have hC : C ^ 2 ≤ B * D := skew_contraction_sq_le a b G hG ha
+  change -2 * t * C ≤ t ^ 2 * B / 2 + 2 * D
+  rcases hB.eq_or_lt with he | hp
+  · have hc : C = 0 := by nlinarith [sq_nonneg C]
+    rw [← he, hc]; nlinarith
+  · have hm : 0 ≤ B * (t ^ 2 * B + 4 * t * C + 4 * D) := by
+      nlinarith [sq_nonneg (t * B + 2 * C)]
+    have hz := nonneg_of_mul_nonneg_right hm hp
+    linarith
 end HitAndRun.Analysis

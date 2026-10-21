@@ -1,0 +1,129 @@
+{
+  "source": "arxiv:2608.16878v1",
+  "source_named_total": 13,
+  "source_named_complete": 13,
+  "source_named_percent": 100.0,
+  "source_map": "docs/SOURCE_MAP.md",
+  "verification_scope": "Source-faithfulness review and successful ordinary importing consumers with standard-only transitive axiom reports. Final integration used hash-verified artifact reuse.",
+  "clean_build_status": "Full normal Lake source rebuild not yet certified; see verification/README.md.",
+  "distribution_scope": "Private. No public redistribution grant inferred for private reused or original project code.",
+  "results": {
+    "S01": {
+      "status": "accepted source result",
+      "manuscript": "Theorem 1.1",
+      "declaration": "HitAndRun.Markov.mainSource_complete",
+      "source_path": "vendor/ProjectAdapters/MainSourceComplete.lean",
+      "consumer": "verification/consumers/MainSourceComplete.lean",
+      "evidence": "verification/main-source-complete.json"
+    },
+    "S02": {
+      "status": "accepted source result",
+      "manuscript": "Corollary 1.2",
+      "declaration": "HitAndRun.Markov.mixingSource_complete",
+      "source_path": "vendor/ProjectAdapters/MainSourceComplete.lean",
+      "consumer": "verification/consumers/MainSourceComplete.lean",
+      "evidence": "verification/main-source-complete.json",
+      "additional_declarations": [
+        "HitAndRun.Markov.mixingSource_HAR_accuracy_complete",
+        "HitAndRun.Markov.mixingSource_CHAR_accuracy_complete",
+        "HitAndRun.Markov.mixingSource_budget_formula"
+      ]
+    },
+    "S03": {
+      "status": "accepted source result",
+      "manuscript": "Lemma 1.3",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.attained_graph_solver",
+      "source_path": "HitAndRun/Sobolev/UniformSource.lean",
+      "consumer": "verification/consumers/UniformSource.lean",
+      "evidence": "verification/uniform-source.json"
+    },
+    "S04": {
+      "status": "accepted source result",
+      "manuscript": "Theorem 1.4",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.babuskaAziz_le_one_add_four_improvedPoincare",
+      "source_path": "HitAndRun/Sobolev/BabuskaAzizSource.lean",
+      "consumer": "verification/consumers/BabuskaAzizSource.lean",
+      "evidence": "verification/babuska-aziz-source.json"
+    },
+    "S05": {
+      "status": "accepted source result",
+      "manuscript": "Proposition 2.1",
+      "declaration": "HitAndRun.Markov.hitAndRun_source_gap",
+      "source_path": "HitAndRun/Markov/HitAndRunGap.lean",
+      "consumer": "verification/consumers/HitAndRunGap.lean",
+      "evidence": "verification/hit-and-run-gap.json"
+    },
+    "S06": {
+      "status": "accepted source result",
+      "manuscript": "Proposition 2.2",
+      "declaration": "HitAndRun.Markov.coordinateHitAndRun_source_gap",
+      "source_path": "HitAndRun/Markov/CoordinateKernelIdentificationL2.lean",
+      "consumer": "verification/consumers/CoordinateKernelComplete.lean",
+      "evidence": "verification/coordinate-kernel-complete.json"
+    },
+    "S07": {
+      "status": "accepted source result",
+      "manuscript": "Theorem 3.1",
+      "declaration": "HitAndRun.Geometry.reverseBuser_body_infimum_1036",
+      "source_path": "HitAndRun/Geometry/ReverseBuserBody.lean",
+      "consumer": "verification/consumers/ReverseBuser.lean",
+      "evidence": "verification/reverse-buser-source.json"
+    },
+    "S08": {
+      "status": "accepted source result",
+      "manuscript": "Corollary 3.2",
+      "declaration": "HitAndRun.Geometry.reverseBuser_body_maximum_IPI_4293184",
+      "source_path": "HitAndRun/Geometry/ReverseBuserBody.lean",
+      "consumer": "verification/consumers/ReverseBuser.lean",
+      "evidence": "verification/reverse-buser-source.json"
+    },
+    "S09": {
+      "status": "accepted source result",
+      "manuscript": "Lemma B.1",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.duality",
+      "source_path": "HitAndRun/Sobolev/UniformSource.lean",
+      "consumer": "verification/consumers/UniformSource.lean",
+      "evidence": "verification/uniform-source.json"
+    },
+    "S10": {
+      "status": "accepted source result",
+      "manuscript": "Lemma B.2",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.riesz_full",
+      "source_path": "HitAndRun/Sobolev/UniformSource.lean",
+      "consumer": "verification/consumers/UniformSource.lean",
+      "evidence": "verification/uniform-source.json"
+    },
+    "S11": {
+      "status": "accepted source result",
+      "manuscript": "Lemma B.3",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.graph_curl_energy",
+      "source_path": "HitAndRun/Sobolev/CurlUniform.lean",
+      "consumer": "verification/consumers/AcceptedMilestone.lean",
+      "evidence": "verification/module-modernization.json"
+    },
+    "S12": {
+      "status": "accepted source result",
+      "manuscript": "Lemma B.4",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.residual_identities",
+      "source_path": "HitAndRun/Sobolev/ResidualIdentities.lean",
+      "consumer": "verification/consumers/ResidualIdentities.lean",
+      "evidence": "verification/residual-identities.json"
+    },
+    "S13": {
+      "status": "accepted source result",
+      "manuscript": "Lemma B.5",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.rough_weighted_poincare",
+      "source_path": "HitAndRun/Sobolev/RoughWeightedSource.lean",
+      "consumer": "verification/consumers/RoughWeightedSource.lean",
+      "evidence": "verification/rough-weighted-source.json",
+      "gradient_declaration": "HitAndRun.Sobolev.BoundedOpenDomain.rough_weighted_gradient_norm"
+    }
+  },
+  "counting_rule": "Only the 13 named manuscript results count; helper declarations and module counts do not.",
+  "publication": {
+    "previous_verified_remote_commit": "1f766ff39bd6a2f36438f2fa6d6adc63ed075536",
+    "current_release_snapshot": "13/13 accepted source results; do not interpret the previous remote commit as publication of this complete cleanup snapshot.",
+    "status_at_preparation": "Pending remote publication and exact readback.",
+    "release_commit": "Not yet recorded in this prepublication snapshot."
+  }
+}

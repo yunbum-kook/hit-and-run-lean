@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/alejandro-soto-franco/EllipticPDE",
+  "commit": "ec784093f30308ef770ff855ce624725adf6f870",
+  "source_path": "lean/EllipticPdes/Embedding/Convolution.lean",
+  "git_blob": "6779ae2b0dff030099c1d18ecbd1a9f4ec9e29ee",
+  "source_bytes": 27324,
+  "license": "Apache-2.0",
+  "author": "Alejandro Soto Franco",
+  "adaptation": "Only the selected external import prefix; source body unchanged.",
+  "local_path": "HitAndRun/External/EllipticPDE/Embedding/Convolution.lean",
+  "local_sha256": "af58bfbe7b08ee9b0d40892b637ccc6f461510c7bbc45f8b69040a4be926b898",
+  "verification": "Compiled and transitive standard-only audits passed; see verification/historical/rough-bridge-verification.json."
+}

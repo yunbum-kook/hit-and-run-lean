@@ -197,7 +197,7 @@
     }
   ],
   "scope": "Actual normalized uniform body; actual optimal CPI/IPI; all ambient locally Lipschitz tests; arbitrary inscribed-ball center; actual maximum-radius attainment; no reverse-Buser or finiteness supplier in final body statements. Explicit universal constants 1036 and 4,293,184 witness source implicit constants.",
-  "independent_review": "planning/reverse-buser-integration-review.md",
+  "independent_review": "verification/source-reviews/reverse-buser-integration-review.md",
   "publication_scope": "Private user-directed reuse; no new upstream license or public redistribution grant.",
   "compatibility": "Dedicated CvxBody lean_lib preserves upstream autoImplicit=true; HitAndRun and adapters remain false. One recorded local RayShift proof-term repair, no statement change."
 }

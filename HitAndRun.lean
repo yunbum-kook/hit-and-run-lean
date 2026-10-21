@@ -61,3 +61,6 @@ public import HitAndRun.Geometry.WeightedPoincareBodySourceExact
 public import HitAndRun.Geometry.LipschitzGuideDeviation
 public import HitAndRun.Markov.ImprovedPoincareGap
 public import HitAndRun.Geometry.ReverseBuserBody
+
+public import MainSourceComplete
+public import MixingSourceBudget

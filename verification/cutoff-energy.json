@@ -9,5 +9,5 @@
     "HitAndRun/External/EllipticPDE/Analysis/Mollifier.lean": "65daa5ee9eb12c34410ac21852fe509c5b4f835b5a270006d389d6daf6dea7a1",
     "HitAndRun/Sobolev/CutoffEnergy.lean": "2fb4115ba8b7ebfd93a773b8c69cee396421694c6f69924f936150b622acdfeb"
   },
-  "provenance": "planning/mollifier-provenance.json"
+  "provenance": "HitAndRun/External/EllipticPDE/Mollifier-PROVENANCE.json"
 }

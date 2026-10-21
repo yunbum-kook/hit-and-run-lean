@@ -1,0 +1,36 @@
+{
+  "purpose": "Eight historical EllipticPdes convolution names, implemented only as wrappers over existing production declarations. No KLS endpoint import or duplicate Sobolev carrier.",
+  "license": "Apache-2.0",
+  "license_file": "HitAndRun/External/EllipticPDE/LICENSE",
+  "candidate_signature_source": ".local/kls-inspect/vendor/KLS15/EllipticPdes/Embedding/Convolution.lean",
+  "candidate_container_repository": "https://github.com/chewisinho/cvx_body_lean",
+  "candidate_container_commit": "0e96a41441c2a3878dd0a4e5ea5dc5590eaf4fcf",
+  "production_provenance_file": "HitAndRun/External/EllipticPDE/PROVENANCE.json",
+  "lean": "v4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "sha256": {
+    ".local/kls-inspect/vendor/KLS15/EllipticPdes/Embedding/Convolution.lean": "1a16c2652b7f8abe8c5d0ee7032ad32d60aa054b8e7b06dd937393972b0212ac",
+    "HitAndRun/External/EllipticPDE/Embedding/Convolution.lean": "af58bfbe7b08ee9b0d40892b637ccc6f461510c7bbc45f8b69040a4be926b898",
+    "HitAndRun/External/EllipticPDE/Analysis/Mollifier.lean": "65daa5ee9eb12c34410ac21852fe509c5b4f835b5a270006d389d6daf6dea7a1",
+    "HitAndRun/External/EllipticPDE/Embedding/ConvolutionCompatibility.lean": "91965ecfd690d873bd0a671ee08eb6405dcc784a87cca44229f80eb1161573e8"
+  },
+  "mapping": {
+    "eLpNorm_convolution_restrict_le": [
+      "MeasureTheory.eLpNorm_mono_measure",
+      "EllipticPdes.Embedding.eLpNorm_convolution_le"
+    ],
+    "stdBump": "EllipticPdes.mollifier (definitionally equal)",
+    "rIn_stdBump": "rfl / EllipticPdes.rIn_mollifier",
+    "rOut_stdBump": "rfl / EllipticPdes.rOut_mollifier",
+    "tendsto_rOut_stdBump": "EllipticPdes.tendsto_rOut_mollifier",
+    "rOut_stdBump_le_self": "EllipticPdes.rOut_mollifier_le",
+    "rOut_stdBump_le": "EllipticPdes.rOut_mollifier_le_two_mul_rIn",
+    "tendsto_eLpNorm_one_stdBump_convolution_sub": "EllipticPdes.Embedding.tendsto_eLpNorm_one_mollifier_convolution_sub"
+  },
+  "adaptations": [
+    "Historical specialized signatures retained exactly.",
+    "Only stdBump wraps the existing production definition; no bump or H1 carrier is reimplemented.",
+    "The restricted Young result composes the existing full Young inequality with restriction monotonicity.",
+    "No existing file, dependency pin, Mathlib source or staged candidate endpoint was modified."
+  ]
+}

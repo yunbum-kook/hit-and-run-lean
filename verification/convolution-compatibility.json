@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-21T13:08:58.920943+00:00",
+  "scope": "Only the eight-name historical EllipticPdes compatibility module; no candidate endpoint imported, no source count, no publication.",
+  "lean": "v4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "module_compile_exit_code": 0,
+  "consumer_exit_code": 0,
+  "full_imported_examples": 8,
+  "transitive_axiom_reports": 8,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "build_log": ".local/convolution-compat-build.log",
+  "audit_log": ".local/convolution-compat-audit.log",
+  "sha256": {
+    "HitAndRun/External/EllipticPDE/Embedding/ConvolutionCompatibility.lean": "91965ecfd690d873bd0a671ee08eb6405dcc784a87cca44229f80eb1161573e8",
+    "verification/consumers/ConvolutionCompatibility.lean": "c2d0f6fde159ca3a650f33b93b9c23d460838f26afd1e5a2a83390ce9dd75036",
+    "HitAndRun/External/EllipticPDE/ConvolutionCompatibility-PROVENANCE.json": "c22e81108f8b90d5e92d8cacac7d0ea69f6bc7f02c2819eba5a5b07af6f9d3ed"
+  }
+}

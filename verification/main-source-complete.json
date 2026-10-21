@@ -1,0 +1,57 @@
+{
+  "verified_at_utc": "2026-10-21T16:54:34.844789+00:00",
+  "status": "Actual ordinary registered Lake importing consumers passed using exact reused compiled artifacts; NOT a clean full Lake rebuild",
+  "lean": "leanprover/lean4:v4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "normal_import": "env -u LEAN_PATH lake env lean -DautoImplicit=false -DmaxSynthPendingDepth=3 -M 3072 -j 1 verification/consumers/MainSourceComplete.lean",
+  "source_consumer_exit_code": 0,
+  "source_full_examples": 5,
+  "source_transitive_axiom_reports": 4,
+  "kls_endpoint_consumer_exit_code": 0,
+  "kls_endpoint_reports": 11,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "scope": "S01 and S02 exact source form with arbitrary unit-ball center, actual HAR/CHAR kernels, universal dimension-independent constants. No analytic supplier assumption remains.",
+  "chi_square_edge_convention": "All probability initial laws for exponential statement; finite initial chi-square and epsilon>0 for finite budget; zero steps when M<=epsilon, otherwise ceiling of logarithmic budget.",
+  "source_sha256": {
+    "vendor/ProjectAdapters/UniformBridge.lean": "bf495be0739ee74854e07b7c21576c2c230ede7b8bac922c1b9ec391a58c437e",
+    "vendor/ProjectAdapters/KLS15UniformConsumer.lean": "eebb9a3765d63283964486c9808cda47eff358e67086d6fdb20bac5bd4b400e1",
+    "vendor/ProjectAdapters/MainSourceGap.lean": "856310cecf036195bf699f54a34451927f5609ba2932ddce67a4751f05f45cca",
+    "vendor/ProjectAdapters/MainSourceLog.lean": "be4a40b1fb77b72121f58dfae4fea1a45d658c13fde63a56c11e130f2c87481c",
+    "vendor/ProjectAdapters/MixingSource.lean": "ea1502bc7d0f1782ba585384a9d61629c370a1bacc4959cd182269df5a0fe783",
+    "vendor/ProjectAdapters/MainSourceUniversal.lean": "0d7d67be18822742a407b74a622abaa83538d38bc2aade99c0610be363aa946f",
+    "vendor/ProjectAdapters/MixingSourceBudget.lean": "c7332120684262c1dabb6d24343b5802f5b0daf3e03f3c8fba897ff953ac8251",
+    "vendor/ProjectAdapters/MainSourceComplete.lean": "8a9b21bdaca4472d6d4272da506e0c5b0f8618b619981cfdaa240b256d03f023",
+    "verification/consumers/MainSourceComplete.lean": "cda1889b7b31050e1b8bff898e2e9d41b3b03b2ea3f98ce227cb40ef2c75de43"
+  },
+  "log_sha256": {
+    ".local/main-source-normal-consumer.log": "6b76e1059f469cbd23a1887ed024fdbb82ea77cc3c94a5b6d8ff229288f6ccef",
+    ".local/kls-normal-endpoint.log": "f0f915d23a814ed935bada70e6b034e294d637faa7c2b0ac0f385be529190353"
+  },
+  "axiom_messages": {
+    "main-source-normal-consumer": [
+      "'HitAndRun.Markov.mainSource_complete' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "'HitAndRun.Markov.mixingSource_complete' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "'HitAndRun.Markov.mixingSource_HAR_accuracy_complete' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "'HitAndRun.Markov.mixingSource_CHAR_accuracy_complete' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    ],
+    "kls-normal-endpoint": [
+      "'_private.verification.consumers.KLS15Endpoint.0.KLS15ReuseAudit.exactDensity15' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+      "'_private.verification.consumers.KLS15Endpoint.0.KLS15ReuseAudit.exactAdmissible15' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+      "'KLS15.poincare15_mem' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "'KLS15.poincare15' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "'KLS15.universalPoincareUpper15' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "'KLS15.openaiPoincare15' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "'KLS15.openaiKLS' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "'KLS.OpenAIBridge.density_measureLogConcave' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "'KLS.OpenAIBridge.isotropic' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "'KLS.OpenAIBridge.admissible' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "'KLS.OpenAIBridge.poincareBound_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  "upstream_provenance": "vendor/KLS15/PRODUCTION-PROVENANCE.json",
+  "clean_build_status": "Not run yet; separately serialized normal Lake rebuild planned after publication."
+}

@@ -1,35 +1,53 @@
 # Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run
 
-Work-in-progress Lean 4 formalization of [arXiv:2608.16878](https://arxiv.org/abs/2608.16878), by Yunbum Kook and Santosh S. Vempala.
+Lean 4 formalization of the 13 named results in [Yunbum Kook and Santosh S. Vempala, arXiv:2608.16878v1](https://arxiv.org/abs/2608.16878v1).
 
 ## Status
 
-11 of 13 named source results are verified (84.6%): Lemma 1.3, Theorem 1.4, Propositions 2.1–2.2, Theorem 3.1, Corollary 3.2 and Lemmas B.1–B.5. The main geometry-dependent spectral-gap and mixing results (S01/S02) remain open. The weighted inequalities now use an actually proved ordinary-L1 reverse-Buser input, not an assumed premise. See `planning/PROGRESS.json` and `verification/` for exact source-indexed evidence. Helpers are not counted as source results.
+All **13/13 named source results** have source-faithfulness reviews, successful importing consumers, and transitive axiom checks using only `propext`, `Classical.choice`, and `Quot.sound`. This includes the spectral-gap bounds and native-law mixing corollary for both algorithms. Helper lemmas are not counted as paper results.
 
-The rough estimate is proved for actual L2 distributional data, without a smoothness or global H1 assumption. Both algorithms use actual normalized chords, and HAR uses genuine uniform-sphere moments and proved measurable averaging. Further verified helper packets include native-law chi-square contraction, integer accuracy budgets, convex W12 smooth density and centered covariance geometry; these do not close the remaining source statements by themselves.
+**Separate build gate:** the final integration was checked through ordinary `lake env lean` imports using hash-verified compiled artifacts. A full normal Lake source rebuild has not yet been certified. The result is therefore source-complete within the stated scope, not an assertion that every release gate has passed. See [verification](verification/README.md).
 
-The workflow is: source-indexed planning → search existing formalizations → assess reuse and provenance → revise the dependency plan → implement disjoint proof slices → compile and audit → repeat discovery. The source index and reuse assessment live in `planning/`; the exact source version and checksums live in `source/`.
+**Private distribution only:** part of the reverse-Buser proof depends on privately reused code without a public redistribution grant. This repository is not cleared for a public release. See [licenses and provenance](docs/LICENSES.md).
 
-## Reproducible dependencies
+## Build and check
 
-- Lean: `leanprover/lean4:v4.35.0`
-- Mathlib: `56a005855ea17e0b0958f73ec801ae140b0a1679`
-- Transitive dependencies: pinned in `lake-manifest.json`
+Required pins:
 
-Use `lake build` with the pinned toolchain. Published verification records describe the focused module builds and importing consumers actually run; they do not claim a fresh full checkout build. Build caches and installed dependencies are not distributed in this repository. On the development machine, the already installed compatible Mathlib environment is shared to avoid duplicate storage; a fresh checkout uses the dependency pins instead of machine-specific paths.
+- Lean: `leanprover/lean4:v4.35.0`, fixed by [lean-toolchain](lean-toolchain).
+- Mathlib: `56a005855ea17e0b0958f73ec801ae140b0a1679`.
+- All transitive revisions: [lake-manifest.json](lake-manifest.json).
 
-## Acceptance criteria
+From the repository root, with Elan installed:
 
-Each completed paper statement must have a source-faithful statement review, actual successful consumer compilation, and a transitive axiom report using only standard Lean axioms. Hypotheses, constants, carriers, and conclusions are not silently weakened. Proposed constructions, scratch proofs, imported results, and accepted production proofs remain distinct. No `sorry`, `sorryAx`, or custom axioms may close a claimed result.
+```sh
+lake build HitAndRun
 
-Reuse from the Dikin formalization and other repositories is assessed at exact commits, with licenses and provenance preserved. Source indexing, theorem counts, and helper counts are separate. Commits group meaningful mathematical or infrastructure milestones rather than routine activity.
+env -u LEAN_PATH lake env lean \
+  -DautoImplicit=false -DmaxSynthPendingDepth=3 \
+  verification/consumers/MainSourceComplete.lean
+```
 
-## Repository scope
+The first command is the normal source build. The second checks full main-theorem and mixing signatures and prints their transitive axioms; it does not replace the source build. No machine-specific dependency path or distributed `.olean` files are required. Do not run `lake update` or change the manifest when reproducing this snapshot. [Verification instructions](verification/README.md) cover the other source results.
 
-`HitAndRun/` contains formalization code; `source/` fixes the manuscript inputs; `planning/` records the dependency and reuse plan. Only compact final validation evidence belongs in the repository. Temporary build outputs, local coordination files, and recovery copies are ignored.
+Use `import HitAndRun` for the project library. The final main declarations are `HitAndRun.Markov.mainSource_complete`, `mixingSource_complete`, `mixingSource_HAR_accuracy_complete`, and `mixingSource_CHAR_accuracy_complete`.
 
-This repository is private. The archived manuscript is distributed under its existing [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license; see `source/MANIFEST.json` for attribution and exact source provenance. No new license grant for original Lean project code is made here. Third-party material, when incorporated, retains its original license and attribution.
+## Mathematical scope
 
-## Private reused source
+The proofs use the actual normalized-chord HAR/CHAR kernels, uniform-sphere or coordinate averaging, uniform convex-body measure, weak Sobolev spaces, and rough distributional data. The main bounds retain an arbitrary inscribed-unit-ball center, actual covariance and optimal Poincaré constants, and dimension-independent universal constants. The external KLS bound is proved code, not an assumed Poincaré conclusion.
 
-`CvxBody/` contains only the selected reverse-Buser dependency closure, with scoped upstream elaboration options. Its 29 authored modules are reused at the user’s direction from a private repository; no project-wide license or public redistribution grant is inferred. Do not make this repository public without resolving that scope. Existing separately licensed OAI/TauCeti notices are preserved. See `CvxBody/PRIVATE-REUSE.md` and `CvxBody/PROVENANCE.json`. The full KLS15 endpoint is not part of this checkpoint.
+For Corollary 1.2, exponential contraction allows arbitrary initial probability laws, with extended-real chi-square. A finite iteration budget requires finite initial chi-square and positive accuracy. It is zero when the initial error is already small enough; otherwise it is the natural-number ceiling of a positive logarithmic expression. No negative iteration count or finite-time guarantee for infinite initial chi-square is claimed.
+
+See the [source-to-Lean map and edge conventions](docs/SOURCE_MAP.md) for all 13 statements. The manuscript is fixed at v1; [source/MANIFEST.json](source/MANIFEST.json) records attribution and original-byte checksums.
+
+## Layout
+
+- `HitAndRun.lean`, `HitAndRun/`: project library and mathematical proofs.
+- `vendor/ProjectAdapters/`: paper-facing adapters, registered under their existing Lean module names.
+- `vendor/KLS15/`: the exact adapted, separately licensed KLS15 import closure.
+- `CvxBody/`: the required private reverse-Buser closure and separately licensed external components.
+- `source/`: immutable manuscript files and checksums.
+- `docs/`: source correspondence and distribution scope.
+- `verification/`: compact compilation receipts and reproducible importing consumers.
+
+Build products, temporary experiments, local working records, and recovery snapshots are excluded from the release tree. Component licenses and notices retain their original scope; no new project-wide code license is granted here.

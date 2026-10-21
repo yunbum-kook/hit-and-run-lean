@@ -1,0 +1,39 @@
+{
+  "scope": "Explicit compact ambient C-infinity uniform-domain Poincare input extends to actual W12 and the genuine least CPI on arbitrary bounded open convex domains. No named external KLS theorem is imported or asserted.",
+  "producer_execution": "Full targeted Lake build succeeded (3795 jobs); separate importing consumer exited 0.",
+  "files": {
+    "HitAndRun/Geometry/CompactSmoothPoincareTransfer.lean": "235658c3a47616281726ae47ccd5a1669bb02e238defb706d12da6e44eb79ae9",
+    "HitAndRun/Geometry/CompactSmoothPoincareTransferConvex.lean": "8b2134ca95f01f0329f8e900b956edd2c8fc584e636a542e213f60ae0b9afb1c",
+    "verification/consumers/CompactSmoothPoincareTransfer.lean": "48594a2231324ea3a64b4ee93c87cedbf3267f3bd852ba012f4cdb55c5aaf0ac"
+  },
+  "full_imported_examples": 3,
+  "transitive_axiom_reports": 8,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "commands": [
+    "lake build HitAndRun.Geometry.CompactSmoothPoincareTransferConvex",
+    "lake env lean verification/consumers/CompactSmoothPoincareTransfer.lean"
+  ],
+  "logs": [
+    ".local/compact-smooth-poincare-transfer-build.log",
+    ".local/compact-smooth-poincare-transfer-consumer.log"
+  ],
+  "trace_paths": [
+    ".lake/build/lib/lean/HitAndRun/Geometry/CompactSmoothPoincareTransfer.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/CompactSmoothPoincareTransferConvex.trace"
+  ],
+  "axiom_report_messages": [
+    "'HitAndRun.Geometry.exists_compactSmooth_eq_near_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.CompactSmoothPoincareBound' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.CompactSmoothPoincareBound.smooth_bound' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.CompactSmoothPoincareBound.isPoincareConstant_of_inner_ball' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.CompactSmoothPoincareBound.poincareConstant_le_of_inner_ball' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.CompactSmoothPoincareBound.isPoincareConstant' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.CompactSmoothPoincareBound.poincareConstant_le' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.CompactSmoothPoincareBound.poincareConstant_toReal_le' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+  ],
+  "semantic_review": "An actual ContDiffBump is one on a neighborhood of the bounded closure. Multiplication localizes every global smooth function with proved compact support and unchanged germs, hence unchanged function and derivative on K. This upgrades the explicitly stated compact ambient smooth test inequality to global smooth tests. Actual W12 graph density then extends it to all weak Sobolev graphs; verified translation transport removes the origin-centered inner-ball restriction. Outputs actual IsPoincareConstant (ofReal C), least CPI <= ofReal C, and CPI.toReal <= C. Compact support of approximants is not assumed. No source endpoint count, custom axioms, sorry, or candidate KLS import."
+}

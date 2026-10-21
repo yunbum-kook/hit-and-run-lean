@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-21T10:33:23.568723+00:00",
+  "scope": "Actual coordinate isotropy of normalized whitened uniform domain, and arbitrary-center global-smooth PI to actual W12 transfer. No candidate KLS imports, no assumed isotropy, no source completion.",
+  "module_compile_exit_codes": {
+    "HitAndRun/Geometry/CovarianceAffineTransportIsotropy.lean": 0,
+    "HitAndRun/Geometry/CovarianceAffineTransportSmoothPI.lean": 0
+  },
+  "consumer": "verification/consumers/AffineIsotropySmooth.lean",
+  "full_imported_examples": 3,
+  "consumer_exit_code": 0,
+  "transitive_axiom_reports": 5,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log": ".local/affine-isotropy-smooth-audit.log",
+  "sha256": {
+    "HitAndRun/Geometry/CovarianceAffineTransportIsotropy.lean": "ecaf09f447b13d5945442a139b9052d6c9090162d63b2f177c23998803cec0c2",
+    "HitAndRun/Geometry/CovarianceAffineTransportSmoothPI.lean": "07f50d62fcae568de190f23ddb89e1c30a813eb06dd667c16c2c5d2273157417",
+    "verification/consumers/AffineIsotropySmooth.lean": "b9f460dbe39fe9ba282f51726bae201b1192c9e781584a1de0180cc27a3eaa0d"
+  }
+}
