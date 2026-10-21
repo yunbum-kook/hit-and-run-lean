@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-10-21T08:42:44Z",
+  "files": {
+    "HitAndRun/Sobolev/BodyUniform.lean": "996b01891c8dacf2e518b6ae2532288aa035f03010475d403ce6a919ac9a5b70",
+    "HitAndRun/Markov/BodyChordKernelTransport.lean": "01b8254015e3ecc81cc2154c9187b8807ef3bff8f49080156961947341a83255",
+    "verification/consumers/BodyUniform.lean": "fed9514d410a8dd125d0f4379a5edaac982f43a048b50539f8a3ad05f5bb21d6",
+    "verification/consumers/BodyChordKernelTransport.lean": "3b7de01e60c22592493f0aeff423f862d0c488bdaa50e0bb31e8db8805991269"
+  },
+  "producer_observed_build_and_consumer_exit_code": 0,
+  "independent_review": "Actual normalized measure pullback, proved surjective L2 isometry, actual support-one chord transition pushforward/integral transport. No stationarity or source endpoint credit.",
+  "full_statement_examples": 6,
+  "axiom_reports": 10,
+  "axiom_output": "'HitAndRun.Sobolev.BoundedOpenDomain.bodyUniform_map' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.bodyUniform_map_restrict' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.bodyUniform_measurePreserving' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.bodyL2Isometry' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.bodyL2Isometry_coe' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.bodyL2Isometry_surjective' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.bodyL2Equiv' depends on axioms: [propext, Classical.choice, Quot.sound]\n\n'HitAndRun.Markov.directionKernel_map_subtype' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.directionKernel_measurePreserving' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Markov.directionKernel_integral_subtype' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "named_source_completions_added": 0
+}

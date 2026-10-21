@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-10-21T08:43:58Z",
+  "files": {
+    "HitAndRun/Geometry/WeightedPoincareMedian.lean": "804474af27da988fbaacf55bea57fd1433d85d404bb838cdafded149b559ed8a",
+    "HitAndRun/Geometry/WeightedPoincareMedianChecks.lean": "37ca2a8f4b2764135d7943289de2ab573c351401353eb2eb7f0231589cd3001d"
+  },
+  "producer_observed_build_and_consumer_exit": 0,
+  "producer_session": 52148,
+  "full_examples": 3,
+  "transitive_axiom_reports": 6,
+  "axiom_output": [
+    "HitAndRun/Geometry/WeightedPoincareMedianChecks.lean:16:0: 'HitAndRun.Geometry.variance_bound_of_weightedL1' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianChecks.lean:17:0: 'HitAndRun.Geometry.variance_bound_of_signedSquare_L1' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianChecks.lean:18:0: 'HitAndRun.Geometry.hasDerivAt_signedSquare' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianChecks.lean:19:0: 'HitAndRun.Geometry.norm_fderiv_signedSquare_sub' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianChecks.lean:20:0: 'HitAndRun.Geometry.IsMedian.signedSquare_sub' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "HitAndRun/Geometry/WeightedPoincareMedianChecks.lean:21:0: 'HitAndRun.Geometry.weighted_square_absorption' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "scope": "Conditional smooth-function weighted L1-to-variance bridge with exact factor4A^2, differentiable signed square and median preservation; actual source weighted L1 and H1-density endpoint remain open.",
+  "source_completion": false
+}

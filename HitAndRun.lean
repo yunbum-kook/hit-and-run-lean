@@ -27,3 +27,7 @@ public import HitAndRun.Markov.CoordinateAnnihilationGap
 public import HitAndRun.Markov.CoordinateKernelIdentification
 public import HitAndRun.Sobolev.DistanceCutoffLimit
 public import HitAndRun.Analysis.BoundedPreimageLimit
+public import HitAndRun.Markov.CoordinateKernelIdentificationL2
+public import HitAndRun.Markov.SphereCertificateMoments
+public import HitAndRun.Geometry.WeightedPoincareMedian
+public import HitAndRun.Sobolev.PoincareConstants

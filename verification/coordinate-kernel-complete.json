@@ -1,0 +1,53 @@
+{
+  "checked_at_utc": "2026-10-21T08:42:28Z",
+  "source_result": "S06 Proposition 2.2, main.tex lines 684\u2013705",
+  "endpoint": "HitAndRun.Markov.coordinateHitAndRun_source_gap",
+  "scope": "exact finite-CBA coordinate Hit-and-Run spectral gap, with actual body-kernel L2 realization",
+  "compilation_exit": 0,
+  "consumer_exit": 0,
+  "full_imported_consumer_examples": 3,
+  "transitive_axiom_reports": 12,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_tex_sha256": "fdbcb45400d5abe4d390dff4bf9e9c2fe92c8e69a7ac431649aac1d21b8dae19",
+  "lean": "4.35.0",
+  "mathlib_commit": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "audit_log": ".local/coordinate-kernel-complete-audit.log",
+  "files": [
+    {
+      "path": "HitAndRun/Markov/CoordinateKernelIdentification.lean",
+      "sha256": "c4b3952082ea8fbac83a6df2aa5c05679483b1021a62008148e46f72f4ebf88c",
+      "bytes": 3781
+    },
+    {
+      "path": "HitAndRun/Markov/CoordinateKernelIdentificationDisintegration.lean",
+      "sha256": "013a35d896871ae8fa96e0ca6bfcbfd4c74f96d98c7e5d406b4e63e4012d2918",
+      "bytes": 5714
+    },
+    {
+      "path": "HitAndRun/Markov/CoordinateKernelIdentificationTransport.lean",
+      "sha256": "1691b47dc551317da15fa75e222b9d43dd8dc2276bfdcbed48d7e23ca1dfd635",
+      "bytes": 4878
+    },
+    {
+      "path": "HitAndRun/Markov/CoordinateKernelIdentificationIntegrability.lean",
+      "sha256": "d59ad041cc9af7b06d685765fe7f712b827461568ab0f131e4b923b3ec2b2eed",
+      "bytes": 2158
+    },
+    {
+      "path": "HitAndRun/Markov/CoordinateKernelIdentificationL2.lean",
+      "sha256": "1d7c2ae3bb5f0908a4cb69384571c3c1f7dc326b5d7477965836256f749754b2",
+      "bytes": 7312
+    },
+    {
+      "path": "verification/consumers/CoordinateKernelComplete.lean",
+      "sha256": "2c4978885cce37b23dcc48050a1c43b6a3c62bb6700e9ae7cced95de5e652d28",
+      "bytes": 2091
+    }
+  ],
+  "fidelity": "actual normalized uniform measure, actual H01 divergence certificate, actual normalized chord kernel and finite mixture, zero-mean L2 nontriviality derived, literal Rayleigh infimum, exact 1/(n*CBA) coefficient",
+  "separate_followup": "measure-level stationarity/reversibility and native-law mixing are next; integral-form stationarity and integrable representative independence are already compiled"
+}

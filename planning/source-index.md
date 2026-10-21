@@ -8,24 +8,16 @@ Main TeX SHA256: `fdbcb45400d5abe4d390dff4bf9e9c2fe92c8e69a7ac431649aac1d21b8dae
 
 There are **13 numbered proof-bearing source results**: 3 theorems, 2 corollaries, 2 propositions, 6 lemmas. All 13 are initially unproved in this project. Definitions, displayed identities, cited background, and helper lemmas are essential dependencies but do not add to this denominator. Each numbered result may receive several implementation tasks; partial tasks do not count as completion of that result. Initial baseline is retained here; the verified checkpoint below supersedes it.
 
-## Verified checkpoint: 2026-10-21 07:34 UTC
+## Verified checkpoint: 2026-10-21 08:43 UTC
 
-**3/13 named source results accepted (23.1%): S03 / Lemma 1.3, S09 / Lemma B.1,
-S10 / Lemma B.2.** This is a named-statement fraction, not a difficulty-weighted
-estimate. The other ten remain open. Implementation is on actual zero-trace
-Sobolev gradient fields and centered L2 for the uniform probability measure,
-not arbitrary operators with source conclusions assumed. Domain hypotheses
-are bounded/open/nonempty and positive dimension; convexity is unnecessary
-for these three Hilbert results. Nontriviality is proved by a smooth interior
-bump, and completeness by actual bounded-domain Poincaré.
+**6/13 named source results accepted (46.2%): S03 / Lemma 1.3, S06 / Proposition 2.2,
+S09 / Lemma B.1, S10 / Lemma B.2, S11 / Lemma B.3, S12 / Lemma B.4.** This is a named-statement fraction, not a difficulty-weighted estimate. The other seven remain open.
 
-Evidence: `verification/uniform-source.json`, imported full-statement consumer
-`verification/consumers/UniformSource.lean` (three examples, exit 0), ten
-transitive axiom reports containing only propext/Classical.choice/Quot.sound.
-`verification/source-duality.json` records the earlier concrete bridges.
-Parent independent semantic review accepted these three results. Publication
-snapshot captured separately; no claim about unpublished drafts is included.
-Generic Hilbert helpers remain helpers and do not add to this denominator.
+S06 proves the exact finite-CBA bound 1/(n*CBA) for the actual coordinate Hit-and-Run kernel. The body-valued normalized-chord finite mixture is identified almost everywhere with the conditional-projection operator through a proved surjective L2 isometry. Product-section disintegration, chord integrability, representative independence and integral-form stationarity are proved, not assumed. The gap is the literal nonempty Rayleigh infimum. Evidence: `verification/coordinate-kernel-complete.json` (three full imported examples, twelve standard-only transitive reports); independent source review: `planning/coordinate-source-review.md`.
+
+The other five accepted results use actual zero-trace Sobolev gradient fields and centered L2 for uniform probability, with original source constants. Their evidence remains in `verification/uniform-source.json`, `verification/residual-identities.json`; actual curl validation is also retained in `planning/curl-verification.json`. S11/S12 first landed at `48c6b1abf4233b35b6cf198fefb7996f51a1dd02`. The algorithm and sphere foundation milestone landed at `64047f674756c0473ae85d47da339334848435e4`.
+
+Domain hypotheses are bounded/open/nonempty and positive dimension; omitting convexity proves stronger intermediate results. Source n>=2 cases are covered. No helper or draft adds to this denominator. HAR comparison, the rough weighted residual estimate, main gap bounds and mixing corollary remain open.
 
 Line references below are to the unmodified `source/tex/main.tex`.
 
@@ -160,7 +152,3 @@ Next discovery pass should search exact theorem-level APIs in pinned Mathlib, Di
 6. The theorem's covariance-log branch depends on a deep external theorem. If no verified formalization exists, report it as an open dependency; do not introduce an axiom, assumed bound, or omit branch without approval.
 7. Proof universality: constants cannot secretly depend on K,n,r,f,π₀. Dimension/radius appear only in the printed rates.
 8. No assumption-only module, `sorry`, custom axiom or README assertion counts as any of the 13 completions. Require source-faithful actual consumer compilation plus standard-only transitive axiom audit.
-
-## Published checkpoint
-
-The current milestone accepts S03, S09, S10, S11 and S12: 5/13 named results (38.5%). Earlier pending statements above are historical development notes. S11 and S12 source review is recorded in planning/curl-residual-source-review.md; verification/module-modernization.json and verification/residual-identities.json provide the corresponding fresh evidence. S13 and the main spectral-gap/mixing theorems remain open.

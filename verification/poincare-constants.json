@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-10-21T08:44:47Z",
+  "files": {
+    "HitAndRun/Sobolev/PoincareConstants.lean": "50d4c82cd8494105eea5124ef02032f3138e852b01b6bcfa173beb9587cf7050",
+    "verification/consumers/PoincareConstants.lean": "372598b7f78d30b744ae96106e4b549853df9a19c5e2ba7f687435c92718c09b"
+  },
+  "producer_observed_build_and_consumer_exit": 0,
+  "full_examples": 4,
+  "transitive_axiom_reports": 11,
+  "axiom_output": "'HitAndRun.Sobolev.BoundedOpenDomain.gradientEnergy_eq_lintegral' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.varianceEnergy_ne_top' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.gradientEnergy_ne_top' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.boundaryDistance_bounded' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.weightedGradientEnergy_ne_top' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.energy_bound_sInf' depends on axioms: [propext, Classical.choice, Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.poincareConstant_admissible' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.poincareConstant_admissible_of_lt_top' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.improvedPoincareConstant_admissible' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.improvedPoincareConstant_admissible_of_lt_top' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'HitAndRun.Sobolev.BoundedOpenDomain.varianceEnergy_eq_uniform' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n",
+  "scope": "Literal least PI and distance-weighted IPI constants on actual H1 graph, finite energies and admissibility conditional on finite/nonempty feasible constants. No analytic PI/IPI bound is claimed.",
+  "source_completion": false
+}

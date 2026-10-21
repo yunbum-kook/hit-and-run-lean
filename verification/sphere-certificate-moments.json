@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-21T08:39:32Z",
+  "files": {
+    "HitAndRun/Markov/SphereCertificateMoments.lean": "1e326bda3f285d320ee6015178c0997d6579b39c029dd9e68d64929811959db0",
+    "verification/consumers/SphereCertificateMoments.lean": "cb36eace9a38d64689e21913f00f7dc38f40cbe73376ea2169b920ff1922e341"
+  },
+  "build_exit_code": 0,
+  "consumer_exit_code": 0,
+  "full_statement_examples": 2,
+  "axiom_reports": 2,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "logs": {
+    ".local/sphere-certificate-build.log": "474b8221b5413f7d72c37b04c3a8ac22ad52a25b3e495ed1eb38b2af68a254d5",
+    ".local/sphere-certificate-audit.log": "abe4f66193015f540eb4d8ce5983ca0d99e3ba6c9f4c7fcb4455414f0d06cbec"
+  },
+  "scope": "Actual H01 weak-partial sphere certificate has mean divergence and exact second energy n/(n+2)*(2*divergence_norm_squared+full_gradient_energy). Uses actual sphere moments and proved H01 cross integration by parts. Does not establish directional conditional cancellation or HAR gap.",
+  "named_source_completions_added": 0
+}

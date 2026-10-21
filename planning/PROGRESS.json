@@ -1,8 +1,8 @@
 {
   "source": "arxiv:2608.16878v1",
   "source_named_total": 13,
-  "source_named_complete": 5,
-  "source_named_percent": 38.46153846153846,
+  "source_named_complete": 6,
+  "source_named_percent": 46.15384615384615,
   "results": {
     "S01": {
       "status": "open",
@@ -27,8 +27,10 @@
       "reason": "Actual source endpoint not yet independently accepted"
     },
     "S06": {
-      "status": "open",
-      "reason": "Actual source endpoint not yet independently accepted"
+      "status": "verified and published in this commit",
+      "declaration": "HitAndRun.Markov.coordinateHitAndRun_source_gap",
+      "evidence": "verification/coordinate-kernel-complete.json",
+      "review": "planning/coordinate-source-review.md: exact finite-CBA coefficient, actual body kernel realization and genuine section disintegration; three full imported consumers and twelve standard-only transitive axiom reports."
     },
     "S07": {
       "status": "open",
@@ -68,13 +70,12 @@
     }
   },
   "meaningful_partial": [
-    "Three original Hilbert/divergence statements independently accepted on actual normalized-uniform Sobolev carriers.",
-    "Actual conditional projections and generic actual-law chi-square contraction verified; HAR/CHAR chord realization and gap remain open.",
-    "Actual H01 curl energy and all three residual identities accepted; weighted residual estimate remains open.",
-    "Actual measurable normalized chord kernel and smooth-cutoff/skew foundations verified; no stationarity or weighted-estimate completion credit."
+    "Actual HAR/CHAR normalized chord algorithms and complete uniform-sphere moments are verified.",
+    "CHAR exact finite-CBA spectral gap is accepted through actual kernel/conditional operator identification; HAR gap and native-law mixing remain open.",
+    "Actual H01 curl energy and residual identities accepted; smooth weighted distance estimate is proved, but rough-data B5 remains open."
   ],
   "counting_rule": "Never convert helper declarations, commits or README claims into whole-paper completion percentage.",
   "accepted_pending_publication": [],
-  "accepted_commit": "The commit containing this ledger and corresponding verification/uniform-source.json",
-  "last_accepted_commit": "bb20dfd7775a24f19f70062932f713c9370e572d"
+  "accepted_commit": "The commit containing this ledger and verification/coordinate-kernel-complete.json",
+  "last_accepted_commit": "64047f674756c0473ae85d47da339334848435e4"
 }

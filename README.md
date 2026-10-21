@@ -4,9 +4,9 @@ Work-in-progress Lean 4 formalization of [arXiv:2608.16878](https://arxiv.org/ab
 
 ## Status
 
-5 of 13 named source results are verified (38.5%): Lemma 1.3 (attained divergence solver), Lemma B.1 (duality), Lemma B.2 (Riesz field), Lemma B.3 (curl energy), and Lemma B.4 (residual identities). The main spectral-gap and mixing theorems remain open. See `planning/PROGRESS.json` and `verification/` for source-indexed status and actual consumer/axiom evidence. Helpers are not counted as source results.
+6 of 13 named source results are verified (46.2%): Lemma 1.3 (attained divergence solver), Proposition 2.2 (actual coordinate Hit-and-Run gap), Lemma B.1 (duality), Lemma B.2 (Riesz field), Lemma B.3 (curl energy), and Lemma B.4 (residual identities). The main spectral-gap and mixing theorems remain open. See `planning/PROGRESS.json` and `verification/` for source-indexed status and actual consumer/axiom evidence. Helpers are not counted as source results.
 
-Additional verified foundations include body-valued HAR and CHAR algorithms using actual uniform chords, the actual uniform sphere and its complete fourth-moment tensor, conditional-projection gap certificates, boundary-distance geometry, and smooth cutoff/distance-limit estimates. Stationarity, conditional-projection identification, and the rough-data weighted estimate are not yet proved.
+Additional verified foundations include body-valued HAR and CHAR algorithms using actual uniform chords, the actual uniform sphere and its complete fourth-moment tensor, conditional-projection gap certificates, boundary-distance geometry, and smooth cutoff/distance-limit estimates. For CHAR, actual conditional-projection identification, representative independence and integral-form stationarity are proved. HAR identification/gap and the rough-data weighted estimate remain open.
 
 The workflow is: source-indexed planning → search existing formalizations → assess reuse and provenance → revise the dependency plan → implement disjoint proof slices → compile and audit → repeat discovery. The source index and reuse assessment live in `planning/`; the exact source version and checksums live in `source/`.
 
