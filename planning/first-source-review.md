@@ -1,0 +1,11 @@
+# Independent source review: S03, S09, S10
+
+2026-10-21. Source: pinned arXiv2608.16878v1 main.tex. This is semantic review, not by itself a compilation receipt or completion ledger.
+
+- Source lines407–429 define uniform probability, centered L2, weak derivatives, H01 as compact-smooth closure and vector-field gradient energy. UniformMeasure supplies literal volume normalization; ZeroMean proves the divergence's centered range by integration by parts and closure. GradientSpace and VectorGraph provide two-way correspondence with actual H01 graphs and exact full gradient energy, not arbitrary field witnesses.
+- Source main theorem lines372–373 assumes bounded open convex K, n≥2 and an inscribed unit ball. UniformSource's bounded open nonempty domain with n≠0 is a broader valid setting for these three functional-analytic lemmas. Removing convexity is a strengthening, not an extra assumption. No closed-body/interior identification is silently needed here.
+- S03 / Lemma1.3, lines538–566: the constant uses nonzero centered targets and extended fiber infima. Empty fibers have value infinity. Finite constant gives nonempty closed affine fibers and attained minimum, with the optimal constant itself and no epsilon loss. attained_graph_solver returns actual H01 vector graphs with the exact energy bound. f=0 is treated separately.
+- S09 / LemmaB.1, lines918–926: C>0 unchanged, both directions proved. The reverse direction derives surjectivity through coercivity/Lax–Milgram rather than assuming a right inverse. The supremum is signed over nonzero fields; Nontrivial follows from a genuine interior bump and Poincare injectivity, not an extra source hypothesis.
+- S10 / LemmaB.2, lines936–955: riesz_full gives uniqueness of the representing field and the exact norm equality for that same field. The zero representative is valid because the supremum proof treats it separately rather than inserting zero into a nonzero test set.
+
+Decision: semantic correspondence accepted for these exact declarations, contingent on actual successful full consumer compilation and standard-only transitive axiom reports at the published bytes. Do not count these as completed from this note alone. No other source result is covered by this review.

@@ -1,0 +1,16 @@
+{
+  "modules": {
+    "Markov/CoordinateAverage": "09c24c9cf70af8c6fd29d1c0626403da3dfc7b9edc152d8a423447e5f4d42f32",
+    "Analysis/PositiveContraction": "b80307dd325e4c9bd707bb4748b7d3ee559a4f36415c903e867e1bdacf567a2e"
+  },
+  "module_compile_exit": 0,
+  "import_consumer_exit": 0,
+  "audited_declarations": 6,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "checked_utc": "2026-10-21T07:19:21Z",
+  "scope": "actual conditional projection finite average and generic positive operator gap contraction; not chord-kernel realization or numbered result completion"
+}

@@ -1,0 +1,96 @@
+{
+  "checked_utc": "2026-10-21T07:26:15.979296+00:00",
+  "lean": "4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "modules": [
+    {
+      "path": "HitAndRun/Sobolev/Divergence.lean",
+      "sha256": "db08488177fbecd752136d8d686ea22cf1048cd6095dcf74548caf63a582013f"
+    },
+    {
+      "path": "HitAndRun/Sobolev/ZeroMean.lean",
+      "sha256": "b9fd3bdc03703bf234b1eb25bae1b40ca3fb3af54e2125e94eb05a3a5ebace22"
+    }
+  ],
+  "build_exit": 0,
+  "consumer_exit": 0,
+  "execution_evidence": "Compiler worker observed exit0; reviewer independently inspected actual importing consumer log and source hashes",
+  "consumer": "verification/consumers/AuditDivergence.lean",
+  "consumer_sha256": "b634f96a8fdea5b519fcacf36b5914fb67bac7bb4725c42b4caa4f052a7cb458",
+  "axiom_reports": [
+    {
+      "declaration": "HitAndRun.Sobolev.norm_diagonalDerivative_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.norm_divergence_sq_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.norm_divergence_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.meanCLM_eq_integral",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.integral_test_partial_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.h01_partial_mean_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradient_partial_mean_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.divergence_mean_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.centeredDivergence",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "classification": "Actual Sobolev foundation; no numbered source-result completion",
+  "warnings": "Unused section variables only in meanCLM"
+}

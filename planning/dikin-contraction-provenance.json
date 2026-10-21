@@ -1,0 +1,11 @@
+{
+  "repo": "yunbum-kook/dikin-d2",
+  "commit": "c5f8471b62573fc0417bfafeb16c2b5be2637ff1",
+  "files": {
+    "LazyContraction.lean": "d49e583f04f7511fe2cabdf99ddf10ac58ea6af421b9e832f40e5fea32211117",
+    "InvariantContraction.lean": "6a689193a3c97b822bb86f448ba12e38ba03c8fe062488fd317054e6eca0c263"
+  },
+  "changes": "select only3 generic positive operator results, namespace/header; omit half-lazy constructions",
+  "status": "3 selected declarations compiled; transitive standard-only audit and imported consumer exit0",
+  "authorization": "owner explicitly requested private Dikin result reuse; no inferred public license"
+}

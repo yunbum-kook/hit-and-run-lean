@@ -1,0 +1,59 @@
+{
+  "checked_at_utc": "2026-10-21T07:34:47.956606+00:00",
+  "lean": "4.35.0",
+  "mathlib_commit": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "classification": "Source S03/S09/S10 accepted after independent source/carrier/constant review and actual consumer compilation",
+  "candidate_source_results": [
+    "S03",
+    "S09",
+    "S10"
+  ],
+  "modules": [
+    {
+      "path": "HitAndRun/Sobolev/VectorGraph.lean",
+      "compile_exit_code": 0
+    },
+    {
+      "path": "HitAndRun/Sobolev/UniformSource.lean",
+      "compile_exit_code": 0
+    }
+  ],
+  "consumer": {
+    "path": "verification/consumers/UniformSource.lean",
+    "full_statement_examples": 3,
+    "compile_exit_code": 0
+  },
+  "axiom_audit": {
+    "declarations": 10,
+    "allowed_and_observed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exit_code": 0,
+    "log": ".local/uniform-source-audit.log"
+  },
+  "files": [
+    {
+      "path": "HitAndRun/Sobolev/VectorGraph.lean",
+      "sha256": "81a078591aecebdb7e414ceca146d63127b0ee16649e3edf4edf81ce6547064d",
+      "bytes": 1949
+    },
+    {
+      "path": "HitAndRun/Sobolev/UniformSource.lean",
+      "sha256": "6c0bfe2bddc0092ce693fdf3a9572ace16471b135ed1b6ef1e19c776d8d9d2bd",
+      "bytes": 4341
+    },
+    {
+      "path": "verification/consumers/UniformSource.lean",
+      "sha256": "ba323386974ecc6d21cfe951cdf5c621cc10456b3ee18236de48cf8654151e73",
+      "bytes": 1464
+    },
+    {
+      "path": ".local/uniform-source-audit.log",
+      "sha256": "58af550ff3e0162101f3531d0bb01baf9254665b6be944ef62037c3b0144d674",
+      "bytes": 1111
+    }
+  ],
+  "independent_review": "planning/first-source-review.md"
+}

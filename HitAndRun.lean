@@ -1,4 +1,11 @@
 import HitAndRun.Analysis.DualCertificate
 import HitAndRun.Analysis.AdjointRiesz
 import HitAndRun.Analysis.MinimumNormPreimage
+import HitAndRun.Analysis.Duality
+import HitAndRun.Analysis.MinimumEnergy
+import HitAndRun.Analysis.PositiveContraction
 import HitAndRun.Markov.ConditionalProjection
+import HitAndRun.Markov.CoordinateAverage
+import HitAndRun.Markov.ChiSquareContraction
+import HitAndRun.Geometry.InnerBall
+import HitAndRun.Sobolev.UniformSource

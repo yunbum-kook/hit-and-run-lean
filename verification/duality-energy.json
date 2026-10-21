@@ -1,0 +1,57 @@
+{
+  "checked_at_utc": "2026-10-21T07:21:43.079207+00:00",
+  "lean": "4.35.0",
+  "mathlib_commit": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "classification": "Generic real-Hilbert and ENNReal infrastructure, not actual Sobolev source completion",
+  "source_completions_added": 0,
+  "modules": [
+    {
+      "path": "HitAndRun/Analysis/Duality.lean",
+      "compile_exit_code": 0
+    },
+    {
+      "path": "HitAndRun/Analysis/MinimumEnergy.lean",
+      "compile_exit_code": 0
+    }
+  ],
+  "consumer": {
+    "path": "verification/consumers/Duality.lean",
+    "full_statement_examples": 5,
+    "compile_exit_code": 0,
+    "compiled_identical_path": ".local/AuditDuality.lean"
+  },
+  "axiom_audit": {
+    "declarations": 11,
+    "allowed_and_observed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "exit_code": 0,
+    "log": ".local/duality-audit.log"
+  },
+  "files": [
+    {
+      "path": "HitAndRun/Analysis/Duality.lean",
+      "sha256": "900c6eef5f83ed5d65fea2e73c5b4b3db68e91faa69dcb13b19b9caf97621236",
+      "bytes": 4144,
+      "compiled_sha256": "7bc34c10b905f9ab2a3ab7053c381ff2fbc76933eda256b641449a895f1ead3c",
+      "postbuild_change": "Doccomment only: clarifies zero vectors/trivial spaces while C remains positive; no proof or statement edit."
+    },
+    {
+      "path": "HitAndRun/Analysis/MinimumEnergy.lean",
+      "sha256": "d3ff5fb18cde32373b3edf1a99e47b083012a354f42f92a44a1020421cd28c87",
+      "bytes": 5559
+    },
+    {
+      "path": "verification/consumers/Duality.lean",
+      "sha256": "cd3c67f968a6942d27f0f42b4e797a47d76dc4c7fa23e69dda6e53aaf5afcb5d",
+      "bytes": 1937
+    },
+    {
+      "path": ".local/duality-audit.log",
+      "sha256": "eebd84d925c1ed323d9c5b55aad2b0442f0b29ce18b2997dd9dacfb34dfc3830",
+      "bytes": 1297
+    }
+  ]
+}

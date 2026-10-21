@@ -1,0 +1,74 @@
+{
+  "source": "arxiv:2608.16878v1",
+  "source_named_total": 13,
+  "source_named_complete": 3,
+  "source_named_percent": 23.076923076923077,
+  "results": {
+    "S01": {
+      "status": "open",
+      "reason": "Actual source endpoint not yet independently accepted"
+    },
+    "S02": {
+      "status": "open",
+      "reason": "Actual source endpoint not yet independently accepted"
+    },
+    "S03": {
+      "status": "verified and published in this commit",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.attained_graph_solver",
+      "evidence": "verification/uniform-source.json",
+      "review": "Independent source/carrier/constant audit passed; original uniform probability, actual H01 graph and proved divergence; no extra analytic premise."
+    },
+    "S04": {
+      "status": "open",
+      "reason": "Actual source endpoint not yet independently accepted"
+    },
+    "S05": {
+      "status": "open",
+      "reason": "Actual source endpoint not yet independently accepted"
+    },
+    "S06": {
+      "status": "open",
+      "reason": "Actual source endpoint not yet independently accepted"
+    },
+    "S07": {
+      "status": "open",
+      "reason": "Actual source endpoint not yet independently accepted"
+    },
+    "S08": {
+      "status": "open",
+      "reason": "Actual source endpoint not yet independently accepted"
+    },
+    "S09": {
+      "status": "verified and published in this commit",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.duality",
+      "evidence": "verification/uniform-source.json",
+      "review": "Independent source/carrier/constant audit passed; original uniform probability, actual H01 graph and proved divergence; no extra analytic premise."
+    },
+    "S10": {
+      "status": "verified and published in this commit",
+      "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.riesz_full",
+      "evidence": "verification/uniform-source.json",
+      "review": "Independent source/carrier/constant audit passed; original uniform probability, actual H01 graph and proved divergence; no extra analytic premise."
+    },
+    "S11": {
+      "status": "open",
+      "reason": "Actual source endpoint not yet independently accepted"
+    },
+    "S12": {
+      "status": "open",
+      "reason": "Actual source endpoint not yet independently accepted"
+    },
+    "S13": {
+      "status": "open",
+      "reason": "Actual source endpoint not yet independently accepted"
+    }
+  },
+  "meaningful_partial": [
+    "Three original Hilbert/divergence statements independently accepted on actual normalized-uniform Sobolev carriers.",
+    "Actual conditional projections and generic actual-law chi-square contraction verified; HAR/CHAR chord realization and gap remain open.",
+    "Curl/IBP and residual identities under active implementation; no completion credit."
+  ],
+  "counting_rule": "Never convert helper declarations, commits or README claims into whole-paper completion percentage.",
+  "accepted_pending_publication": [],
+  "accepted_commit": "The commit containing this ledger and corresponding verification/uniform-source.json"
+}

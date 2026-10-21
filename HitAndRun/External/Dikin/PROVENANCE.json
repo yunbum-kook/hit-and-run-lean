@@ -1,0 +1,60 @@
+{
+  "repository": "yunbum-kook/dikin-d2",
+  "commit": "c5f8471b62573fc0417bfafeb16c2b5be2637ff1",
+  "remote_tree_verified": true,
+  "private_reuse_authorization": "owner explicitly requested reuse of Dikin results",
+  "changes": "import prefix only except NativeChiSquareDecay truncated before half-lazy decay endpoint and NativeDecay import replaced by NativeOperator; original namespaces retained",
+  "license": "Existing thirdparty notices remain in files; no new public grant for original Dikin code. Scott Armstrong MarkovProcess portions Apache2.",
+  "status": "7 adapted modules compile exit0; actual importing consumer of new nonlazy law decay exit0;5 endpoint transitive audits standard-only",
+  "files": [
+    {
+      "upstream_path": "DikinD2/Markov/KernelIntegralLp.lean",
+      "upstream_git_blob": "0ab20aa71d1430e4430fd38a1c32dc4db20610ae",
+      "upstream_sha256": "ba4a3b1e88df0244529ab0b1bf1778df3b788fd25b483d150ae8a1d81388cb74",
+      "adapted_path": "HitAndRun/External/Dikin/Markov/KernelIntegralLp.lean",
+      "adapted_sha256": "7e28e7fb93226c8d6e325b9325c9d1d660a06fe0190a0a7843fecdebddb73399"
+    },
+    {
+      "upstream_path": "DikinD2/Markov/KernelLpLift.lean",
+      "upstream_git_blob": "b4711d7e62d3d60665af9a7d5f48ef98235bb4c0",
+      "upstream_sha256": "cb2679975bda7735c0e75635b91c3309857061223ff9660a07adc0f4871b6110",
+      "adapted_path": "HitAndRun/External/Dikin/Markov/KernelLpLift.lean",
+      "adapted_sha256": "beb3d39103beb34db8f0416941c14e56e7260c93b6ab3c5a649cbf9bb2d7408e"
+    },
+    {
+      "upstream_path": "DikinD2/Markov/MarkovLp.lean",
+      "upstream_git_blob": "49d9b3a11c73c747ab584a4db6e10fcb29b6ba32",
+      "upstream_sha256": "2b34aed7902febdb6c9a4713af0ead1b3d4a3c08e4a7abe02016b5ee9c695385",
+      "adapted_path": "HitAndRun/External/Dikin/Markov/MarkovLp.lean",
+      "adapted_sha256": "2b34aed7902febdb6c9a4713af0ead1b3d4a3c08e4a7abe02016b5ee9c695385"
+    },
+    {
+      "upstream_path": "DikinD2/Markov/NativeChiSquareDecay.lean",
+      "upstream_git_blob": "274377b39032e9e44b97ec87192416a5512cc794",
+      "upstream_sha256": "29aa31cba3216e6977362df2a2ab9858fc34b16490ecc72596753a39ab4423b5",
+      "adapted_path": "HitAndRun/External/Dikin/Markov/NativeLawOrbit.lean",
+      "adapted_sha256": "0fad4ec4bae372206c0227368a24c4edb7d764b8ef4cbe0d72b04a63bc663399"
+    },
+    {
+      "upstream_path": "DikinD2/Markov/NativeOperator.lean",
+      "upstream_git_blob": "b3c355eb2f3d660931d7bf97f1c76725152e4914",
+      "upstream_sha256": "fa74b9d2a70ed638895fa525ac0cdb5f20396da7977127e99dca4e31b19c5c22",
+      "adapted_path": "HitAndRun/External/Dikin/Markov/NativeOperator.lean",
+      "adapted_sha256": "811c3340f61026f6a41c5d6474d2760071ba139451695477d28eff750a20a81b"
+    },
+    {
+      "upstream_path": "DikinD2/Markov/ReversibleSupport.lean",
+      "upstream_git_blob": "b45deb962537f6bb06867436c27b05b51ee981b4",
+      "upstream_sha256": "6dbd8fc49335e40e52161f9956e12e67ecbf40c5e6d540680c593855677baa01",
+      "adapted_path": "HitAndRun/External/Dikin/Markov/ReversibleSupport.lean",
+      "adapted_sha256": "7fa650cf678b797e56a181910c270515da496a3d9cd47ff8ff1c6ac82b09f84f"
+    },
+    {
+      "upstream_path": "DikinD2/Probability/ChiSquareDensity.lean",
+      "upstream_git_blob": "87b18dc18edf5c254c9578e2bc8f393d1858dc2f",
+      "upstream_sha256": "0d4da145d37406def45584e0213ae5b6404947130955da85c006e002000b36cb",
+      "adapted_path": "HitAndRun/External/Dikin/Probability/ChiSquareDensity.lean",
+      "adapted_sha256": "72a260207a33b938df9b2d14f03d12bf00d4f1304e1107e14ce91d2b03156dbc"
+    }
+  ]
+}

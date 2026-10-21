@@ -1,0 +1,80 @@
+{
+  "upstream_repository": "https://github.com/alejandro-soto-franco/EllipticPDE",
+  "commit": "ec784093f30308ef770ff855ce624725adf6f870",
+  "license": "Apache-2.0",
+  "copyright": "Copyright (c) 2026 Alejandro Soto Franco",
+  "upstream_lean": "v4.35.0-rc3",
+  "upstream_mathlib": "c55e6e786f49471c72fbddbec5415808896aec1e",
+  "local_lean": "v4.35.0",
+  "local_mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "changes": [
+    "Rewrite import EllipticPdes.* to HitAndRun.External.EllipticPDE.*. Declarations and mathematical namespaces unchanged.",
+    "File writer appended one extra trailing newline to each selected upstream Lean file; otherwise inverse import-prefix rewrite reproduces exact upstream git blob."
+  ],
+  "files": [
+    {
+      "upstream_path": "lean/EllipticPdes/Sobolev/Graph.lean",
+      "upstream_git_blob": "6ab94ead57cc33d6a7288e36e127a5116c1523d1",
+      "local_path": "HitAndRun/External/EllipticPDE/Sobolev/Graph.lean",
+      "local_sha256": "05009363ba08099cc79437a499b42e66485b25ba173ad5563fdbfee59d363788"
+    },
+    {
+      "upstream_path": "lean/EllipticPdes/Poincare/GraphBounded.lean",
+      "upstream_git_blob": "3505bc3a677d4b2dea21c619595cb7e9210e0949",
+      "local_path": "HitAndRun/External/EllipticPDE/Poincare/GraphBounded.lean",
+      "local_sha256": "842ea1aae361b84c281571134cdde00d7ce7a664ba0a01f0f8b13ffbb8d5aaa1"
+    },
+    {
+      "upstream_path": "lean/EllipticPdes/Sobolev/WeakDeriv.lean",
+      "upstream_git_blob": "6237fb588668a9187d7d6fa0406e55338e1125dc",
+      "local_path": "HitAndRun/External/EllipticPDE/Sobolev/WeakDeriv.lean",
+      "local_sha256": "2b1dcec9691f329e5d78b5b3b10cb963e4f726693609a1062d40cfc09053c3f8"
+    },
+    {
+      "upstream_path": "lean/EllipticPdes/Poincare/Slab.lean",
+      "upstream_git_blob": "dfe360e41c8dc43e93922d444b40e496eb4db5d2",
+      "local_path": "HitAndRun/External/EllipticPDE/Poincare/Slab.lean",
+      "local_sha256": "2a0b38c9f9b45f826a8433562742a1a5267baa39d7a94ba0b8eda733d994b3d7"
+    },
+    {
+      "upstream_path": "lean/EllipticPdes/Analysis/SmoothCutoff.lean",
+      "upstream_git_blob": "1a775b2a12a53168d89df29c88be623a010d1d19",
+      "local_path": "HitAndRun/External/EllipticPDE/Analysis/SmoothCutoff.lean",
+      "local_sha256": "e14c9b96a6e62edc1768a4749ce22a5d8de1fbadf56207b4fbbf97ec24ae230f"
+    },
+    {
+      "upstream_path": "lean/EllipticPdes/Analysis/LpTranslation.lean",
+      "upstream_git_blob": "d85ebe67b9603f4a8feb694a90dcb2fdcb76bc24",
+      "local_path": "HitAndRun/External/EllipticPDE/Analysis/LpTranslation.lean",
+      "local_sha256": "6c299f5bd298c7e801da74ec004e58d3f8c705fa242f6cccd8201214addfe0ae"
+    },
+    {
+      "upstream_path": "lean/EllipticPdes/Analysis/PoincareInequality.lean",
+      "upstream_git_blob": "553885bd97bb750f87dcedf9515826e699f875e6",
+      "local_path": "HitAndRun/External/EllipticPDE/Analysis/PoincareInequality.lean",
+      "local_sha256": "7b693de11dad2af2f604a523bfc4983bee97203f856cb8a986a2f6ed42d71dc5"
+    },
+    {
+      "upstream_path": "lean/EllipticPdes/Sobolev/Basic.lean",
+      "upstream_git_blob": "b4726293dce5c3395a3336744922485a25b20009",
+      "local_path": "HitAndRun/External/EllipticPDE/Sobolev/Basic.lean",
+      "local_sha256": "5f35ea0a43745d56f97f9e5aa58f609c6309c9c401ed4702bc2487b9c72623f5"
+    }
+  ],
+  "verification": {
+    "source_scan": "No sorry, axiom, unsafe, admit tokens in selected Lean files",
+    "compilation": "2026-10-21: lake build HitAndRun.External.EllipticPDE.GradientSpace exit0; selected8 upstream modules plus2 project bridges, no warnings",
+    "transitive_axiom_audit": "2026-10-21 07:25 UTC: fresh12 selected endpoint reports after module-system conversion, all propext/Classical.choice/Quot.sound, exit0.",
+    "upstream_blob_roundtrip": "All8 files: reverse import prefix and remove exactly one appended newline reproduces upstream git blob SHA1."
+  },
+  "project_written_files": [
+    {
+      "path": "HitAndRun/External/EllipticPDE/Consumer.lean",
+      "sha256": "fe65963dab3c49bde6537341c12f593ed570382b9696db41da45e981dc707e2d"
+    },
+    {
+      "path": "HitAndRun/External/EllipticPDE/GradientSpace.lean",
+      "sha256": "cf1bb2ef8f7791005b676b0b9241d4d5f66fa21dd3fe84e321e34e123dddc432"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Work-in-progress Lean 4 formalization of [arXiv:2608.16878](https://arxiv.org/ab
 
 ## Status
 
-Planning and foundational implementation are in progress. No paper-level theorem is claimed complete by this bootstrap. A compiling helper is not counted as a completed source theorem.
+3 of 13 named source results are verified (23.1%): Lemma 1.3 (attained divergence solver), Lemma B.1 (duality), and Lemma B.2 (Riesz field). The main spectral-gap and mixing theorems remain open. See `planning/PROGRESS.json` and `verification/uniform-source.json` for source-indexed status and actual consumer/axiom evidence. Helpers are not counted as source results.
 
 The workflow is: source-indexed planning → search existing formalizations → assess reuse and provenance → revise the dependency plan → implement disjoint proof slices → compile and audit → repeat discovery. The source index and reuse assessment live in `planning/`; the exact source version and checksums live in `source/`.
 
@@ -14,7 +14,7 @@ The workflow is: source-indexed planning → search existing formalizations → 
 - Mathlib: `56a005855ea17e0b0958f73ec801ae140b0a1679`
 - Transitive dependencies: pinned in `lake-manifest.json`
 
-Once implementation modules have been added, use `lake build` with the pinned toolchain. Build caches and installed dependencies are not distributed in this repository. On the development machine, the already installed compatible Mathlib environment is shared to avoid duplicate storage; a fresh checkout uses the dependency pins instead of machine-specific paths.
+Use `lake build` with the pinned toolchain. Published verification records describe the focused module builds and importing consumers actually run; they do not claim a fresh full checkout build. Build caches and installed dependencies are not distributed in this repository. On the development machine, the already installed compatible Mathlib environment is shared to avoid duplicate storage; a fresh checkout uses the dependency pins instead of machine-specific paths.
 
 ## Acceptance criteria
 

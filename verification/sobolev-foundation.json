@@ -1,0 +1,152 @@
+{
+  "checked_utc": "2026-10-21T07:26:15.975228+00:00",
+  "lean": "4.35.0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "modules": [
+    {
+      "path": "HitAndRun/External/EllipticPDE/Sobolev/Graph.lean",
+      "sha256": "05009363ba08099cc79437a499b42e66485b25ba173ad5563fdbfee59d363788"
+    },
+    {
+      "path": "HitAndRun/External/EllipticPDE/Poincare/GraphBounded.lean",
+      "sha256": "842ea1aae361b84c281571134cdde00d7ce7a664ba0a01f0f8b13ffbb8d5aaa1"
+    },
+    {
+      "path": "HitAndRun/External/EllipticPDE/Sobolev/WeakDeriv.lean",
+      "sha256": "2b1dcec9691f329e5d78b5b3b10cb963e4f726693609a1062d40cfc09053c3f8"
+    },
+    {
+      "path": "HitAndRun/External/EllipticPDE/Poincare/Slab.lean",
+      "sha256": "2a0b38c9f9b45f826a8433562742a1a5267baa39d7a94ba0b8eda733d994b3d7"
+    },
+    {
+      "path": "HitAndRun/External/EllipticPDE/Analysis/SmoothCutoff.lean",
+      "sha256": "e14c9b96a6e62edc1768a4749ce22a5d8de1fbadf56207b4fbbf97ec24ae230f"
+    },
+    {
+      "path": "HitAndRun/External/EllipticPDE/Analysis/LpTranslation.lean",
+      "sha256": "6c299f5bd298c7e801da74ec004e58d3f8c705fa242f6cccd8201214addfe0ae"
+    },
+    {
+      "path": "HitAndRun/External/EllipticPDE/Analysis/PoincareInequality.lean",
+      "sha256": "7b693de11dad2af2f604a523bfc4983bee97203f856cb8a986a2f6ed42d71dc5"
+    },
+    {
+      "path": "HitAndRun/External/EllipticPDE/Sobolev/Basic.lean",
+      "sha256": "5f35ea0a43745d56f97f9e5aa58f609c6309c9c401ed4702bc2487b9c72623f5"
+    },
+    {
+      "path": "HitAndRun/External/EllipticPDE/Consumer.lean",
+      "sha256": "fe65963dab3c49bde6537341c12f593ed570382b9696db41da45e981dc707e2d"
+    },
+    {
+      "path": "HitAndRun/External/EllipticPDE/GradientSpace.lean",
+      "sha256": "cf1bb2ef8f7791005b676b0b9241d4d5f66fa21dd3fe84e321e34e123dddc432"
+    }
+  ],
+  "build_exit": 0,
+  "consumer_exit": 0,
+  "execution_evidence": "Compiler worker observed exit0; reviewer independently inspected actual importing consumer log and source hashes",
+  "consumer": "verification/consumers/AuditSobolev.lean",
+  "consumer_sha256": "ed946a2c238fbad030564acc7ad244c61faddbb8e497cc378d459a1bae7e81ff",
+  "axiom_reports": [
+    {
+      "declaration": "EllipticPdes.H1Graph.mem_W12_iff_hasWeakFDerivOn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "EllipticPdes.H1Graph.H01_le_W12",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "EllipticPdes.H1Graph.exists_seq_testGraph\u2097_tendsto",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "EllipticPdes.H1Graph.poincare_H01_of_bounded",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.h01_complete",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.h01_weak",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.graph_norm_sq_le_gradient",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradient_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradientSpace_closed",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradientSpace_complete",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradientEquiv",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "HitAndRun.Sobolev.gradientEquiv_norm",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "classification": "Actual Sobolev foundation; no numbered source-result completion",
+  "warnings": "none reported"
+}

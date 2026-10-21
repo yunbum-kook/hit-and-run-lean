@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-21T07:32:17Z",
+  "source_sha256": {
+    "HitAndRun/Markov/ChiSquareContraction.lean": "7a19cbab2663df6e521efef8a2dfb8e55e5fa5cda994f70fe718b96b95d93d1a",
+    "HitAndRun/Geometry/InnerBall.lean": "732260f1fd58b48f295dae5b9de42eb3c7e766db3cee93125c70d9df8cc0acb5"
+  },
+  "native_dependency_modules": 7,
+  "project_modules_compiled": 9,
+  "compile_exit": 0,
+  "import_consumer_exit": 0,
+  "transitive_audit_reports": 5,
+  "axioms_each": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "warnings": "Inherited unused section variable/style warnings in NativeOperator and NativeLawOrbit; no sorry warnings.",
+  "scope": "generic actual-law transport conditional on actual positive spectral gap; no HAR/CHAR kernel realization or numbered paper result claimed",
+  "consumer": "verification/consumers/AuditNative.lean",
+  "consumer_sha256": "c0f62ad9543a364d00e2c6f1b6ce296c0169a0a067b5e20efcd1341f1b6e8f06",
+  "independent_review": "Source statements and actual audit output inspected; all9 source hashes match receipts/provenance."
+}
