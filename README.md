@@ -1,6 +1,8 @@
 # Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run
 
-Lean 4 formalization of the 13 named results in [Yunbum Kook and Santosh S. Vempala, arXiv:2608.16878v1](https://arxiv.org/abs/2608.16878v1).
+Lean 4 formalization
+
+*Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run*, Yunbum Kook and Santosh S. Vempala, [arXiv:2608.16878v1](https://arxiv.org/abs/2608.16878v1).
 
 ## Status
 
