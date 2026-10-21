@@ -19,7 +19,7 @@
       "review": "Independent source/carrier/constant audit passed; original uniform probability, actual H01 graph and proved divergence; no extra analytic premise."
     },
     "S04": {
-      "status": "verified and published in this commit",
+      "status": "verified and published",
       "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.babuskaAziz_le_one_add_four_improvedPoincare",
       "evidence": "verification/babuska-aziz-source.json",
       "review": "Independent exact-source review passed: actual rough residual estimate, curl identities and duality yield literal extended CBA\u22641+4CIPI; no analytic premise remains. Two full consumers and two standard-only transitive reports."
@@ -69,7 +69,7 @@
       "review": "Independent actualRieszfield, meanzero, correctlysigned distributional skewdivergence and uppertriangleenergy audit; 2 full consumers/10 standard-only reports."
     },
     "S13": {
-      "status": "verified and published in this commit",
+      "status": "verified and published",
       "declaration": "HitAndRun.Sobolev.BoundedOpenDomain.rough_weighted_poincare",
       "gradient_declaration": "HitAndRun.Sobolev.BoundedOpenDomain.rough_weighted_gradient_norm",
       "evidence": "verification/rough-weighted-source.json",
@@ -84,6 +84,9 @@
   ],
   "counting_rule": "Never convert helper declarations, commits or README claims into whole-paper completion percentage.",
   "accepted_pending_publication": [],
-  "accepted_commit": "Current commit containing verification/babuska-aziz-source.json and verification/rough-weighted-source.json",
-  "last_accepted_commit": "96f9b6cb13d9e19c07ee84f2d77b95f1dc3c5a02"
+  "accepted_commit": "b7cd1f81abfc3d1845bddf20a2e178a49aa4908d",
+  "last_accepted_commit": "b7cd1f81abfc3d1845bddf20a2e178a49aa4908d",
+  "latest_verified_published_commit": "49bf44957c744be88bf890f791e970af5c758ce8",
+  "latest_verified_published_file_count": 384,
+  "publication_note": "Geometry helper checkpoint; named-source acceptance remains 9/13, established at b7cd1f81. Newer proof packets are separately buffered."
 }

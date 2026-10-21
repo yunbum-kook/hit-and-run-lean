@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-21T10:20:19.649341+00:00",
+  "scope": "Actual invertible-linear uniform pushforward and centered covariance transport; actual centered/whitened domain has mean zero and identity covariance. No isotropy assumption or source completion.",
+  "module_compile_exit_codes": {
+    "HitAndRun/Geometry/LinearImageDomain.lean": 0,
+    "HitAndRun/Geometry/CovarianceAffineTransport.lean": 0,
+    "HitAndRun/Geometry/CovarianceAffineTransportWhitening.lean": 0
+  },
+  "consumer": "verification/consumers/CovarianceAffineTransport.lean",
+  "full_imported_examples": 6,
+  "consumer_exit_code": 0,
+  "transitive_axiom_reports": 13,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log": ".local/affine-audit-final.log",
+  "sha256": {
+    "HitAndRun/Geometry/LinearImageDomain.lean": "1ff2fdec73d64b18959d654145d51237fcd1e63afd76f1cef6d706583b670b28",
+    "HitAndRun/Geometry/CovarianceAffineTransport.lean": "239ec3572c897ce3292f93e74b016389972edadf41eb6724c4faeda1323499d5",
+    "HitAndRun/Geometry/CovarianceAffineTransportWhitening.lean": "2cf2ead9cedda1cdbcea1e530924377f109297870414f064f74cfcd75e5df7cd",
+    "verification/consumers/CovarianceAffineTransport.lean": "e1fe492a3e2d723b67fef63dacb7ed94aef53786f65819cddb18101569f0fb09"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Actual globally 1-Lipschitz guide variance <= actual finite CPI and mean absolute deviation <= sqrt(CPI); helper only.",
+  "files": {
+    "HitAndRun/Geometry/LipschitzGuideDeviation.lean": "19ce997c9aed6905f9b29b141c8203e2df340111ef0823701320323dbc8af15e",
+    "HitAndRun/Geometry/LipschitzGuideDeviationChecks.lean": "10efe70bf4408604c920ecb9bb535e8e5d41cfd18172668acda76434781454cc"
+  },
+  "full_imported_examples": 2,
+  "transitive_axiom_reports": 2,
+  "audit_log": "/tmp/lipschitz-guide-audit.log",
+  "producer_execution": "Actual successful build and full consumer; independent source/hash/log review, no rerun.",
+  "semantic_review": "Actual W12 construction and norm_fderiv_le_of_lipschitz yield gradient energy <=1; literal optimal PI gives variance. L2 Cauchy-Schwarz gives mean absolute deviation. No added integrability or derivative premise."
+}

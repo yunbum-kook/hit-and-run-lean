@@ -29,3 +29,7 @@ Reuse from the Dikin formalization and other repositories is assessed at exact c
 `HitAndRun/` contains formalization code; `source/` fixes the manuscript inputs; `planning/` records the dependency and reuse plan. Only compact final validation evidence belongs in the repository. Temporary build outputs, local coordination files, and recovery copies are ignored.
 
 This repository is private. The archived manuscript is distributed under its existing [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license; see `source/MANIFEST.json` for attribution and exact source provenance. No new license grant for original Lean project code is made here. Third-party material, when incorporated, retains its original license and attribution.
+
+## Normalization and geometric bridges
+
+Verified helpers now construct the actual centered-covariance inverse-square-root normalization, prove uniform pushforward and genuine weak-Sobolev Poincare transport, and establish finite ordinary CPI on every bounded open convex domain. Maximum inscribed radius attainment and arbitrary-center/body-boundary transport are proved. Weighted source-form inequalities remain explicitly conditional on a universal ordinary-L1 reverse-Buser input; these helpers do not close S07 or S08. Actual HAR/CHAR gap consequences of finite IPI are also verified. Named completion remains 9/13.

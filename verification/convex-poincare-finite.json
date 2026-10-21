@@ -1,0 +1,52 @@
+{
+  "scope": "Actual ordinary Poincare constant is finite and has strictly positive real value for every bounded nonempty open convex Euclidean domain. No Poincare hypothesis remains in final theorem.",
+  "producer_execution": "Full targeted Lake build succeeded (3829 jobs); separate importing consumer exited 0.",
+  "files": {
+    "HitAndRun/Geometry/ConvexPoincareFinite.lean": "7f55a80b1e4231e23c5bc5e0d79a6b2dee9b56c23ce06f8f7cda41bb8ac7aeeb",
+    "HitAndRun/Geometry/ConvexPoincareFiniteDensity.lean": "42db46716e9cc379ed7e9e6ae9d761d8f15a86dd061d50c95232428d472e190a",
+    "HitAndRun/Geometry/ConvexPoincareFiniteSegment.lean": "a3e7d43db5805fff36efcee31a6a81029febb9e0174ce9a496d5f9e7b56e35f9",
+    "HitAndRun/Geometry/ConvexPoincareFiniteSmooth.lean": "3405abe4c1ee4ac53e7f439051680e72a15f9fc65dd735cf8794e9e4dc16184f",
+    "HitAndRun/Geometry/ConvexPoincareFiniteTransport.lean": "69306fcd755dab4cce6781df3ee0f348b81b8840ca1d18ac29d16a754c6f7f7f",
+    "verification/consumers/ConvexPoincareFinite.lean": "af5d551ac9e75269d27400aa565319e6f9dfc1fca8d2e45d31b999c07ad9dd29"
+  },
+  "full_imported_examples": 4,
+  "transitive_axiom_reports": 15,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "commands": [
+    "lake build HitAndRun.Geometry.ConvexPoincareFinite",
+    "lake env lean verification/consumers/ConvexPoincareFinite.lean"
+  ],
+  "logs": [
+    ".local/convex-poincare-finite-build.log",
+    ".local/convex-poincare-finite-consumer.log"
+  ],
+  "trace_paths": [
+    ".lake/build/lib/lean/HitAndRun/Geometry/ConvexPoincareFinite.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/ConvexPoincareFiniteDensity.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/ConvexPoincareFiniteSegment.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/ConvexPoincareFiniteSmooth.trace",
+    ".lake/build/lib/lean/HitAndRun/Geometry/ConvexPoincareFiniteTransport.trace"
+  ],
+  "axiom_report_messages": [
+    "'HitAndRun.Geometry.affine_segment_sq_sub_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Geometry.half_segment_sq_sub_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Geometry.segment_sq_sub_le_half_energies' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Geometry.convex_half_homothety_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Geometry.integrable_half_homothety_slices' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Geometry.integral_convex_half_homothety_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Geometry.convex_half_difference_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Geometry.variance_le_four_half_difference_bound' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Geometry.convex_smooth_variance_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.isPoincareConstant_of_smooth_bound' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.poincareConstant_lt_top_of_smooth_bound' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.poincareConstant_lt_top_convex_of_inner_ball' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.poincareConstant_lt_top_convex' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.poincareConstant_ne_top_convex' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.poincareConstant_toReal_pos_convex' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+  ],
+  "semantic_review": "Smooth analytic PI uses actual segment FTC and interval Cauchy-Schwarz, midpoint decomposition, product integration, and the Haar Jacobian of convex affine homotheties for t in (1/2,1). It supplies variance <= 4 D^2 2^n times actual squared derivative integral for any diameter upper bound D. Existing actual smooth W12 graph density and continuous variance/gradient norms extend the estimate to every genuine weak Sobolev graph. Translation supplies an origin inner ball on arbitrary open nonempty convex domains and preserves the actual optimal constant. Covariance strict positivity plus the verified finite PI bound proves real CPI positivity. No unlicensed private CvxBody dependency, no assumed PI, no centroid-zero, no smooth boundary, no zero-trace substitution, no custom axiom or sorry."
+}

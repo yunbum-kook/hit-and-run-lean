@@ -1,0 +1,37 @@
+{
+  "verified_at_utc": "2026-10-21T10:21:41Z",
+  "status": "Verified positive maximum inscribed-radius attainment, exact supremum, frontier distance maximum, and closed-ball convention. Helper only; not S08 completion.",
+  "source_completion_increment": 0,
+  "lean": "4.35.0",
+  "build_exit_code": 0,
+  "full_imported_consumers": 4,
+  "transitive_axiom_reports": 6,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "log": "/tmp/inradius-final-audit.log",
+  "files": [
+    {
+      "path": "HitAndRun/Geometry/ConvexBodyInradius.lean",
+      "sha256": "5c7b0292ca94b4a2e3c8f4871b71a3099a2af6523bdaa47439ed48c2e62faf72",
+      "lake_trace": ".lake/build/lib/lean/HitAndRun/Geometry/ConvexBodyInradius.trace"
+    },
+    {
+      "path": "HitAndRun/Geometry/ConvexBodyInradiusBoundary.lean",
+      "sha256": "ed11ca97b219b32033c012202b24b269d66798a6c8151a75227ced733cd9036e",
+      "lake_trace": ".lake/build/lib/lean/HitAndRun/Geometry/ConvexBodyInradiusBoundary.trace"
+    },
+    {
+      "path": "HitAndRun/Geometry/ConvexBodyInradiusMaximum.lean",
+      "sha256": "f6c999452e949f4f580af276ee4a6d83b0f19ea2914350797501efb0acb7a8de",
+      "lake_trace": ".lake/build/lib/lean/HitAndRun/Geometry/ConvexBodyInradiusMaximum.trace"
+    },
+    {
+      "path": "HitAndRun/Geometry/ConvexBodyInradiusChecks.lean",
+      "sha256": "d58a3b960799b73ed35c0ccd9888555b5c119c8c21eb77133dbb924cc2cb7da9",
+      "lake_trace": ".lake/build/lib/lean/HitAndRun/Geometry/ConvexBodyInradiusChecks.trace"
+    }
+  ]
+}

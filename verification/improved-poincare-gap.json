@@ -1,0 +1,29 @@
+{
+  "scope": "Actual HAR and coordinate HAR spectral gap bounds from the actual finite improved Poincare constant; composition of verified source results, not S01 completion.",
+  "files": {
+    "HitAndRun/Markov/ImprovedPoincareGap.lean": "f5199185713a9d6d32be95653c64443094b775da388a2e58e3cf15bac399b7c1",
+    "verification/consumers/ImprovedPoincareGap.lean": "b5588e89d9e4c96eacf41835aad5383e936f3f785ef854da8181daaf4f61917c"
+  },
+  "full_imported_examples": 2,
+  "transitive_axiom_reports": 4,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "producer_execution": "Targeted Lake build and separate importing consumer both exited 0, 2026-10-21 10:14 UTC.",
+  "commands": [
+    "lake build HitAndRun.Markov.ImprovedPoincareGap",
+    "lake env lean verification/consumers/ImprovedPoincareGap.lean"
+  ],
+  "logs": [
+    ".local/improved-poincare-gap-build.log",
+    ".local/improved-poincare-gap-consumer.log"
+  ],
+  "axiom_report_messages": [
+    "'HitAndRun.Markov.finite_constant_of_finite_improvedPoincare' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Markov.constant_toReal_le_improvedPoincare' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Markov.hitAndRun_gap_of_improvedPoincare' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Markov.coordinateHitAndRun_gap_of_improvedPoincare' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+  ]
+}

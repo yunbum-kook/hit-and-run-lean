@@ -54,3 +54,9 @@ public import HitAndRun.Geometry.WeightedPoincareAssembly
 public import HitAndRun.Geometry.WeightedPoincareCoefficient
 public import HitAndRun.Geometry.WeightedPoincareLipschitzExtension
 public import HitAndRun.Geometry.MedianWeightedBridge
+public import HitAndRun.Geometry.CovarianceAffineTransportWhitening
+public import HitAndRun.Sobolev.LinearImagePoincareWhitening
+public import HitAndRun.Geometry.ConvexBodyInradiusMaximum
+public import HitAndRun.Geometry.WeightedPoincareBodySourceExact
+public import HitAndRun.Geometry.LipschitzGuideDeviation
+public import HitAndRun.Markov.ImprovedPoincareGap

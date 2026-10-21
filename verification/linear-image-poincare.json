@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-21T10:29:23.699165+00:00",
+  "scope": "Genuine W12 linear pullback by weak-test transformation; PI transport and actual whitening PI bound with covariance operator norm; no extra finiteness premise on convex domains. Helpers only, no source completion.",
+  "module_compile_exit_codes": {
+    "HitAndRun/Sobolev/LinearImageH1.lean": 0,
+    "HitAndRun/Sobolev/LinearImagePoincare.lean": 0,
+    "HitAndRun/Geometry/CovarianceAffineTransportNorm.lean": 0,
+    "HitAndRun/Sobolev/LinearImagePoincareWhitening.lean": 0
+  },
+  "consumer": "verification/consumers/LinearImagePoincare.lean",
+  "full_imported_examples": 5,
+  "consumer_exit_code": 0,
+  "transitive_axiom_reports": 11,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_log": ".local/linear-pi-audit-final.log",
+  "sha256": {
+    "HitAndRun/Sobolev/LinearImageH1.lean": "df6f7b6984b8f2aab44ef6260947a39ed8b58a6fa8454cd702084e67d4d40ba9",
+    "HitAndRun/Sobolev/LinearImagePoincare.lean": "14a2a244dd3f342e1bf59e6f0c3b402448e75f790a62538597aeb0a72d9fed96",
+    "HitAndRun/Geometry/CovarianceAffineTransportNorm.lean": "febe1b9b6fb53b02b433db805cd89743263b57091a4ac5c6d6c5d8a5c8e2e7c4",
+    "HitAndRun/Sobolev/LinearImagePoincareWhitening.lean": "33535db1ce554b3ffd3f2d0901875656e744122e08faa9d26f75f4fd9453c278",
+    "verification/consumers/LinearImagePoincare.lean": "7f6d8b18d7baa100a0729f9b845aea8bf42f12b1bd4f1d5722a7c405a5f9413e"
+  }
+}

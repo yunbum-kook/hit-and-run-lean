@@ -1,0 +1,39 @@
+{
+  "verified_at_utc": "2026-10-21T10:25:16Z",
+  "status": "Conditional exact body-form S07/S08. The universal ordinary-L1 reverse-Buser premise remains unproved. No source completion increment.",
+  "source_completion_increment": 0,
+  "lean": "4.35.0",
+  "build_exit_code": 0,
+  "full_imported_consumers": 3,
+  "transitive_axiom_reports": 5,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "log": "/tmp/body-source-final-audit.log",
+  "files": [
+    {
+      "path": "HitAndRun/Geometry/WeightedPoincareBodySource.lean",
+      "sha256": "c1460c8def3442ada319620cc88eff08bf0dc9da4d921712ad312ed77ae2bef8",
+      "lake_trace": ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareBodySource.trace"
+    },
+    {
+      "path": "HitAndRun/Geometry/WeightedPoincareBodySourceBody.lean",
+      "sha256": "4df7fc99db38191993e76fa736ce594faf3f527d57aab1cdcf51994553005218",
+      "lake_trace": ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareBodySourceBody.trace"
+    },
+    {
+      "path": "HitAndRun/Geometry/WeightedPoincareBodySourceExact.lean",
+      "sha256": "848e3260710cd9130f6259f5fce27680b6783e4f6563fe1d68a8837ccd8d48e0",
+      "lake_trace": ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareBodySourceExact.trace"
+    },
+    {
+      "path": "HitAndRun/Geometry/WeightedPoincareBodySourceChecks.lean",
+      "sha256": "2b05145a56bd6106656ea62d53422c45812f4d76d04ea1b51f14c4f2c34c80e5",
+      "lake_trace": ".lake/build/lib/lean/HitAndRun/Geometry/WeightedPoincareBodySourceChecks.trace"
+    }
+  ],
+  "remaining_premise": "A common universal b >= 0 and UniversalOrdinaryL1ReverseBuser b across every dimension and bounded open convex body. Finite CPI, arbitrary center, body/interior transport, Lebesgue normalization, ambient locally-Lipschitz class and maximum-radius attainment are discharged.",
+  "constants": "A=(12+4*b)*n*sqrt(CPI)/r; IPI <= 4*A^2."
+}

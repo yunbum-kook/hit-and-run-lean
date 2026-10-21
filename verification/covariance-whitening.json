@@ -1,0 +1,45 @@
+{
+  "scope": "Constructive CFC inverse-square-root whitening of the actual centered covariance on a bounded nonempty open Euclidean domain; exact matrix and operator identities, with linear and continuous linear equivalences. This is not yet affine pushforward isotropic normalization or a KLS proof.",
+  "producer_execution": "Full targeted Lake build and separate importing consumer both exited 0.",
+  "files": {
+    "HitAndRun/Geometry/CovarianceWhitening.lean": "18080a28e07e638001c2cf24b2cb45f10be26e86d1ff615d90b3361f80c572ab",
+    "verification/consumers/CovarianceWhitening.lean": "d66cf9739d9f80bc4751ee49c266907c8969b200a92a8a77270bcb3fdf1e4e78"
+  },
+  "full_imported_examples": 4,
+  "transitive_axiom_reports": 16,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "commands": [
+    "lake build HitAndRun.Geometry.CovarianceWhitening",
+    "lake env lean verification/consumers/CovarianceWhitening.lean"
+  ],
+  "logs": [
+    ".local/covariance-whitening-build.log",
+    ".local/covariance-whitening-consumer.log"
+  ],
+  "trace_paths": [
+    ".lake/build/lib/lean/HitAndRun/Geometry/CovarianceWhitening.trace"
+  ],
+  "axiom_report_messages": [
+    "'HitAndRun.Sobolev.BoundedOpenDomain.centeredCovarianceMatrix' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.toEuclideanLin_centeredCovarianceMatrix' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.centeredCovarianceMatrix_posDef' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceSqrtMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceSqrtMatrix_mul_self' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceSqrtMatrix_isUnit' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceWhiteningMatrix' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceWhiteningMatrix_transpose' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceWhiteningMatrix_mul_sqrt' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceSqrtMatrix_mul_whitening' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceWhiteningMatrix_identity' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceWhiteningEquiv' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceWhiteningEquiv_toLinearMap' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceWhiteningEquiv_identity' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceWhiteningContinuousEquiv' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'HitAndRun.Sobolev.BoundedOpenDomain.covarianceWhiteningContinuousEquiv_toLinearMap' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+  ],
+  "semantic_review": "The covariance matrix is exactly the standard Euclidean representation of centeredCovarianceOperator, and positivity derives from the nondegeneracy theorem. Whitening is defined as the inverse of its CFC positive square root; invertibility follows from matrix positive definiteness. The square root is the explicit inverse of the linear equivalence. Proves W Sigma W-transpose = identity and the corresponding genuine Euclidean adjoint composition. No assumed whitening predicate, centroid-zero condition, convexity, finite PI, source dependency copy, custom axiom, or sorry."
+}

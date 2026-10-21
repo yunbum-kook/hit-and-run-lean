@@ -1,0 +1,12 @@
+{
+  "scope": "Explicitly conditional reverse-Buser composition; OrdinaryL1ReverseBuserInput is not discharged. No S07 or S08 completion.",
+  "files": {
+    "HitAndRun/Geometry/WeightedPoincareConditionalSource.lean": "1eac3383dec545365a3592468fd5502985e5f351a47b2a317fa160fed8930a5b",
+    "HitAndRun/Geometry/WeightedPoincareConditionalSourceChecks.lean": "05ac2cfb3744a4207a0a859964bdceba4ba8df838057ab4842c18e899e1ba7d6"
+  },
+  "full_imported_examples": 2,
+  "transitive_axiom_reports": 4,
+  "audit_log": "/tmp/conditional-source-audit.log",
+  "producer_execution": "Producer confirmed successful module and imported consumer builds; reviewer inspected exact hashes and successful build/audit log without re-running.",
+  "semantic_review": "Finite actual CPI is explicit before toReal. Convexity, positive inscribed radius, and ordinary C1 L1 reverse-Buser hypothesis are explicit. Actual radius/radial composition yields A=(12+4b)n sqrt(CPI)/r, and previously proved median/full-class/density transfer gives optimal IPI <=4A^2."
+}
